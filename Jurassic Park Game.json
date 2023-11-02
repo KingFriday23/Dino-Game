@@ -92,14 +92,94 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite3",
+        "file": "assets/Invis_Block.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Invis_Block",
         "smoothed": true,
         "userAdded": true
       }
     ],
     "resourceFolders": []
   },
-  "objects": [],
-  "objectsGroups": [],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Invis_Block",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Invis_Block",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Invis_Block",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsGroups": [
+    {
+      "name": "Buildings",
+      "objects": []
+    },
+    {
+      "name": "Invisible_walls",
+      "objects": []
+    },
+    {
+      "name": "Plants",
+      "objects": []
+    }
+  ],
   "variables": [],
   "layouts": [
     {
