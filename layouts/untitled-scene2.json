@@ -58,15 +58,30 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 621,
+      "depth": 0,
+      "height": 323,
       "layer": "",
-      "name": "NewSprite2",
-      "persistentUuid": "95114304-305f-425c-ac85-dc0ab7bc046f",
-      "width": 2302,
-      "x": -886,
-      "y": 235,
+      "name": "NewSprite",
+      "persistentUuid": "22f2d390-fc41-4c80-baea-7ef71997bf99",
+      "width": 1283,
+      "x": -104,
+      "y": 204,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Invis_Block",
+      "persistentUuid": "e383f79a-de03-47d4-a49b-ba97c317f072",
+      "width": 0,
+      "x": 1454,
+      "y": 275,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -125,68 +140,6 @@
                       {
                         "x": 1,
                         "y": 28
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite2",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite2",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite4",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13,
-                        "y": 18
-                      },
-                      {
-                        "x": 23,
-                        "y": 18
-                      },
-                      {
-                        "x": 23,
-                        "y": 57
-                      },
-                      {
-                        "x": 13,
-                        "y": 57
                       }
                     ]
                   ]
