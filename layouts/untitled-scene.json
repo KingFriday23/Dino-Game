@@ -48,6 +48,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Human",
+      "persistentUuid": "b7a64469-a01b-43b1-b28a-a7157ad18cf0",
+      "width": 0,
+      "x": 1280,
+      "y": -224,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
