@@ -27,14 +27,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 892,
+      "depth": 1,
+      "height": 591,
       "layer": "",
-      "name": "Invis_Block",
-      "persistentUuid": "5839bf5a-2238-40ef-a1ca-df3a6c1cbb24",
-      "width": 807,
-      "x": 891,
-      "y": 207,
+      "name": "NewSprite",
+      "persistentUuid": "acbafdcc-5a1e-4d75-880d-fad47145e1d7",
+      "width": 651,
+      "x": 1037,
+      "y": 660,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -56,7 +56,70 @@
       "initialVariables": []
     }
   ],
-  "objects": [],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 12
+                      },
+                      {
+                        "x": 63,
+                        "y": 12
+                      },
+                      {
+                        "x": 63,
+                        "y": 59
+                      },
+                      {
+                        "x": 2,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "events": [],
   "layers": [
     {
@@ -87,5 +150,30 @@
       "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    }
+  ]
 }
