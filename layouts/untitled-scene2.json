@@ -54,6 +54,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 323,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "22f2d390-fc41-4c80-baea-7ef71997bf99",
+      "width": 1283,
+      "x": -104,
+      "y": 204,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
