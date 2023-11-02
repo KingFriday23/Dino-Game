@@ -40,11 +40,7 @@
     },
     {
       "name": "Invisible_walls",
-      "objects": [
-        {
-          "name": "Invisible_Wall"
-        }
-      ]
+      "objects": []
     }
   ],
   "variables": [],
@@ -163,7 +159,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Invisible_Wall",
+      "name": "Human",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -250,7 +246,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "Invisible_Wall"
+            "Human"
           ]
         }
       ]
