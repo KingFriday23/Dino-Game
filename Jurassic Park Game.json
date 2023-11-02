@@ -88,10 +88,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite3",
         "file": "assets/Invis_Block.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
