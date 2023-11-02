@@ -39,6 +39,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Invis_Block",
+      "persistentUuid": "c6802a88-58c5-42c0-b790-28e365ec3f50",
+      "width": 0,
+      "x": 614,
+      "y": 312,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
