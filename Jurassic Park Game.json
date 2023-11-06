@@ -237,7 +237,15 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/scene-2"
+      "referenceTo": "/layouts/scene-2-a"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene-2-b--movie"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene-2-c"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
