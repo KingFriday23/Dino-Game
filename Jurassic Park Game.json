@@ -121,24 +121,6 @@
         "name": "NewSprite5",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite6",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/invis_slope-left.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "invis_slope-left",
-        "smoothed": true,
-        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -167,126 +149,6 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Invis_Block",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": false,
-      "assetStoreId": "",
-      "name": "invis_slope_Right",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "invis_slope-right",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite6",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "invis_slope_left",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "invis_slope-left",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "invis_slope-left",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -357,15 +219,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/scene-2-a"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/scene-2-b--movie"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/scene-2-c"
+      "referenceTo": "/layouts/scene-2"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
