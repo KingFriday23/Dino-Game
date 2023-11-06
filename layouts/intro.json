@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.26364576737708006,
+    "zoomFactor": 0.15508574551592955,
     "windowMask": false
   },
   "objectsGroups": [
@@ -28,7 +28,152 @@
     }
   ],
   "variables": [],
-  "instances": [],
+  "instances": [
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 7040,
+      "layer": "",
+      "name": "Invis_Block",
+      "persistentUuid": "bafeccdd-1297-432c-acc0-e14673240c4c",
+      "width": 64,
+      "x": 2432,
+      "y": -2080,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1184,
+      "layer": "",
+      "name": "Invis_Block",
+      "persistentUuid": "b27e6134-8c7d-4286-b116-7b09aa4bb433",
+      "width": 64,
+      "x": 5920,
+      "y": 288,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1184,
+      "layer": "",
+      "name": "Invis_Block",
+      "persistentUuid": "ed72309a-3f04-48c4-838e-af2c45ea19bf",
+      "width": 64,
+      "x": -1088,
+      "y": 288,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "layer": "",
+      "name": "invis_slope_Right",
+      "persistentUuid": "eb8432a4-0b98-4b5e-93de-7078efb57927",
+      "width": 192,
+      "x": 3520,
+      "y": 1120,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "layer": "",
+      "name": "invis_slope_left",
+      "persistentUuid": "a0b07257-7879-457d-9976-1b090b829857",
+      "width": 192,
+      "x": 3712,
+      "y": 1120,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "layer": "",
+      "name": "invis_slope_Right",
+      "persistentUuid": "a6744e75-5275-403a-8a87-b2d0a6934453",
+      "width": 192,
+      "x": 1664,
+      "y": 1088,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "layer": "",
+      "name": "invis_slope_left",
+      "persistentUuid": "6c9486c1-5eb9-44a0-b8a2-ecf1b17b4bb4",
+      "width": 192,
+      "x": 1856,
+      "y": 1088,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "layer": "",
+      "name": "invis_slope_Right",
+      "persistentUuid": "a883ea9c-3d51-4ba1-b030-c69819b939c5",
+      "width": 192,
+      "x": 2560,
+      "y": 1120,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "layer": "",
+      "name": "invis_slope_left",
+      "persistentUuid": "cfbc7f57-a78d-49c5-9565-1a9bcded2c8d",
+      "width": 192,
+      "x": 2752,
+      "y": 1120,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
   "objects": [
     {
       "adaptCollisionMaskAutomatically": true,
@@ -52,7 +197,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite2",
+                  "image": "assets\\Hunter1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -68,20 +213,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 96,
+                        "y": 1
                       },
                       {
-                        "x": 64,
-                        "y": 0
+                        "x": 245,
+                        "y": 1
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 245,
+                        "y": 350
                       },
                       {
-                        "x": 0,
-                        "y": 64
+                        "x": 96,
+                        "y": 350
                       }
                     ]
                   ]
@@ -182,14 +327,6 @@
     {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
-    },
-    {
-      "name": "PlatformerObject",
-      "type": "PlatformBehavior::PlatformerObjectBehavior"
-    },
-    {
-      "name": "RemapForPlatformer",
-      "type": "BehaviorRemapper::RemapForPlatformer"
     },
     {
       "name": "Resizable",

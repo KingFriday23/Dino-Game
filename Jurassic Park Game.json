@@ -356,6 +356,15 @@
         "name": "assets\\Invis_Block.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Hunter1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
