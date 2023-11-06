@@ -301,6 +301,15 @@
         "name": "Hunter06",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Beowulf_TCR.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Beowulf_TCR",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -311,35 +320,19 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/intro"
+      "referenceTo": "/layouts/untitled-scene"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/scene-0"
+      "referenceTo": "/layouts/untitled-scene2"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/scene-1"
+      "referenceTo": "/layouts/untitled-scene3"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/scene-2"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/scene-3"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/scene-4"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/scene-5"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/scene-6-credits"
+      "referenceTo": "/layouts/untitled-scene4"
     }
   ],
   "externalEvents": [],
