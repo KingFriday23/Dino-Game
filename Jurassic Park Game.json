@@ -97,6 +97,24 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/invis_slope-left.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "invis_slope-left",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/invis_slope-right.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "invis_slope-right",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/NewSprite6.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite6.png\"}",
@@ -220,6 +238,18 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/scene-2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene-2-a"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene-2-b--movie"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene-2-c"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
