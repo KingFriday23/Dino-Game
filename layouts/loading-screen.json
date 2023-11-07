@@ -69,7 +69,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Loading Bar",
           "useMultipleDirections": false,
           "directions": [
             {
