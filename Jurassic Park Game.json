@@ -400,6 +400,24 @@
         "name": "Giganotosaurus2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tree.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tree",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tree2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Tree2.png\"}",
+        "name": "Tree2",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
