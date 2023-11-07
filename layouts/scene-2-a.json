@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.25833652426065973,
+    "zoomFactor": 0.21886208096107965,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -380,22 +380,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 64,
-      "layer": "",
-      "name": "Invis_Block",
-      "persistentUuid": "ae829a6e-0115-4f24-a291-f1a9af0c0dbc",
-      "width": 9856,
-      "x": 6752,
-      "y": 2560,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
       "height": 480,
       "layer": "",
       "name": "invis_slope_left",
@@ -496,8 +480,8 @@
       "name": "Invis_Block",
       "persistentUuid": "a03d4b1a-9501-4d20-b150-bf2cd1cdd504",
       "width": 64,
-      "x": 16608,
-      "y": 928,
+      "x": 16640,
+      "y": 1056,
       "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
@@ -523,13 +507,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 480,
+      "height": 192,
       "layer": "",
-      "name": "Invis_Block",
-      "persistentUuid": "05b8a932-4a8a-4eb0-8968-72ba1dfcaf5d",
-      "width": 2528,
-      "x": 6720,
-      "y": 2080,
+      "name": "invis_slope_left",
+      "persistentUuid": "85f038cc-197a-4ece-bdc1-e2095b825a12",
+      "width": 1152,
+      "x": 15488,
+      "y": 2560,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -539,30 +523,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 512,
+      "height": 94,
       "layer": "",
-      "name": "Invis_Block",
-      "persistentUuid": "6368521a-a739-4d89-b6e2-f01685881ae5",
-      "width": 2528,
-      "x": 5920,
-      "y": 1568,
-      "zOrder": 30,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 480,
-      "layer": "",
-      "name": "Invis_Block",
-      "persistentUuid": "e3fa90b3-9c6d-4685-b7ec-18f58b36b277",
-      "width": 2528,
-      "x": 4672,
-      "y": 1088,
-      "zOrder": 30,
+      "name": "Human",
+      "persistentUuid": "760a00d4-73b5-4437-99c2-d35d3720a34b",
+      "width": 96,
+      "x": 6496,
+      "y": 544,
+      "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -614,7 +582,26 @@
       }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "CentreCamera"
+          },
+          "parameters": [
+            "",
+            "Human",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -644,5 +631,18 @@
       "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
+    },
+    {
+      "name": "RemapForPlatformer",
+      "type": "BehaviorRemapper::RemapForPlatformer"
+    }
+  ]
 }
