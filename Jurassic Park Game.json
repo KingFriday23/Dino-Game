@@ -445,6 +445,15 @@
         "name": "Tires2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/DinoNest.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/DinoNest.png\"}",
+        "name": "DinoNest",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
