@@ -194,6 +194,37 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "layer": "",
+      "name": "Invis_Block",
+      "persistentUuid": "4b3aa2fd-0dac-4171-9015-e24728fec631",
+      "width": 128,
+      "x": 1312,
+      "y": 1088,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Burrow",
+      "persistentUuid": "6d8ea519-d433-4d6e-b3e9-2078da3245b0",
+      "width": 0,
+      "x": 1280,
+      "y": 928,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -323,6 +354,28 @@
       "font": "",
       "textAlignment": "left",
       "characterSize": 53,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Burrow",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Burrow",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 70,
       "color": {
         "b": 0,
         "g": 0,
