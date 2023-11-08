@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.10001786170017027,
+    "zoomFactor": 0.09675524297022071,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -32,7 +32,7 @@
       "layer": "",
       "name": "Invis_Block",
       "persistentUuid": "98c2e56d-c85f-472e-b2e3-6d2ee66486ad",
-      "width": 8359,
+      "width": 9767,
       "x": -3207,
       "y": 1152,
       "zOrder": 1,
@@ -49,7 +49,7 @@
       "name": "Invis_Block",
       "persistentUuid": "49f83099-546d-495c-b1e9-b73064f729a6",
       "width": 64,
-      "x": 5088,
+      "x": 6560,
       "y": -768,
       "zOrder": 2,
       "numberProperties": [],
@@ -162,6 +162,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 576,
+      "layer": "",
+      "name": "Invis_Block",
+      "persistentUuid": "f919d1da-3212-46f8-bf18-0e8b4a713a6b",
+      "width": 192,
+      "x": 1056,
+      "y": 608,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -265,10 +281,32 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "A - Move Left\nS - Move Right\nE - Interact\nSPACE - Jump\nLMB - Shoot\n",
+      "string": "A - Move Left\nD - Move Right\nE - Interact\nSPACE - Jump\nLMB - Shoot\n",
       "font": "",
       "textAlignment": "left",
       "characterSize": 80,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Climb",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Climbable object",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
       "color": {
         "b": 0,
         "g": 0,
