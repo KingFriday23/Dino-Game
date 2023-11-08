@@ -343,7 +343,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/NewSprite2.png\",\"extension\":\".png\"}",
         "name": "assets\\NewSprite2.png",
         "smoothed": true,
         "userAdded": false
@@ -534,6 +534,42 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite31",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/NewSprite4.png\",\"extension\":\".png\"}",
+        "name": "assets\\NewSprite4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Woodtexture2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Woodtexture2.png\",\"extension\":\".png\"}",
+        "name": "assets\\Woodtexture2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Woodtexture3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Woodtexture3.png\",\"extension\":\".png\"}",
+        "name": "assets\\Woodtexture3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Remington2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Remington2.png",
         "smoothed": true,
         "userAdded": true
       }
