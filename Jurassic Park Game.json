@@ -572,6 +572,35 @@
         "name": "assets\\Remington2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRex.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/BabyRex.png\",\"extension\":\".png\"}",
+        "name": "assets\\BabyRex.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/babyrex.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\babyrex.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/lake scene.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\lake scene.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
