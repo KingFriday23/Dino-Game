@@ -4,7 +4,7 @@
     "build": 99,
     "major": 4,
     "minor": 0,
-    "revision": 0
+    "revision": 
   },
   "properties": {
     "adaptGameResolutionAtRuntime": true,
