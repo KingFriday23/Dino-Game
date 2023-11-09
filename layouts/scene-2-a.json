@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.25833652426066,
+    "zoomFactor": 0.43917209124312195,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -320,8 +320,8 @@
       "layer": "",
       "name": "invis_slope_left",
       "persistentUuid": "9c8137a0-a94c-4b16-a19e-38b4bda64acd",
-      "width": 640,
-      "x": 13952,
+      "width": 608,
+      "x": 13984,
       "y": 2464,
       "zOrder": 24,
       "numberProperties": [],
@@ -379,7 +379,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 1696,
+      "height": 1664,
       "layer": "",
       "name": "Invis_Block",
       "persistentUuid": "a03d4b1a-9501-4d20-b150-bf2cd1cdd504",
@@ -520,6 +520,38 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\lake scene.mp3",
+            "yes",
+            "90",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
