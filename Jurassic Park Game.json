@@ -601,6 +601,42 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Temp_Egg.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Temp_Egg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino_outline.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Dino_outline.png\",\"extension\":\".png\"}",
+        "name": "assets\\Dino_outline.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Dino_outline.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Dino_outline",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Raptor Eggs2.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Raptor Eggs2.webp",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -818,6 +854,7 @@
       "effects": [],
       "behaviors": [
         {
+          "maxSpeed": 250,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
@@ -831,7 +868,6 @@
           "jumpSustainTime": 0.2,
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 700,
-          "maxSpeed": 250,
           "slopeMaxAngle": 60,
           "useLegacyTrajectory": false,
           "xGrabTolerance": 10,
