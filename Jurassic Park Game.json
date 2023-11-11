@@ -688,6 +688,16 @@
         "metadata": "",
         "name": "..\\..\\..\\Downloads\\five_fonts_at_freddy_s\\FiveFontsatFreddy's-Regular.ttf",
         "userAdded": true
+      },
+      {
+        "file": "Baby_Rex_9sec.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Baby_Rex_9sec.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -697,12 +707,17 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "invis_slope_Right",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        },
         {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior",
@@ -763,12 +778,17 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "invis_slope_left",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
+        },
         {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior",
@@ -829,12 +849,17 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Invis_Block",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
+        },
         {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior",
@@ -898,7 +923,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Human",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -988,6 +1012,23 @@
       ]
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "invis_slope_Right"
+      },
+      {
+        "objectName": "invis_slope_left"
+      },
+      {
+        "objectName": "Invis_Block"
+      },
+      {
+        "objectName": "Human"
+      }
+    ]
+  },
   "objectsGroups": [],
   "variables": [],
   "layouts": [

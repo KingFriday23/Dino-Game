@@ -463,7 +463,6 @@
       "italic": false,
       "name": "NewText",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -485,7 +484,6 @@
       "italic": false,
       "name": "NewText2",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -502,6 +500,17 @@
       }
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "NewText"
+      },
+      {
+        "objectName": "NewText2"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",

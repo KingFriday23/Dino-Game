@@ -461,7 +461,6 @@
       "italic": false,
       "name": "NewText",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -483,7 +482,6 @@
       "italic": false,
       "name": "Barrel",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -505,7 +503,6 @@
       "italic": false,
       "name": "Armored_vehicle",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -527,7 +524,6 @@
       "italic": false,
       "name": "Stack_of_tires",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -549,7 +545,6 @@
       "italic": false,
       "name": "Trees",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -571,7 +566,6 @@
       "italic": false,
       "name": "Shooting_range",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -593,7 +587,6 @@
       "italic": false,
       "name": "Tents",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -610,6 +603,32 @@
       }
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "NewText"
+      },
+      {
+        "objectName": "Barrel"
+      },
+      {
+        "objectName": "Armored_vehicle"
+      },
+      {
+        "objectName": "Stack_of_tires"
+      },
+      {
+        "objectName": "Trees"
+      },
+      {
+        "objectName": "Shooting_range"
+      },
+      {
+        "objectName": "Tents"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4753585087126934,
+    "zoomFactor": 0.11048078165017897,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -283,12 +283,12 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
+      "depth": 1,
       "height": 224,
       "layer": "",
       "name": "invis_slope_left",
       "persistentUuid": "75b39861-e311-4ff6-b224-3f0e0c368289",
-      "width": 384,
+      "width": 416,
       "x": 12128,
       "y": 768,
       "zOrder": 17,
@@ -333,12 +333,28 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Baby_Rex",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "acceleration": 50,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 260,
+          "name": "Pathfinding",
+          "rotateObject": true,
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "assets\\BabyRex",
@@ -392,6 +408,14 @@
       ]
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Baby_Rex"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -420,8 +444,8 @@
           },
           "parameters": [
             "",
-            "\"timer\"",
-            "0.5",
+            "\"Follow\"",
+            "2",
             ""
           ]
         }
@@ -429,14 +453,25 @@
       "actions": [
         {
           "type": {
-            "value": "AddForceVersPos"
+            "value": "PathfindingBehavior::Acceleration"
           },
           "parameters": [
             "Baby_Rex",
+            "Pathfinding",
+            "=",
+            "400"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "Baby_Rex",
+            "Pathfinding",
+            "",
             "Human.X()",
-            "Human.Y()",
-            "200",
-            "1"
+            "Human.Y()"
           ]
         }
       ]
@@ -460,7 +495,7 @@
           },
           "parameters": [
             "",
-            "assets\\babyrex.mp3",
+            "Baby_Rex_9sec.mp3",
             "yes",
             "90",
             "1"
@@ -470,8 +505,119 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Baby_Rex",
+            "invis_slope_Right",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "Baby_Rex",
+            "=",
+            "Baby_Rex.X() + 5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Baby_Rex",
+            "invis_slope_left",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "Baby_Rex",
+            "=",
+            "Baby_Rex.X() + 5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Baby_Rex",
+            "Invis_Block",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "Baby_Rex",
+            "=",
+            "Baby_Rex.X() + 5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Baby_Rex",
+            "Human",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Scene 2-c\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -535,6 +681,14 @@
     {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
+    },
+    {
+      "name": "PathfindingObstacle",
+      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
     },
     {
       "name": "Platform",
