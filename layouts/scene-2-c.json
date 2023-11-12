@@ -320,8 +320,8 @@
       "name": "Baby_Rex",
       "persistentUuid": "4b85db50-fa03-48a3-97c8-e72d11c2f4c5",
       "width": 0,
-      "x": 64,
-      "y": 738,
+      "x": 128,
+      "y": 608,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -330,7 +330,7 @@
   ],
   "objects": [
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Baby_Rex",
       "type": "Sprite",
@@ -339,16 +339,23 @@
       "effects": [],
       "behaviors": [
         {
-          "acceleration": 50,
+          "name": "DrawPathfinding",
+          "type": "DrawPathfinding::DrawPathfinding",
+          "LoopIndex": 0,
+          "CorrectionX": 0,
+          "CorrectionY": 0
+        },
+        {
+          "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
           "cellHeight": 20,
           "cellWidth": 20,
-          "extraBorder": 0,
-          "gridOffsetX": 0,
-          "gridOffsetY": 0,
-          "maxSpeed": 260,
+          "extraBorder": 50,
+          "gridOffsetX": 10,
+          "gridOffsetY": 10,
+          "maxSpeed": 275,
           "name": "Pathfinding",
           "rotateObject": true,
           "smoothingMaxCellGap": 1,
@@ -459,7 +466,7 @@
             "Baby_Rex",
             "Pathfinding",
             "=",
-            "400"
+            "500"
           ]
         },
         {
@@ -472,6 +479,36 @@
             "",
             "Human.X()",
             "Human.Y()"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetImpassable"
+          },
+          "parameters": [
+            "Invis_Block",
+            "PathfindingObstacle",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetImpassable"
+          },
+          "parameters": [
+            "invis_slope_Right",
+            "PathfindingObstacle",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetImpassable"
+          },
+          "parameters": [
+            "invis_slope_left",
+            "PathfindingObstacle",
+            "yes"
           ]
         }
       ]
@@ -669,6 +706,10 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "DrawPathfinding",
+      "type": "DrawPathfinding::DrawPathfinding"
     },
     {
       "name": "Effect",
