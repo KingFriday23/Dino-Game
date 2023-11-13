@@ -648,584 +648,584 @@
         "r": 0
       }
     },
-  {
-    "adaptCollisionMaskAutomatically": true,
-    "assetStoreId": "",
-    "name": "Dino_Eggs",
-    "tags": "",
-    "type": "Sprite",
-    "updateIfNotVisible": false,
-    "variables": [],
-    "effects": [],
-    "behaviors": [],
-    "animations": [
-      {
-        "name": "Temp_Egg",
-        "useMultipleDirections": false,
-        "directions": [
-          {
-            "looping": false,
-            "metadata": "{\"pskl\":{}}",
-            "timeBetweenFrames": 0.08,
-            "sprites": [
-              {
-                "hasCustomCollisionMask": true,
-                "image": "Temp_Egg",
-                "points": [],
-                "originPoint": {
-                  "name": "origine",
-                  "x": 0,
-                  "y": 0
-                },
-                "centerPoint": {
-                  "automatic": true,
-                  "name": "centre",
-                  "x": 0,
-                  "y": 0
-                },
-                "customCollisionMask": [
-                  [
-                    {
-                      "x": 8,
-                      "y": 9
-                    },
-                    {
-                      "x": 40,
-                      "y": 9
-                    },
-                    {
-                      "x": 40,
-                      "y": 48
-                    },
-                    {
-                      "x": 8,
-                      "y": 48
-                    }
-                  ]
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "assetStoreId": "",
-    "bold": true,
-    "italic": false,
-    "name": "Interact_Egg",
-    "smoothed": true,
-    "tags": "",
-    "type": "TextObject::Text",
-    "underlined": false,
-    "variables": [],
-    "effects": [],
-    "behaviors": [],
-    "string": "Hold E to Interact",
-    "font": "",
-    "textAlignment": "left",
-    "characterSize": 50,
-    "color": {
-      "b": 0,
-      "g": 0,
-      "r": 0
-    }
-  },
-  {
-    "adaptCollisionMaskAutomatically": true,
-    "assetStoreId": "",
-    "name": "Info",
-    "tags": "",
-    "type": "Sprite",
-    "updateIfNotVisible": false,
-    "variables": [],
-    "effects": [],
-    "behaviors": [],
-    "animations": [
-      {
-        "name": "assets\\Dino_outline",
-        "useMultipleDirections": false,
-        "directions": [
-          {
-            "looping": false,
-            "metadata": "{\"pskl\":{}}",
-            "timeBetweenFrames": 0.08,
-            "sprites": [
-              {
-                "hasCustomCollisionMask": true,
-                "image": "assets\\Dino_outline",
-                "points": [],
-                "originPoint": {
-                  "name": "origine",
-                  "x": 0,
-                  "y": 0
-                },
-                "centerPoint": {
-                  "automatic": true,
-                  "name": "centre",
-                  "x": 0,
-                  "y": 0
-                },
-                "customCollisionMask": [
-                  [
-                    {
-                      "x": 238,
-                      "y": 137
-                    },
-                    {
-                      "x": 841,
-                      "y": 137
-                    },
-                    {
-                      "x": 841,
-                      "y": 471
-                    },
-                    {
-                      "x": 238,
-                      "y": 471
-                    }
-                  ]
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "assetStoreId": "",
-    "bold": true,
-    "italic": false,
-    "name": "Dino_Egg_Info_title",
-    "smoothed": true,
-    "tags": "",
-    "type": "TextObject::Text",
-    "underlined": false,
-    "variables": [],
-    "effects": [],
-    "behaviors": [],
-    "string": "Utahraptor ",
-    "font": "",
-    "textAlignment": "center",
-    "characterSize": 180,
-    "color": {
-      "b": 0,
-      "g": 0,
-      "r": 0
-    }
-  },
-  {
-    "assetStoreId": "",
-    "bold": true,
-    "italic": false,
-    "name": "Dino_Egg_Info_Text",
-    "smoothed": true,
-    "tags": "",
-    "type": "TextObject::Text",
-    "underlined": false,
-    "variables": [],
-    "effects": [],
-    "behaviors": [],
-    "string": "Distinctive Features :\nLonger rather than wider, Eggshell White coloring, cluster of roughly 4-6 eggs, stable arranging pattern",
-    "font": "",
-    "textAlignment": "left",
-    "characterSize": 60,
-    "color": {
-      "b": 0,
-      "g": 0,
-      "r": 0
-    }
-  },
-  {
-    "adaptCollisionMaskAutomatically": true,
-    "assetStoreId": "",
-    "name": "Raptor_Egg",
-    "tags": "",
-    "type": "Sprite",
-    "updateIfNotVisible": false,
-    "variables": [],
-    "effects": [],
-    "behaviors": [],
-    "animations": [
-      {
-        "name": "",
-        "useMultipleDirections": false,
-        "directions": [
-          {
-            "looping": false,
-            "timeBetweenFrames": 0.08,
-            "sprites": [
-              {
-                "hasCustomCollisionMask": true,
-                "image": "Raptor Eggs2.webp",
-                "points": [],
-                "originPoint": {
-                  "name": "origine",
-                  "x": 0,
-                  "y": 0
-                },
-                "centerPoint": {
-                  "automatic": true,
-                  "name": "centre",
-                  "x": 0,
-                  "y": 0
-                },
-                "customCollisionMask": [
-                  [
-                    {
-                      "x": 0,
-                      "y": 0
-                    },
-                    {
-                      "x": 768,
-                      "y": 0
-                    },
-                    {
-                      "x": 768,
-                      "y": 512
-                    },
-                    {
-                      "x": 0,
-                      "y": 512
-                    }
-                  ]
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "assetStoreId": "",
-    "bold": true,
-    "italic": false,
-    "name": "Raptor_Info",
-    "smoothed": true,
-    "tags": "",
-    "type": "TextObject::Text",
-    "underlined": false,
-    "variables": [],
-    "effects": [],
-    "behaviors": [],
-    "string": "Utahraptor ostrommaysorum :\nOne of the geologically oldest and largest known dromaeosaurids. Large sickle claw roughly 9.5 inches long. Being roughly 20 feet long and around 5 feet tall at the hip. ",
-    "font": "",
-    "textAlignment": "center",
-    "characterSize": 60,
-    "color": {
-      "b": 0,
-      "g": 0,
-      "r": 0
-    },
-  
-  
-    "objectsFolderStructure": {
-      "folderName": "__ROOT",
-      "children": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Dino_Eggs",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
         {
-          "objectName": "NewText"
-        },
-        {
-          "objectName": "NewText2"
+          "name": "Temp_Egg",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Temp_Egg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 9
+                      },
+                      {
+                        "x": 40,
+                        "y": 9
+                      },
+                      {
+                        "x": 40,
+                        "y": 48
+                      },
+                      {
+                        "x": 8,
+                        "y": 48
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
-    "events": [
-      {
-        "type": "BuiltinCommonInstructions::Standard",
-        "conditions": [
-          {
-            "type": {
-              "inverted": true,
-              "value": "KeyPressed"
-            },
-            "parameters": [
-              "",
-              "e"
-            ]
-          }
-        ],
-        "actions": [
-          {
-            "type": {
-              "value": "CentreCamera"
-            },
-            "parameters": [
-              "",
-              "Human",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "type": {
-              "value": "ZoomCamera"
-            },
-            "parameters": [
-              "",
-              "1",
-              "",
-              ""
-            ]
-          }
-        ]
-      },
-      {
-        "type": "BuiltinCommonInstructions::Standard",
-        "conditions": [
-          {
-            "type": {
-              "value": "DepartScene"
-            },
-            "parameters": [
-              ""
-            ]
-          }
-        ],
-        "actions": [
-          {
-            "type": {
-              "value": "PlayMusic"
-            },
-            "parameters": [
-              "",
-              "assets\\lake scene.mp3",
-              "yes",
-              "90",
-              "1"
-            ]
-          }
-        ]
-      },
-      {
-        "type": "BuiltinCommonInstructions::Standard",
-        "conditions": [
-          {
-            "type": {
-              "inverted": true,
-              "value": "Distance"
-            },
-            "parameters": [
-              "Human",
-              "Dino_Eggs",
-              "500",
-              ""
-            ]
-          }
-        ],
-        "actions": [
-          {
-            "type": {
-              "value": "Cache"
-            },
-            "parameters": [
-              "Interact_Egg"
-            ]
-          }
-        ]
-      },
-      {
-        "type": "BuiltinCommonInstructions::Standard",
-        "conditions": [
-          {
-            "type": {
-              "value": "Distance"
-            },
-            "parameters": [
-              "Human",
-              "Dino_Eggs",
-              "500",
-              ""
-            ]
-          }
-        ],
-        "actions": [
-          {
-            "type": {
-              "value": "Montre"
-            },
-            "parameters": [
-              "Interact_Egg",
-              ""
-            ]
-          }
-        ]
-      },
-      {
-        "type": "BuiltinCommonInstructions::Standard",
-        "conditions": [
-          {
-            "type": {
-              "value": "CollisionNP"
-            },
-            "parameters": [
-              "Human",
-              "Interact_Egg",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "type": {
-              "value": "KeyPressed"
-            },
-            "parameters": [
-              "",
-              "e"
-            ]
-          },
-          {
-            "type": {
-              "value": "BuiltinCommonInstructions::Once"
-            },
-            "parameters": []
-          }
-        ],
-        "actions": [
-          {
-            "type": {
-              "value": "CentreCamera"
-            },
-            "parameters": [
-              "",
-              "Info",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "type": {
-              "value": "ZoomCamera"
-            },
-            "parameters": [
-              "",
-              "0.5",
-              "",
-              ""
-            ]
-          },
-          {
-            "type": {
-              "value": "Wait"
-            },
-            "parameters": [
-              "5"
-            ]
-          }
-        ]
-      },
-      {
-        "type": "BuiltinCommonInstructions::Standard",
-        "conditions": [
-          {
-            "type": {
-              "value": "CollisionNP"
-            },
-            "parameters": [
-              "Human",
-              "NewText",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "type": {
-              "value": "BuiltinCommonInstructions::Once"
-            },
-            "parameters": []
-          }
-        ],
-        "actions": [
-          {
-            "type": {
-              "value": "Scene"
-            },
-            "parameters": [
-              "",
-              "\"Scene 2-c\"",
-              ""
-            ]
-          }
-        ]
-      }
-    ],
-    "layers": [
     {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 0.1,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "background",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Interact_Egg",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Hold E to Interact",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Info",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
         {
-          "defaultSize": true,
-          "defaultViewport": true,
-          "height": 0,
-          "viewportBottom": 1,
-          "viewportLeft": 0,
-          "viewportRight": 1,
-          "viewportTop": 0,
-          "width": 0
+          "name": "assets\\Dino_outline",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino_outline",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 238,
+                        "y": 137
+                      },
+                      {
+                        "x": 841,
+                        "y": 137
+                      },
+                      {
+                        "x": 841,
+                        "y": 471
+                      },
+                      {
+                        "x": 238,
+                        "y": 471
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Dino_Egg_Info_title",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Utahraptor ",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 180,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Dino_Egg_Info_Text",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Distinctive Features :\nLonger rather than wider, Eggshell White coloring, cluster of roughly 4-6 eggs, stable arranging pattern",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Raptor_Egg",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor Eggs2.webp",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 768,
+                        "y": 0
+                      },
+                      {
+                        "x": 768,
+                        "y": 512
+                      },
+                      {
+                        "x": 0,
+                        "y": 512
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Raptor_Info",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Utahraptor ostrommaysorum :\nOne of the geologically oldest and largest known dromaeosaurids. Large sickle claw roughly 9.5 inches long. Being roughly 20 feet long and around 5 feet tall at the hip. ",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+    
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "NewText"
+          },
+          {
+            "objectName": "NewText2"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Human",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "1",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\lake scene.mp3",
+                "yes",
+                "90",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Human",
+                "Dino_Eggs",
+                "500",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Interact_Egg"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Human",
+                "Dino_Eggs",
+                "500",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Interact_Egg",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Human",
+                "Interact_Egg",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Info",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "0.5",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Human",
+                "NewText",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Scene 2-c\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
-      "effects": []
-    }
-    ],
-    "behaviorsSharedData": [
+      "layers": [
       {
-        "name": "Animation",
-        "type": "AnimatableCapability::AnimatableBehavior"
-      },
-      {
-        "name": "Effect",
-        "type": "EffectCapability::EffectBehavior"
-      },
-      {
-        "name": "Flippable",
-        "type": "FlippableCapability::FlippableBehavior"
-      },
-      {
-        "name": "Opacity",
-        "type": "OpacityCapability::OpacityBehavior"
-      },
-      {
-        "name": "PathfindingObstacle",
-        "type": "PathfindingBehavior::PathfindingObstacleBehavior"
-      },
-      {
-        "name": "Platform",
-        "type": "PlatformBehavior::PlatformBehavior"
-      },
-      {
-        "name": "PlatformerObject",
-        "type": "PlatformBehavior::PlatformerObjectBehavior"
-      },
-      {
-        "name": "RemapForPlatformer",
-        "type": "BehaviorRemapper::RemapForPlatformer"
-      },
-      {
-        "name": "Resizable",
-        "type": "ResizableCapability::ResizableBehavior"
-      },
-      {
-        "name": "Scale",
-        "type": "ScalableCapability::ScalableBehavior"
+        "ambientLightColorB": 200,
+        "ambientLightColorG": 200,
+        "ambientLightColorR": 200,
+        "camera3DFarPlaneDistance": 10000,
+        "camera3DFieldOfView": 45,
+        "camera3DNearPlaneDistance": 0.1,
+        "followBaseLayerCamera": false,
+        "isLightingLayer": false,
+        "isLocked": false,
+        "name": "background",
+        "renderingType": "",
+        "visibility": true,
+        "cameras": [
+          {
+            "defaultSize": true,
+            "defaultViewport": true,
+            "height": 0,
+            "viewportBottom": 1,
+            "viewportLeft": 0,
+            "viewportRight": 1,
+            "viewportTop": 0,
+            "width": 0
+          }
+        ],
+        "effects": []
       }
-    ] 
-  }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "RemapForPlatformer",
+          "type": "BehaviorRemapper::RemapForPlatformer"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        }
+      ] 
+    }
+  ]
 }
