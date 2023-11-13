@@ -920,8 +920,9 @@
         "g": 0,
         "r": 0
       },
-    
-      "objectsFolderStructure": {
+    }
+  ],
+  "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
@@ -931,8 +932,8 @@
             "objectName": "NewText2"
           }
         ]
-      },
-      "events": [
+  },
+  "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -1154,8 +1155,8 @@
             }
           ]
         }
-      ],
-      "layers": [
+  ],
+  "layers": [
       {
         "ambientLightColorB": 200,
         "ambientLightColorG": 200,
@@ -1183,8 +1184,8 @@
         ],
         "effects": []
       }
-      ],
-      "behaviorsSharedData": [
+  ],
+  "behaviorsSharedData": [
         {
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
@@ -1225,7 +1226,5 @@
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
         }
-      ] 
-    }
-  ]
+  ] 
 }
