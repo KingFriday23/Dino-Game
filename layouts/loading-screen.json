@@ -790,17 +790,6 @@
       }
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "Loading_Bar"
-      },
-      {
-        "objectName": "Loading"
-      }
-    ]
-  },
   "events": [],
   "layers": [
     {

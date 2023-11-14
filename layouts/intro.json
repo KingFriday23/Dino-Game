@@ -610,32 +610,6 @@
       }
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "NewText"
-      },
-      {
-        "objectName": "Barrel"
-      },
-      {
-        "objectName": "Armored_vehicle"
-      },
-      {
-        "objectName": "Stack_of_tires"
-      },
-      {
-        "objectName": "Trees"
-      },
-      {
-        "objectName": "Shooting_range"
-      },
-      {
-        "objectName": "Tents"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",

@@ -2660,24 +2660,7 @@
           "effects": [],
           "behaviors": []
         }
-      ],
-      "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "Label"
-          },
-          {
-            "objectName": "Idle"
-          },
-          {
-            "objectName": "Hovered"
-          },
-          {
-            "objectName": "Pressed"
-          }
-        ]
-      }
+      ]
     }
   ]
 }

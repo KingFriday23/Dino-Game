@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.11048078165017897,
+    "zoomFactor": 0.09054581719696042,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -326,6 +326,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 2208,
+      "layer": "",
+      "name": "finish",
+      "persistentUuid": "d3083a0f-6a05-4c23-976f-3c18b435c12c",
+      "width": 64,
+      "x": 11488,
+      "y": -736,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -359,10 +375,8 @@
           "gridOffsetX": 10,
           "gridOffsetY": 10,
           "maxSpeed": 275,
-          "name": "Pathfinding",
           "rotateObject": true,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "animations": [
@@ -416,16 +430,70 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "finish",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Red_Line",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Red_Line",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "Baby_Rex"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -658,6 +726,49 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Human",
+            "finish",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Scene 3\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "finish"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -707,24 +818,8 @@
   ],
   "behaviorsSharedData": [
     {
-      "name": "Animation",
-      "type": "AnimatableCapability::AnimatableBehavior"
-    },
-    {
       "name": "DrawPathfinding",
       "type": "DrawPathfinding::DrawPathfinding"
-    },
-    {
-      "name": "Effect",
-      "type": "EffectCapability::EffectBehavior"
-    },
-    {
-      "name": "Flippable",
-      "type": "FlippableCapability::FlippableBehavior"
-    },
-    {
-      "name": "Opacity",
-      "type": "OpacityCapability::OpacityBehavior"
     },
     {
       "name": "Pathfinding",
@@ -745,14 +840,6 @@
     {
       "name": "RemapForPlatformer",
       "type": "BehaviorRemapper::RemapForPlatformer"
-    },
-    {
-      "name": "Resizable",
-      "type": "ResizableCapability::ResizableBehavior"
-    },
-    {
-      "name": "Scale",
-      "type": "ScalableCapability::ScalableBehavior"
     }
   ]
 }

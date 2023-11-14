@@ -734,6 +734,24 @@
         "name": "NewSprite33",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red_Line.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Red_Line",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red_Line.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red_Line.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1052,23 +1070,6 @@
       ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "invis_slope_Right"
-      },
-      {
-        "objectName": "invis_slope_left"
-      },
-      {
-        "objectName": "Invis_Block"
-      },
-      {
-        "objectName": "Human"
-      }
-    ]
-  },
   "objectsGroups": [],
   "variables": [],
   "layouts": [

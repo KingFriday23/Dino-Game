@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5919189607391807,
+    "zoomFactor": 0.2853612409218287,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -51,7 +51,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1,
+      "height": 32,
       "layer": "",
       "name": "Invis_Block",
       "persistentUuid": "5b32f1e9-a31e-43af-b1c7-00e5361a5323",
@@ -376,8 +376,8 @@
       "name": "NewText",
       "persistentUuid": "951a4f76-a34d-4da3-8151-39c9905403f5",
       "width": 959,
-      "x": 15552,
-      "y": 2304,
+      "x": 15648,
+      "y": 2208,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -883,6 +883,37 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1984,
+      "layer": "",
+      "name": "Finish",
+      "persistentUuid": "5ea8d07c-04f8-467b-b72a-6cdc66990783",
+      "width": 64,
+      "x": 15264,
+      "y": 1152,
+      "zOrder": 52,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Finish",
+      "persistentUuid": "3c98a5af-ef7e-4155-add5-9996e43887a9",
+      "width": 0,
+      "x": 416,
+      "y": 896,
+      "zOrder": 53,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1276,6 +1307,67 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Finish",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Red_Line.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -1690,6 +1782,49 @@
         }
       ],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Human",
+            "Finish",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Scene 2-c\"",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Finish"
+          ]
+        }
+      ]
     }
   ],
   "layers": [

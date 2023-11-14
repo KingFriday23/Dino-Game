@@ -244,20 +244,6 @@
       }
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "Credits"
-      },
-      {
-        "objectName": "Mask"
-      },
-      {
-        "objectName": "Main_Menu"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",

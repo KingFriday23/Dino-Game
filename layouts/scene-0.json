@@ -383,32 +383,6 @@
       }
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "Tutorial"
-      },
-      {
-        "objectName": "NewText"
-      },
-      {
-        "objectName": "Trees"
-      },
-      {
-        "objectName": "Dead_Hunter"
-      },
-      {
-        "objectName": "Controls"
-      },
-      {
-        "objectName": "Climb"
-      },
-      {
-        "objectName": "Burrow"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
