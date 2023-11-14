@@ -234,6 +234,7 @@
       "italic": false,
       "name": "Tutorial",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -255,6 +256,7 @@
       "italic": false,
       "name": "NewText",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -276,6 +278,7 @@
       "italic": false,
       "name": "Trees",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -297,6 +300,7 @@
       "italic": false,
       "name": "Dead_Hunter",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -318,6 +322,7 @@
       "italic": false,
       "name": "Controls",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -339,6 +344,7 @@
       "italic": false,
       "name": "Climb",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -360,6 +366,7 @@
       "italic": false,
       "name": "Burrow",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -376,32 +383,6 @@
       }
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "Tutorial"
-      },
-      {
-        "objectName": "NewText"
-      },
-      {
-        "objectName": "Trees"
-      },
-      {
-        "objectName": "Dead_Hunter"
-      },
-      {
-        "objectName": "Controls"
-      },
-      {
-        "objectName": "Climb"
-      },
-      {
-        "objectName": "Burrow"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -420,6 +401,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

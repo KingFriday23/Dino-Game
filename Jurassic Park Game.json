@@ -698,6 +698,218 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "temp_logo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "temp_logo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite33",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "BMarmy.TTF",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "BMarmy.TTF",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bm_army0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bm_army0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "../../../Downloads/bm_army/BMarmy.TTF",
+        "kind": "font",
+        "metadata": "",
+        "name": "..\\..\\..\\Downloads\\bm_army\\BMarmy.TTF",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar15.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar17.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar18.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar19.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -707,15 +919,16 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "invis_slope_Right",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [
         {
-          "impassable": true,
           "name": "PathfindingObstacle",
           "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "impassable": true,
           "cost": 2
         },
         {
@@ -778,6 +991,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "invis_slope_left",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -849,6 +1063,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Invis_Block",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -923,6 +1138,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Human",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1012,23 +1228,6 @@
       ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "invis_slope_Right"
-      },
-      {
-        "objectName": "invis_slope_left"
-      },
-      {
-        "objectName": "Invis_Block"
-      },
-      {
-        "objectName": "Human"
-      }
-    ]
-  },
   "objectsGroups": [],
   "variables": [],
   "layouts": [
@@ -1066,6 +1265,10 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/main-menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/scene-3"
     },
     {
@@ -1083,6 +1286,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/drawpathfinding"

@@ -1,13 +1,13 @@
 {
-  "b": 0,
+  "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Scene_326_32_40Credits_41",
-  "name": "Scene 6 (Credits)",
-  "r": 0,
+  "mangledName": "Main_32Menu",
+  "name": "Main Menu",
+  "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 0,
+  "v": 209,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -26,15 +26,14 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1857,
+      "customSize": false,
+      "height": 0,
       "layer": "",
-      "name": "Credits",
-      "persistentUuid": "517e3cf4-9c93-4b01-ad70-984876a1c27f",
-      "width": 1163,
-      "x": 346,
-      "y": 1198,
+      "name": "Jurassic_Park",
+      "persistentUuid": "bb39ad07-6572-42f2-b222-1963e634425b",
+      "width": 0,
+      "x": 502,
+      "y": 331,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -43,47 +42,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 250,
-      "layer": "",
-      "name": "Mask",
-      "persistentUuid": "3e5120e7-ca6a-45b2-b445-e643b75a4b94",
-      "width": 1926,
-      "x": 0,
-      "y": -2,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 255,
-      "layer": "",
-      "name": "Mask",
-      "persistentUuid": "88f9b039-dbe8-4950-98ba-32b01d2890cd",
-      "width": 1926,
-      "x": -5,
-      "y": 826,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 32,
-      "height": 79,
+      "height": 89,
       "layer": "",
-      "name": "Main_Menu",
-      "persistentUuid": "ca4e7193-4bc1-446e-bbc9-52308238fcbf",
-      "width": 283,
-      "x": 69,
-      "y": 898,
-      "zOrder": 3,
+      "name": "Play_button",
+      "persistentUuid": "50a265f9-dc0b-4f06-8b71-0747fc362e5b",
+      "width": 187,
+      "x": 826,
+      "y": 510,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -94,94 +61,27 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "Credits",
+      "name": "Jurassic_Park",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "string": "\nJurassic Park Game \n\n\n\n\n--CAST--\n\n\n\n\n\nSTORY\nNANA BOAKYE\n\n\n\n\nPROGRAMMING\nPAOFUE MOUA\nNANA BOAKYE\n\n\n\n\nGRAPHIC DESIGN\nAYA AMIN\n\n\n\n\nMUSIC\nPAOFUE MOUA\n\n\n\n\nWORLD BUILDING\nPAOFUE MOUA\nNANA BOAKYE",
-      "font": "FiveFontsatFreddy's-Regular.ttf",
-      "textAlignment": "center",
-      "characterSize": 60,
+      "behaviors": [],
+      "string": "Jurassic Park",
+      "font": "..\\..\\..\\Downloads\\bm_army\\BMarmy.TTF",
+      "textAlignment": "left",
+      "characterSize": 100,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 0,
+        "g": 0,
+        "r": 0
       }
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Mask",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Mask",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite32",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
-      "name": "Main_Menu",
+      "name": "Play_button",
       "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
@@ -221,7 +121,7 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "\nMain Menu",
+          "string": "\nPLAY",
           "font": "FiveFontsatFreddy's-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 45,
@@ -250,53 +150,10 @@
       "conditions": [
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Tween::AddObjectPositionYTween"
-          },
-          "parameters": [
-            "Credits",
-            "Tween",
-            "\"moveup\"",
-            "-3000",
-            "\"linear\"",
-            "8000",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "MettreX"
-          },
-          "parameters": [
-            "Credits",
-            "=",
-            "SceneWindowWidth()/2-Credits.Width()/2"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
-            "Main_Menu",
+            "Play_button",
             ""
           ]
         }
@@ -308,7 +165,7 @@
           },
           "parameters": [
             "",
-            "\"Intro\"",
+            "\"Loading Screen\"",
             ""
           ]
         }
@@ -400,10 +257,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "Tween",
-      "type": "Tween::TweenBehavior"
     }
   ]
 }
