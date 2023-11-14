@@ -698,6 +698,42 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Dino_outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\assets_Dino_outline.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Temp_Egg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Temp_Egg.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Raptor Eggs2.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Raptor Eggs2.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite33",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -707,15 +743,16 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "invis_slope_Right",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [
         {
-          "impassable": true,
           "name": "PathfindingObstacle",
           "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "impassable": true,
           "cost": 2
         },
         {
@@ -778,6 +815,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "invis_slope_left",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -849,6 +887,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Invis_Block",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -923,6 +962,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Human",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],

@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,12 +17,19 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.09240405437041994,
+    "snap": true,
+    "zoomFactor": 0.5919189607391807,
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "foot_Ammount",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -44,7 +51,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 32,
+      "height": 1,
       "layer": "",
       "name": "Invis_Block",
       "persistentUuid": "5b32f1e9-a31e-43af-b1c7-00e5361a5323",
@@ -362,14 +369,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 160,
       "layer": "",
       "name": "NewText",
       "persistentUuid": "951a4f76-a34d-4da3-8151-39c9905403f5",
-      "width": 0,
-      "x": 15156,
-      "y": 2336,
+      "width": 959,
+      "x": 15552,
+      "y": 2304,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -387,22 +395,6 @@
       "x": 16608,
       "y": 928,
       "zOrder": 28,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 384,
-      "layer": "",
-      "name": "NewText2",
-      "persistentUuid": "39c4646a-3095-433d-983c-0bb928206ade",
-      "width": 832,
-      "x": 13184,
-      "y": 1696,
-      "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -580,6 +572,317 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "footstep",
+      "persistentUuid": "08c249b3-9628-4d32-839e-7eaa59d6c6fa",
+      "width": 0,
+      "x": 1568,
+      "y": 960,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "footstep",
+      "persistentUuid": "6e4b6244-876b-49f4-93d0-5ca1d29164ce",
+      "width": 0,
+      "x": 2784,
+      "y": 896,
+      "zOrder": 42,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "footstep",
+      "persistentUuid": "b361ed78-9b57-45f0-840a-9be52e8ba152",
+      "width": 0,
+      "x": 4288,
+      "y": 928,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 39,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "footstep",
+      "persistentUuid": "851abeb6-2237-44ef-b0aa-d9878b466609",
+      "width": 0,
+      "x": 5952,
+      "y": 896,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "footstep",
+      "persistentUuid": "869ead05-32f8-4bf2-bdf4-aeeb9e646915",
+      "width": 0,
+      "x": 6880,
+      "y": 960,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "footstep",
+      "persistentUuid": "c7a9fbe5-78a8-4d61-80f4-3a8f31ccfbdf",
+      "width": 0,
+      "x": 9344,
+      "y": 2048,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "footstep",
+      "persistentUuid": "b393bcac-fb0a-4760-a235-81f7fecd117b",
+      "width": 0,
+      "x": 10304,
+      "y": 2208,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "footstep",
+      "persistentUuid": "51585b1c-00ba-4ea6-8e44-4b5b984a42a2",
+      "width": 0,
+      "x": 11392,
+      "y": 2400,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 96,
+      "layer": "",
+      "name": "footstep",
+      "persistentUuid": "e1ccfd88-28cc-4135-b100-2c46408e190f",
+      "width": 256,
+      "x": 12352,
+      "y": 2464,
+      "zOrder": 49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "footstep",
+      "persistentUuid": "4fcff30d-1176-4af9-b261-858fa4f2c648",
+      "width": 0,
+      "x": 13344,
+      "y": 2464,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 288,
+      "layer": "",
+      "name": "Dino_Foot_Text",
+      "persistentUuid": "e105a5d5-c5bc-445c-9332-b404fdebbcf9",
+      "width": 512,
+      "x": 12224,
+      "y": 2304,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 256,
+      "layer": "",
+      "name": "Dino_Foot_Text",
+      "persistentUuid": "0ff19458-85d3-4f24-a736-30ef51713ee0",
+      "width": 507,
+      "x": 11173,
+      "y": 2240,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 224,
+      "layer": "",
+      "name": "Dino_Foot_Text",
+      "persistentUuid": "b146e8c0-8b82-4668-bdb1-cf285e89fe7f",
+      "width": 507,
+      "x": 10085,
+      "y": 2048,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 224,
+      "layer": "",
+      "name": "Dino_Foot_Text",
+      "persistentUuid": "e732110d-fcb4-457e-9072-90843f19ade6",
+      "width": 507,
+      "x": 9125,
+      "y": 1888,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 224,
+      "layer": "",
+      "name": "Dino_Foot_Text",
+      "persistentUuid": "3a6e60ad-5f11-420f-959d-4414ded7116f",
+      "width": 507,
+      "x": 6661,
+      "y": 832,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 192,
+      "layer": "",
+      "name": "Dino_Foot_Text",
+      "persistentUuid": "7339ad6a-8f00-41f6-93af-e93c440ac51b",
+      "width": 507,
+      "x": 5765,
+      "y": 768,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 256,
+      "layer": "",
+      "name": "Dino_Foot_Text",
+      "persistentUuid": "ccb829ff-6b9c-448c-b15e-fc2dc49230d5",
+      "width": 507,
+      "x": 4069,
+      "y": 736,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 229,
+      "layer": "",
+      "name": "Dino_Foot_Text",
+      "persistentUuid": "a8f27e5e-12d0-41ff-9a3b-b02901839585",
+      "width": 507,
+      "x": 2565,
+      "y": 731,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 224,
+      "layer": "",
+      "name": "Dino_Foot_Text",
+      "persistentUuid": "a00727d1-6827-4c8a-a7be-dca0fa37557b",
+      "width": 507,
+      "x": 1349,
+      "y": 800,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 256,
+      "layer": "",
+      "name": "Dino_Foot_Text",
+      "persistentUuid": "2c4a8cd4-b298-4fc8-bc3e-f3b3be7e724f",
+      "width": 507,
+      "x": 13125,
+      "y": 2272,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -599,28 +902,6 @@
       "font": "",
       "textAlignment": "left",
       "characterSize": 150,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "NewText2",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "this is where you study dinosaur egg batch and ext ↓",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 90,
       "color": {
         "b": 0,
         "g": 0,
@@ -649,7 +930,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Temp_Egg",
+                  "image": "assets\\Temp_Egg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -733,7 +1014,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Dino_outline",
+                  "image": "assets\\assets_Dino_outline.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -899,6 +1180,102 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "footstep",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "footstep_temp",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite33",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 10
+                      },
+                      {
+                        "x": 56,
+                        "y": 10
+                      },
+                      {
+                        "x": 56,
+                        "y": 47
+                      },
+                      {
+                        "x": 15,
+                        "y": 47
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Dino_Foot_Text",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Press F to Collect",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "events": [
@@ -974,125 +1351,6 @@
       "conditions": [
         {
           "type": {
-            "inverted": true,
-            "value": "Distance"
-          },
-          "parameters": [
-            "Human",
-            "Dino_Eggs",
-            "500",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Interact_Egg"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "Distance"
-          },
-          "parameters": [
-            "Human",
-            "Dino_Eggs",
-            "500",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "Interact_Egg",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Human",
-            "Interact_Egg",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "e"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "CentreCamera"
-          },
-          "parameters": [
-            "",
-            "Info",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ZoomCamera"
-          },
-          "parameters": [
-            "",
-            "0.5",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "5"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "CollisionNP"
           },
           "parameters": [
@@ -1122,6 +1380,316 @@
           ]
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Eggs",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Human",
+                "Interact_Egg",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Info",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "0.5",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Human",
+                "Dino_Eggs",
+                "500",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Interact_Egg",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Human",
+                "Dino_Eggs",
+                "500",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Interact_Egg"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Foot",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Human",
+                "Dino_Foot_Text",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "f"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Dino_Foot_Text",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Human",
+                "footstep",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "f"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "footstep",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "foot_Ammount",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Human",
+                "footstep",
+                "500",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Dino_Foot_Text",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Human",
+                "footstep",
+                "500",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Dino_Foot_Text"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "foot_Ammount",
+            "=",
+            "10"
+          ]
+        }
+      ],
+      "actions": []
     }
   ],
   "layers": [
@@ -1170,6 +1738,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "PathfindingObstacle",
+      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+    },
     {
       "name": "Platform",
       "type": "PlatformBehavior::PlatformBehavior"
