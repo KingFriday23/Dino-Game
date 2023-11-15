@@ -790,13 +790,7 @@
       }
     }
   ],
-  "events": [
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    }
-  ],
+  "events": [],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -854,6 +848,10 @@
     {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
     },
     {
       "name": "Opacity",
