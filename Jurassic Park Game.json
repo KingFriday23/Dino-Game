@@ -867,6 +867,60 @@
         "name": "assets\\Loading_Bar19.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red_Line.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red_Line.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/T-Rex.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\T-Rex.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1145,7 +1199,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Hunter1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Rifle",
+                      "x": 136.5,
+                      "y": 232
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
