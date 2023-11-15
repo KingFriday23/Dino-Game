@@ -701,10 +701,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "temp_logo.png",
+        "file": "assets/assets_Dino_outline.png",
         "kind": "image",
         "metadata": "",
-        "name": "temp_logo.png",
+        "name": "assets\\assets_Dino_outline.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -726,53 +726,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "bm_army0.png",
+        "file": "assets/Red_Line.png",
         "kind": "image",
-        "metadata": "",
-        "name": "bm_army0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "file": "../../../Downloads/bm_army/BMarmy.TTF",
-        "kind": "font",
-        "metadata": "",
-        "name": "..\\..\\..\\Downloads\\bm_army\\BMarmy.TTF",
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Loading_Bar1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Loading_Bar1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Loading_Bar2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Loading_Bar2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Loading_Bar3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Loading_Bar3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Loading_Bar4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Loading_Bar4.png",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Red_Line",
         "smoothed": true,
         "userAdded": true
       },
