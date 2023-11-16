@@ -1,13 +1,13 @@
 {
-  "b": 209,
+  "b": 0,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Scene_325",
-  "name": "Scene 5",
-  "r": 209,
+  "mangledName": "Before_32Credits",
+  "name": "Before Credits",
+  "r": 0,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 0,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -28,17 +28,31 @@
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"Blank\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "CollisionNP"
+            "value": "CompareTimer"
           },
           "parameters": [
-            "Human",
-            "Finish",
             "",
-            "",
-            ""
+            "\"Blank\"",
+            ">=",
+            "3"
           ]
         }
       ],
@@ -49,16 +63,11 @@
           },
           "parameters": [
             "",
-            "\"Before Credits\"",
+            "\"Scene 6 (Credits)\"",
             ""
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [

@@ -984,42 +984,6 @@
         "name": "assets\\Loading_Bar4.png",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite37.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite37",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/quick_two.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\quick_two.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/quick_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\quick_1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/carno_Temp.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\carno_Temp.png",
-        "smoothed": true,
-        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1499,6 +1463,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/scene-6-credits"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/before-credits"
     }
   ],
   "externalEvents": [],
