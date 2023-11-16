@@ -157,7 +157,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Hunterfront2",
+                  "image": "Hunterfront4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -173,19 +173,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 96,
+                        "x": 98,
                         "y": 1
                       },
                       {
-                        "x": 245,
+                        "x": 246,
                         "y": 1
                       },
                       {
-                        "x": 245,
+                        "x": 246,
                         "y": 350
                       },
                       {
-                        "x": 96,
+                        "x": 98,
                         "y": 350
                       }
                     ]
@@ -206,7 +206,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Hunterleft2",
+                  "image": "Hunterleft4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -222,19 +222,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 96,
+                        "x": 98,
                         "y": 1
                       },
                       {
-                        "x": 245,
+                        "x": 246,
                         "y": 1
                       },
                       {
-                        "x": 245,
+                        "x": 246,
                         "y": 350
                       },
                       {
-                        "x": 96,
+                        "x": 98,
                         "y": 350
                       }
                     ]
@@ -271,19 +271,261 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 96,
+                        "x": 98,
                         "y": 1
                       },
                       {
-                        "x": 245,
+                        "x": 246,
                         "y": 1
                       },
                       {
-                        "x": 245,
+                        "x": 246,
                         "y": 350
                       },
                       {
-                        "x": 96,
+                        "x": 98,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hunterright",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Hunterright",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 98,
+                        "y": 1
+                      },
+                      {
+                        "x": 246,
+                        "y": 1
+                      },
+                      {
+                        "x": 246,
+                        "y": 350
+                      },
+                      {
+                        "x": 98,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Huntertalk",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Huntertalk3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 98,
+                        "y": 1
+                      },
+                      {
+                        "x": 246,
+                        "y": 1
+                      },
+                      {
+                        "x": 246,
+                        "y": 350
+                      },
+                      {
+                        "x": 98,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Huntertalk4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 98,
+                        "y": 1
+                      },
+                      {
+                        "x": 246,
+                        "y": 1
+                      },
+                      {
+                        "x": 246,
+                        "y": 350
+                      },
+                      {
+                        "x": 98,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Huntertalk5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 98,
+                        "y": 1
+                      },
+                      {
+                        "x": 246,
+                        "y": 1
+                      },
+                      {
+                        "x": 246,
+                        "y": 350
+                      },
+                      {
+                        "x": 98,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Huntertalk6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 98,
+                        "y": 1
+                      },
+                      {
+                        "x": 246,
+                        "y": 1
+                      },
+                      {
+                        "x": 246,
+                        "y": 350
+                      },
+                      {
+                        "x": 98,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Huntertalk7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 98,
+                        "y": 1
+                      },
+                      {
+                        "x": 246,
+                        "y": 1
+                      },
+                      {
+                        "x": 246,
+                        "y": 350
+                      },
+                      {
+                        "x": 98,
                         "y": 350
                       }
                     ]
@@ -1647,7 +1889,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite27",
+                  "image": "Footprint",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2566,6 +2808,204 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite44",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 350,
+                        "y": 0
+                      },
+                      {
+                        "x": 350,
+                        "y": 350
+                      },
+                      {
+                        "x": 0,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Medkit",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite46",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 56,
+                        "y": 31
+                      },
+                      {
+                        "x": 162,
+                        "y": 31
+                      },
+                      {
+                        "x": 162,
+                        "y": 145
+                      },
+                      {
+                        "x": 56,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Bullet",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite47",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 17,
+                        "y": 20
+                      },
+                      {
+                        "x": 50,
+                        "y": 20
+                      },
+                      {
+                        "x": 50,
+                        "y": 30
+                      },
+                      {
+                        "x": 17,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Forestbackground",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite48",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
