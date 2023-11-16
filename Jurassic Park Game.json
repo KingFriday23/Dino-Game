@@ -948,6 +948,42 @@
         "name": "assets\\Health_outline.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loading_Bar4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Loading_Bar4.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
