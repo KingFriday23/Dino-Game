@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3645833333333333,
+    "zoomFactor": 0.15392788923483242,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -33,8 +33,8 @@
       "name": "Human",
       "persistentUuid": "60e33f3f-63c4-420a-be72-a0e8dc201a49",
       "width": 94,
-      "x": 32,
-      "y": 994,
+      "x": -32,
+      "y": 1026,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -65,7 +65,7 @@
       "name": "invis_slope_left",
       "persistentUuid": "a31a8add-eb6a-49bf-a662-944313fc5442",
       "width": 176,
-      "x": 3632,
+      "x": 1744,
       "y": 896,
       "zOrder": 5,
       "numberProperties": [],
@@ -81,7 +81,7 @@
       "name": "invis_slope_Right",
       "persistentUuid": "f8dfbd23-11ca-4c02-9a19-b956371b429e",
       "width": 176,
-      "x": 3456,
+      "x": 1568,
       "y": 896,
       "zOrder": 6,
       "numberProperties": [],
@@ -97,7 +97,7 @@
       "name": "Invis_Block",
       "persistentUuid": "f50c4bc4-2629-4bc4-ad33-93452d476719",
       "width": 96,
-      "x": 4192,
+      "x": 2368,
       "y": 1024,
       "zOrder": 7,
       "numberProperties": [],
@@ -113,76 +113,30 @@
       "name": "Rifle",
       "persistentUuid": "1786d117-8555-42de-830d-3b06faa62e8c",
       "width": 46,
-      "x": 128,
-      "y": 1034,
+      "x": 158,
+      "y": 1075,
       "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "pickup",
+      "persistentUuid": "9afc4107-c921-485f-964c-cfc6409cc0f6",
+      "width": 0,
+      "x": 139,
+      "y": 1024,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "T_Rex",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "T-Rex",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\T-Rex.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 18,
-                        "y": 18
-                      },
-                      {
-                        "x": 345,
-                        "y": 18
-                      },
-                      {
-                        "x": 345,
-                        "y": 270
-                      },
-                      {
-                        "x": 18,
-                        "y": 270
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
@@ -243,9 +197,53 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "pickup",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Press E",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 15,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "pickup"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Rifle"
+          ]
+        }
+      ]
+    },
     {
       "colorB": 228,
       "colorG": 176,
@@ -284,44 +282,144 @@
       "name": "Gun",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Human",
+                "Rifle",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "pickup",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Human",
+                "Rifle",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Rifle",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Human",
+                "Rifle",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Pickup",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Pickup",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Rifle",
+                "=",
+                "Human.PointX(\"Center\")",
+                "=",
+                "Human.PointY(\"Center\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "Rifle",
+                "MouseX()",
+                "MouseY()",
+                "0",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "Rifle",
-            "=",
-            "Human.PointX(\"Center\")",
-            "=",
-            "Human.PointY(\"Center\")"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "RotateTowardPosition"
-          },
-          "parameters": [
-            "Rifle",
-            "MouseX()",
-            "MouseY()",
-            "0",
-            ""
-          ]
-        }
-      ]
     }
   ],
   "layers": [
