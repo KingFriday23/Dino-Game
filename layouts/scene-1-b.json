@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.27962265218393795,
+    "zoomFactor": 0.2006974131454976,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -275,6 +275,54 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 480,
+      "layer": "",
+      "name": "invis_slope_Right",
+      "persistentUuid": "a751031b-fc95-4f4d-a210-0efb3a4006b0",
+      "width": 992,
+      "x": 3328,
+      "y": 544,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 480,
+      "layer": "",
+      "name": "invis_slope_left",
+      "persistentUuid": "93a61749-6817-459c-958a-401f2b39bf00",
+      "width": 192,
+      "x": 4320,
+      "y": 544,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1632,
+      "layer": "",
+      "name": "Finish",
+      "persistentUuid": "53da0653-883b-4450-b38f-b1c5016e60b2",
+      "width": 64,
+      "x": 5472,
+      "y": -480,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -415,7 +463,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite35",
+                  "image": "assets\\carno_Temp.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -757,8 +805,32 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Human",
+            "Finish",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Scene 2-a\"",
+            ""
+          ]
+        }
+      ]
     },
     {
       "colorB": 228,
@@ -903,22 +975,22 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Scene 1-b\"",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "ModVarScene"
               },
               "parameters": [
                 "quick",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "carno",
+                "+",
+                "20"
               ]
             }
           ]
@@ -1069,22 +1141,22 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Scene 1-b\"",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "ModVarScene"
               },
               "parameters": [
                 "quick",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "carno",
+                "+",
+                "20"
               ]
             }
           ]

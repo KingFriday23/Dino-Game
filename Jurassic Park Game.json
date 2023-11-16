@@ -1011,6 +1011,15 @@
         "name": "assets\\quick_1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/carno_Temp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\carno_Temp.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
