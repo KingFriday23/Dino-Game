@@ -948,6 +948,15 @@
         "name": "assets\\Health_outline.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/test.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "test",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1239,6 +1248,16 @@
           "Right": "d",
           "Jump": "Space",
           "Platformer": "PlatformerObject"
+        },
+        {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
         }
       ],
       "animations": [
@@ -1421,6 +1440,22 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/withthreejs"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/threedflip"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/charactergamefeel"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/mazegenerator"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/health"

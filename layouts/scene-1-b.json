@@ -67,46 +67,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 384,
-      "layer": "",
-      "name": "invis_slope_Right",
-      "persistentUuid": "df12ab13-0468-4751-bee8-0874dcec9768",
-      "width": 1216,
-      "x": 64,
-      "y": 640,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
       "height": 94,
       "layer": "",
       "name": "Human",
       "persistentUuid": "2bd9bcc8-d1f3-4581-823e-bdce5756e004",
       "width": 96,
-      "x": 640,
-      "y": 640,
+      "x": 704,
+      "y": 898,
       "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 384,
-      "layer": "",
-      "name": "invis_slope_left",
-      "persistentUuid": "b98a7c94-24d8-437e-836a-cf02bc719569",
-      "width": 672,
-      "x": 1280,
-      "y": 640,
-      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -178,13 +146,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 480,
+      "height": 96,
       "layer": "",
       "name": "carno",
       "persistentUuid": "e9b8de4a-8d05-46c4-bf9d-4fd0a4efe948",
-      "width": 384,
+      "width": 96,
       "x": 64,
-      "y": 480,
+      "y": 928,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -233,6 +201,83 @@
       "x": 1728,
       "y": 928,
       "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "test",
+      "persistentUuid": "6d544d65-6af3-40c7-a5d4-b18ad3aad91f",
+      "width": 0,
+      "x": 704,
+      "y": 960,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 160,
+      "layer": "",
+      "name": "invis_slope_Right",
+      "persistentUuid": "d9b178b0-9ef3-42ae-a00e-da482c074263",
+      "width": 160,
+      "x": 800,
+      "y": 864,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 160,
+      "layer": "",
+      "name": "invis_slope_left",
+      "persistentUuid": "3f596d0b-2267-4aa5-b9a4-2ed44169d574",
+      "width": 192,
+      "x": 960,
+      "y": 864,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "test",
+      "persistentUuid": "2001ee88-7d41-4d36-9e6b-c1bb84255f43",
+      "width": 0,
+      "x": 928,
+      "y": 800,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "test",
+      "persistentUuid": "b51857cf-2f6e-45b7-b5ad-d4eaac19ba64",
+      "width": 0,
+      "x": 1152,
+      "y": 960,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -480,6 +525,74 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "test",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "test",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "test",
+                  "points": [
+                    {
+                      "name": "test",
+                      "x": 32,
+                      "y": 32
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 4
+                      },
+                      {
+                        "x": 54,
+                        "y": 4
+                      },
+                      {
+                        "x": 54,
+                        "y": 54
+                      },
+                      {
+                        "x": 3,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -527,7 +640,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Quicktime #1",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -684,11 +796,30 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Quicktime #2",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const quick_time_event = runtimeScene.getObjects(\"First_Quick_Time\");",
+            "const quick = runtimeScene.getObjects(\"first_quick\")",
+            "",
+            "if (objects[0].insideObject(quick_time_event)) {",
+            "    quick.",
+            "}",
+            "",
+            "",
+            "// if (objects[0].getHitBoxes = quick_time_event.getHitBoxes) {",
+            "    ",
+            "// }",
+            ""
+          ],
+          "parameterObjects": "Human",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -940,6 +1071,45 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::JsCode",
+      "inlineCode": [
+        "",
+        "let x = 0;",
+        "",
+        "// hitboxes",
+        "const test = runtimeScene.getObjects(\"test\")",
+        "const carno = runtimeScene.getObjects(\"carno\")",
+        "// checking collision masking",
+        "",
+        "if (runtimeScene.getTimeManager().isFirstFrame()) {",
+        "    objects[0].addForce(250,0,1)",
+        "}",
+        "",
+        "if (carno  && x==0) {",
+        "    object[0].addForce(255, 255, 1)",
+        "    x=1",
+        "}",
+        "",
+        "if (objects[0].coll(\"test\") && x==1) {",
+        "    object[0].addForce(255, -255, 1)",
+        "    x=2",
+        "}",
+        "",
+        "if (objects[0].isCollidingWithPoint(\"test\") && x==2) {",
+        "    object[0].addForce(255, 0, 1)",
+        "    x=0",
+        "}"
+      ],
+      "parameterObjects": "carno",
+      "useStrict": true,
+      "eventsSheetExpanded": false
     }
   ],
   "layers": [
@@ -1007,6 +1177,10 @@
     {
       "name": "RemapForPlatformer",
       "type": "BehaviorRemapper::RemapForPlatformer"
+    },
+    {
+      "name": "ThreeDFlip",
+      "type": "ThreeDFlip::ThreeDFlip"
     }
   ]
 }
