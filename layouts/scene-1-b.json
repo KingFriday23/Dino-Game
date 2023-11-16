@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.24488383633725497,
+    "zoomFactor": 0.27962265218393795,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -135,12 +135,13 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
       "layer": "",
       "name": "first_quick",
       "persistentUuid": "e302e428-ce3b-4560-bf82-36b1e3271af7",
-      "width": 0,
+      "width": 253,
       "x": 2051,
       "y": 736,
       "zOrder": 12,
@@ -242,6 +243,38 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 640,
+      "layer": "",
+      "name": "second_Quick_Time",
+      "persistentUuid": "a4609e65-d19a-43a7-bace-63f3566a8e23",
+      "width": 224,
+      "x": 2368,
+      "y": 384,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Second_Quick_Text",
+      "persistentUuid": "1db1c562-7b6e-4e99-ba97-76d49c90163c",
+      "width": 224,
+      "x": 2368,
+      "y": 736,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -267,7 +300,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite34",
+                  "image": "assets\\quick_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -319,7 +352,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Press E",
+      "string": "Press m",
       "font": "",
       "textAlignment": "left",
       "characterSize": 60,
@@ -366,7 +399,7 @@
           "Left": "a",
           "Down": "s",
           "Right": "d",
-          "Jump": "m",
+          "Jump": "`",
           "Platformer": "PlatformerObject"
         }
       ],
@@ -585,6 +618,90 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "second_Quick_Time",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\quick_two.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Second_Quick_Text",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Press j",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "events": [
@@ -618,6 +735,22 @@
           },
           "parameters": [
             "first_quick"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "second_Quick_Time"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Second_Quick_Text"
           ]
         }
       ]
@@ -695,7 +828,7 @@
               },
               "parameters": [
                 "",
-                "e"
+                "m"
               ]
             }
           ],
@@ -726,6 +859,16 @@
                 "quick",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "carno",
+                "-",
+                "050"
               ]
             }
           ]
@@ -788,7 +931,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "disabled": true,
       "name": "Quicktime #2",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -802,7 +944,7 @@
               },
               "parameters": [
                 "Human",
-                "",
+                "second_Quick_Time",
                 "",
                 "",
                 ""
@@ -815,7 +957,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "",
+                "Second_Quick_Text",
                 ""
               ]
             },
@@ -840,7 +982,7 @@
               },
               "parameters": [
                 "Human",
-                "",
+                "second_Quick_Time",
                 "",
                 "",
                 ""
@@ -852,7 +994,7 @@
               },
               "parameters": [
                 "",
-                "e"
+                "j"
               ]
             }
           ],
@@ -862,7 +1004,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "",
+                "second_Quick_Time",
                 ""
               ]
             },
@@ -871,7 +1013,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "",
+                "Second_Quick_Text",
                 ""
               ]
             },
@@ -883,6 +1025,16 @@
                 "quick",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "carno",
+                "-",
+                "50"
               ]
             }
           ]
@@ -907,7 +1059,7 @@
               },
               "parameters": [
                 "Human",
-                "",
+                "second_Quick_Time",
                 "",
                 "",
                 ""
@@ -965,22 +1117,12 @@
       "actions": [
         {
           "type": {
-            "value": "ModVarGlobal"
+            "value": "Scene"
           },
           "parameters": [
-            "Health",
-            "-",
-            "20"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreX"
-          },
-          "parameters": [
-            "carno",
-            "-",
-            "200"
+            "",
+            "\"Scene 1-b\"",
+            ""
           ]
         }
       ]
@@ -1320,24 +1462,8 @@
   ],
   "behaviorsSharedData": [
     {
-      "name": "Animation",
-      "type": "AnimatableCapability::AnimatableBehavior"
-    },
-    {
-      "name": "Effect",
-      "type": "EffectCapability::EffectBehavior"
-    },
-    {
-      "name": "Flippable",
-      "type": "FlippableCapability::FlippableBehavior"
-    },
-    {
       "name": "Health",
       "type": "Health::Health"
-    },
-    {
-      "name": "Opacity",
-      "type": "OpacityCapability::OpacityBehavior"
     },
     {
       "name": "PathfindingObstacle",
@@ -1354,14 +1480,6 @@
     {
       "name": "RemapForPlatformer",
       "type": "BehaviorRemapper::RemapForPlatformer"
-    },
-    {
-      "name": "Resizable",
-      "type": "ResizableCapability::ResizableBehavior"
-    },
-    {
-      "name": "Scale",
-      "type": "ScalableCapability::ScalableBehavior"
     },
     {
       "name": "ThreeDFlip",
