@@ -406,6 +406,10 @@
       "type": "ScalableCapability::ScalableBehavior"
     },
     {
+      "name": "ThreeDFlip",
+      "type": "ThreeDFlip::ThreeDFlip"
+    },
+    {
       "name": "Tween",
       "type": "Tween::TweenBehavior"
     }

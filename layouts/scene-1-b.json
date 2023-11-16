@@ -807,7 +807,7 @@
             "const quick = runtimeScene.getObjects(\"first_quick\")",
             "",
             "if (objects[0].insideObject(quick_time_event)) {",
-            "    quick.",
+            "    quick. ",
             "}",
             "",
             "",
@@ -1080,7 +1080,6 @@
     {
       "type": "BuiltinCommonInstructions::JsCode",
       "inlineCode": [
-        "",
         "let x = 0;",
         "",
         "// hitboxes",
@@ -1201,6 +1200,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "ThreeDFlip",
+      "type": "ThreeDFlip::ThreeDFlip"
     }
   ]
 }
