@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
