@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4163025217733331,
+    "zoomFactor": 0.23689563725446583,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -26,6 +26,12 @@
     {
       "folded": true,
       "name": "quick",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "Carno",
       "type": "number",
       "value": 0
     }
@@ -119,7 +125,7 @@
       "layer": "",
       "name": "First_Quick_Time",
       "persistentUuid": "826ca796-e7e8-4131-8e1d-40947e1d431b",
-      "width": 608,
+      "width": 224,
       "x": 2048,
       "y": 384,
       "zOrder": 11,
@@ -135,8 +141,8 @@
       "name": "first_quick",
       "persistentUuid": "e302e428-ce3b-4560-bf82-36b1e3271af7",
       "width": 0,
-      "x": 2240,
-      "y": 635,
+      "x": 2051,
+      "y": 736,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -207,21 +213,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "test",
-      "persistentUuid": "6d544d65-6af3-40c7-a5d4-b18ad3aad91f",
-      "width": 0,
-      "x": 704,
-      "y": 960,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 0,
       "height": 160,
@@ -248,36 +239,6 @@
       "x": 960,
       "y": 864,
       "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "test",
-      "persistentUuid": "2001ee88-7d41-4d36-9e6b-c1bb84255f43",
-      "width": 0,
-      "x": 928,
-      "y": 800,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "test",
-      "persistentUuid": "b51857cf-2f6e-45b7-b5ad-d4eaac19ba64",
-      "width": 0,
-      "x": 1152,
-      "y": 960,
-      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -377,7 +338,38 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 300,
+          "name": "PlatformerObject",
+          "slopeMaxAngle": 60,
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        },
+        {
+          "name": "RemapForPlatformer",
+          "type": "BehaviorRemapper::RemapForPlatformer",
+          "Up": "w",
+          "Left": "a",
+          "Down": "s",
+          "Right": "d",
+          "Jump": "m",
+          "Platformer": "PlatformerObject"
+        }
+      ],
       "animations": [
         {
           "name": "NewSprite",
@@ -743,7 +735,7 @@
           "conditions": [
             {
               "type": {
-                "value": "VarGlobal"
+                "value": "VarScene"
               },
               "parameters": [
                 "quick",
@@ -796,30 +788,11 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "disabled": true,
       "name": "Quicktime #2",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
-        {
-          "type": "BuiltinCommonInstructions::JsCode",
-          "inlineCode": [
-            "const quick_time_event = runtimeScene.getObjects(\"First_Quick_Time\");",
-            "const quick = runtimeScene.getObjects(\"first_quick\")",
-            "",
-            "if (objects[0].insideObject(quick_time_event)) {",
-            "    quick. ",
-            "}",
-            "",
-            "",
-            "// if (objects[0].getHitBoxes = quick_time_event.getHitBoxes) {",
-            "    ",
-            "// }",
-            ""
-          ],
-          "parameterObjects": "Human",
-          "useStrict": true,
-          "eventsSheetExpanded": false
-        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -829,7 +802,7 @@
               },
               "parameters": [
                 "Human",
-                "First_Quick_Time",
+                "",
                 "",
                 "",
                 ""
@@ -842,7 +815,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "first_quick",
+                "",
                 ""
               ]
             },
@@ -867,7 +840,7 @@
               },
               "parameters": [
                 "Human",
-                "First_Quick_Time",
+                "",
                 "",
                 "",
                 ""
@@ -889,7 +862,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "First_Quick_Time",
+                "",
                 ""
               ]
             },
@@ -898,7 +871,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "first_quick",
+                "",
                 ""
               ]
             },
@@ -934,7 +907,7 @@
               },
               "parameters": [
                 "Human",
-                "First_Quick_Time",
+                "",
                 "",
                 "",
                 ""
@@ -1005,8 +978,8 @@
             "value": "MettreX"
           },
           "parameters": [
-            "Human",
-            "+",
+            "carno",
+            "-",
             "200"
           ]
         }
@@ -1066,6 +1039,16 @@
                 "\"Scene 1-b\"",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "quick",
+                "=",
+                "0"
+              ]
             }
           ]
         }
@@ -1078,37 +1061,216 @@
       "actions": []
     },
     {
-      "type": "BuiltinCommonInstructions::JsCode",
-      "inlineCode": [
-        "let x = 0;",
-        "",
-        "// hitboxes",
-        "const test = runtimeScene.getObjects(\"test\")",
-        "const carno = runtimeScene.getObjects(\"carno\")",
-        "// checking collision masking",
-        "",
-        "if (runtimeScene.getTimeManager().isFirstFrame()) {",
-        "    objects[0].addForce(250,0,1)",
-        "}",
-        "",
-        "if (carno  && x==0) {",
-        "    object[0].addForce(255, 255, 1)",
-        "    x=1",
-        "}",
-        "",
-        "if (objects[0].coll(\"test\") && x==1) {",
-        "    object[0].addForce(255, -255, 1)",
-        "    x=2",
-        "}",
-        "",
-        "if (objects[0].isCollidingWithPoint(\"test\") && x==2) {",
-        "    object[0].addForce(255, 0, 1)",
-        "    x=0",
-        "}"
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": true,
+      "name": "Carno",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "carno",
+                "test",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Carno",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "carno",
+                "0",
+                "255",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Carno",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "carno",
+                "test",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Carno",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "carno",
+                "0",
+                "-500",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Carno",
+                "=",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "carno",
+                "test",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Carno",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "carno",
+                "0",
+                "255",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Carno",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "carno",
+                "255",
+                "0",
+                "1"
+              ]
+            }
+          ]
+        }
       ],
-      "parameterObjects": "carno",
-      "useStrict": true,
-      "eventsSheetExpanded": false
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -1158,24 +1320,8 @@
   ],
   "behaviorsSharedData": [
     {
-      "name": "Animation",
-      "type": "AnimatableCapability::AnimatableBehavior"
-    },
-    {
-      "name": "Effect",
-      "type": "EffectCapability::EffectBehavior"
-    },
-    {
-      "name": "Flippable",
-      "type": "FlippableCapability::FlippableBehavior"
-    },
-    {
       "name": "Health",
       "type": "Health::Health"
-    },
-    {
-      "name": "Opacity",
-      "type": "OpacityCapability::OpacityBehavior"
     },
     {
       "name": "PathfindingObstacle",
@@ -1192,14 +1338,6 @@
     {
       "name": "RemapForPlatformer",
       "type": "BehaviorRemapper::RemapForPlatformer"
-    },
-    {
-      "name": "Resizable",
-      "type": "ResizableCapability::ResizableBehavior"
-    },
-    {
-      "name": "Scale",
-      "type": "ScalableCapability::ScalableBehavior"
     },
     {
       "name": "ThreeDFlip",
