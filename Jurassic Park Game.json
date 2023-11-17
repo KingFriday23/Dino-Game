@@ -1029,6 +1029,13 @@
         "name": "Bullet",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/bm_army/BMarmy.TTF",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\bm_army\\BMarmy.TTF",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
