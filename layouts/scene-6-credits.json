@@ -81,8 +81,8 @@
       "name": "Main_Menu",
       "persistentUuid": "ca4e7193-4bc1-446e-bbc9-52308238fcbf",
       "width": 283,
-      "x": 69,
-      "y": 898,
+      "x": 779,
+      "y": 502,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -107,7 +107,7 @@
           "type": "Tween::TweenBehavior"
         }
       ],
-      "string": "\nJurassic Park Game \n\n\n\n\n--CAST--\n\n\n\n\n\nSTORY\nNANA BOAKYE\n\n\n\n\nPROGRAMMING\nPAOFUE MOUA\nNANA BOAKYE\n\n\n\n\nGRAPHIC DESIGN\nAYA AMIN\n\n\n\n\nMUSIC\nPAOFUE MOUA\n\n\n\n\nWORLD BUILDING\nPAOFUE MOUA\nNANA BOAKYE",
+      "string": "\nJurassic Park Game \n\n\n\n\n--CAST--\n\n\n\n\n\nSTORY\n\nNANA BOAKYE\n\n\n\n\nPROGRAMMING\n\nPAOFUE MOUA\nNANA BOAKYE\n\n\n\n\nGRAPHIC DESIGN\n\nAYA AMIN\n\n\n\n\nMUSIC\n\nPAOFUE MOUA\n\n\n\n\nWORLD BUILDING\n\nPAOFUE MOUA\nNANA BOAKYE",
       "font": "FiveFontsatFreddy's-Regular.ttf",
       "textAlignment": "center",
       "characterSize": 60,
@@ -280,7 +280,7 @@
             "\"moveup\"",
             "-3000",
             "\"linear\"",
-            "15000",
+            "20000",
             ""
           ]
         }
@@ -323,6 +323,32 @@
           "parameters": [
             "",
             "\"Main Menu\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Tween::HasFinished"
+          },
+          "parameters": [
+            "Credits",
+            "Tween",
+            "\"moveup\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Main_Menu",
             ""
           ]
         }

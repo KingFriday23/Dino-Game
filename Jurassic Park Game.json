@@ -1002,6 +1002,24 @@
         "name": "NewSprite37",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Shotgun.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shotgun.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Shotgun.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Shotgun",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1318,7 +1336,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Hunter1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 141,
+                      "y": 222.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1424,9 +1448,9 @@
   "variables": [
     {
       "folded": true,
-      "name": "Health",
+      "name": "Weapon",
       "type": "number",
-      "value": 100
+      "value": 0
     }
   ],
   "layouts": [
