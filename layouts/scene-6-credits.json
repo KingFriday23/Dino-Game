@@ -247,20 +247,6 @@
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Main_Menu"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
@@ -280,7 +266,7 @@
             "\"moveup\"",
             "-3000",
             "\"linear\"",
-            "15000",
+            "8000",
             ""
           ]
         }
