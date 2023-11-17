@@ -1633,6 +1633,33 @@
         "name": "Hunter3Talk6",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter3run.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunter3run",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter3run2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunter3run2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boat.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Boat",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
