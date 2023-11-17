@@ -2995,7 +2995,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite2",
+          "name": "Forestbackground",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -3005,7 +3005,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite48",
+                  "image": "NewSprite52",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
