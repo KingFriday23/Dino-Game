@@ -559,7 +559,200 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Hunter6",
+                  "image": "Hunter8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102,
+                        "y": 28
+                      },
+                      {
+                        "x": 242,
+                        "y": 28
+                      },
+                      {
+                        "x": 242,
+                        "y": 345
+                      },
+                      {
+                        "x": 102,
+                        "y": 345
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hunter3Talk",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Hunter3Talk2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102,
+                        "y": 28
+                      },
+                      {
+                        "x": 242,
+                        "y": 28
+                      },
+                      {
+                        "x": 242,
+                        "y": 345
+                      },
+                      {
+                        "x": 102,
+                        "y": 345
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Hunter3Talk3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102,
+                        "y": 28
+                      },
+                      {
+                        "x": 242,
+                        "y": 28
+                      },
+                      {
+                        "x": 242,
+                        "y": 345
+                      },
+                      {
+                        "x": 102,
+                        "y": 345
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Hunter3Talk4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102,
+                        "y": 28
+                      },
+                      {
+                        "x": 242,
+                        "y": 28
+                      },
+                      {
+                        "x": 242,
+                        "y": 345
+                      },
+                      {
+                        "x": 102,
+                        "y": 345
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Hunter3Talk5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102,
+                        "y": 28
+                      },
+                      {
+                        "x": 242,
+                        "y": 28
+                      },
+                      {
+                        "x": 242,
+                        "y": 345
+                      },
+                      {
+                        "x": 102,
+                        "y": 345
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Hunter3Talk6",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
