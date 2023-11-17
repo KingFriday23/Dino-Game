@@ -210,7 +210,7 @@
                     {
                       "name": "Bullet",
                       "x": 297,
-                      "y": 104.5
+                      "y": 90
                     }
                   ],
                   "originPoint": {
@@ -286,10 +286,10 @@
         {
           "name": "FireBullet",
           "type": "FireBullet::FireBullet",
-          "FireCooldown": 0.1,
+          "FireCooldown": 0.7,
           "HasJustFired": false,
           "FiringArc": 45,
-          "BulletQuantity": 4,
+          "BulletQuantity": 3,
           "AngleVariance": 0,
           "RotateBullet": true,
           "AmmoQuantity": 0,
@@ -330,8 +330,8 @@
                   "points": [
                     {
                       "name": "Bullet",
-                      "x": 326.5,
-                      "y": 117.5
+                      "x": 328.5,
+                      "y": 109
                     }
                   ],
                   "originPoint": {
@@ -398,31 +398,31 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 27.5,
+                    "y": 30.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 32.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26,
-                        "y": 29
+                        "x": 27,
+                        "y": 30
                       },
                       {
                         "x": 37,
-                        "y": 29
+                        "y": 30
                       },
                       {
                         "x": 37,
                         "y": 35
                       },
                       {
-                        "x": 26,
+                        "x": 27,
                         "y": 35
                       }
                     ]
@@ -724,6 +724,40 @@
                     ""
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::FireTowardPosition"
+                      },
+                      "parameters": [
+                        "Rifle",
+                        "FireBullet",
+                        "Rifle.X(\"Bullet\")",
+                        "Rifle.Y(\"Bullet\")",
+                        "Bullet",
+                        "CursorX()",
+                        "CursorY()",
+                        "500",
+                        ""
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -779,6 +813,40 @@
                     "MouseY()",
                     "0",
                     ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::FireTowardPosition"
+                      },
+                      "parameters": [
+                        "Shotgun",
+                        "FireBullet",
+                        "Shotgun.X(\"Bullet\")",
+                        "Shotgun.Y(\"Bullet\")",
+                        "Bullet",
+                        "CursorX()",
+                        "CursorY()",
+                        "300",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
