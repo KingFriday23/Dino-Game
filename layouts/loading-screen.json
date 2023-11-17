@@ -79,7 +79,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite13",
+                  "image": "assets\\Loading_Bar1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -115,7 +115,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite14",
+                  "image": "assets\\Loading_Bar2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -151,7 +151,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite15",
+                  "image": "assets\\Loading_Bar3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -187,7 +187,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite16",
+                  "image": "assets\\Loading_Bar4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -223,7 +223,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite17",
+                  "image": "assets\\Loading_Bar5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -259,7 +259,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite18",
+                  "image": "assets\\Loading_Bar6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -295,7 +295,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite19",
+                  "image": "assets\\Loading_Bar7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -331,7 +331,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite20",
+                  "image": "assets\\Loading_Bar8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -367,7 +367,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite21",
+                  "image": "assets\\Loading_Bar9.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -403,7 +403,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite22",
+                  "image": "assets\\Loading_Bar10.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -439,7 +439,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite23",
+                  "image": "assets\\Loading_Bar11.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -475,7 +475,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite24",
+                  "image": "assets\\Loading_Bar12.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -511,7 +511,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite25",
+                  "image": "assets\\Loading_Bar13.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -547,7 +547,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite26",
+                  "image": "assets\\Loading_Bar14.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -583,7 +583,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite27",
+                  "image": "assets\\Loading_Bar15.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -619,7 +619,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite28",
+                  "image": "assets\\Loading_Bar16.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -655,7 +655,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite29",
+                  "image": "assets\\Loading_Bar17.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -691,7 +691,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite30",
+                  "image": "assets\\Loading_Bar18.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -727,7 +727,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite31",
+                  "image": "assets\\Loading_Bar19.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -790,7 +790,310 @@
       }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "Loading_Bar",
+            "\"Loading_Timer\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TimeScale"
+          },
+          "parameters": [
+            "",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"Loading_Timer\"",
+            ">=",
+            "4"
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Loading_Screen",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Intro\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Loading_Screen",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Scene 0\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Loading_Screen",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Scene 1\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Loading_Screen",
+                "=",
+                "4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Scene 1-b\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Loading_Screen",
+                "=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Scene 2-a\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Loading_Screen",
+                "=",
+                "6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Scene 2-c\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Loading_Screen",
+                "=",
+                "7"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Scene 3\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Loading_Screen",
+                "=",
+                "8"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Scene 4\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Loading_Screen",
+                "=",
+                "9"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Scene 5\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -850,8 +1153,16 @@
       "type": "FlippableCapability::FlippableBehavior"
     },
     {
+      "name": "Health",
+      "type": "Health::Health"
+    },
+    {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "PathfindingObstacle",
+      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
     },
     {
       "name": "Platform",
@@ -872,6 +1183,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "ThreeDFlip",
+      "type": "ThreeDFlip::ThreeDFlip"
     }
   ]
 }

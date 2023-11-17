@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4753585087126934,
+    "zoomFactor": 0.09054581719696042,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -283,12 +283,12 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
+      "depth": 1,
       "height": 224,
       "layer": "",
       "name": "invis_slope_left",
       "persistentUuid": "75b39861-e311-4ff6-b224-3f0e0c368289",
-      "width": 384,
+      "width": 416,
       "x": 12128,
       "y": 768,
       "zOrder": 17,
@@ -320,9 +320,25 @@
       "name": "Baby_Rex",
       "persistentUuid": "4b85db50-fa03-48a3-97c8-e72d11c2f4c5",
       "width": 0,
-      "x": 64,
-      "y": 738,
+      "x": 128,
+      "y": 608,
       "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 2208,
+      "layer": "",
+      "name": "finish",
+      "persistentUuid": "d3083a0f-6a05-4c23-976f-3c18b435c12c",
+      "width": 64,
+      "x": 11488,
+      "y": -736,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -330,7 +346,7 @@
   ],
   "objects": [
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Baby_Rex",
       "tags": "",
@@ -338,7 +354,31 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "DrawPathfinding",
+          "type": "DrawPathfinding::DrawPathfinding",
+          "LoopIndex": 0,
+          "CorrectionX": 0,
+          "CorrectionY": 0
+        },
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 50,
+          "gridOffsetX": 10,
+          "gridOffsetY": 10,
+          "maxSpeed": 275,
+          "rotateObject": true,
+          "smoothingMaxCellGap": 1
+        }
+      ],
       "animations": [
         {
           "name": "assets\\BabyRex",
@@ -390,6 +430,68 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "finish",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Red_Line",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Red_Line",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -420,8 +522,8 @@
           },
           "parameters": [
             "",
-            "\"timer\"",
-            "0.5",
+            "\"Follow\"",
+            "2",
             ""
           ]
         }
@@ -429,14 +531,55 @@
       "actions": [
         {
           "type": {
-            "value": "AddForceVersPos"
+            "value": "PathfindingBehavior::Acceleration"
           },
           "parameters": [
             "Baby_Rex",
+            "Pathfinding",
+            "=",
+            "500"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "Baby_Rex",
+            "Pathfinding",
+            "",
             "Human.X()",
-            "Human.Y()",
-            "200",
-            "1"
+            "Human.Y()"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetImpassable"
+          },
+          "parameters": [
+            "Invis_Block",
+            "PathfindingObstacle",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetImpassable"
+          },
+          "parameters": [
+            "invis_slope_Right",
+            "PathfindingObstacle",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetImpassable"
+          },
+          "parameters": [
+            "invis_slope_left",
+            "PathfindingObstacle",
+            "yes"
           ]
         }
       ]
@@ -460,7 +603,7 @@
           },
           "parameters": [
             "",
-            "assets\\babyrex.mp3",
+            "Baby_Rex_9sec.mp3",
             "yes",
             "90",
             "1"
@@ -470,8 +613,162 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Baby_Rex",
+            "invis_slope_Right",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "Baby_Rex",
+            "=",
+            "Baby_Rex.X() + 5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Baby_Rex",
+            "invis_slope_left",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "Baby_Rex",
+            "=",
+            "Baby_Rex.X() + 5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Baby_Rex",
+            "Invis_Block",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "Baby_Rex",
+            "=",
+            "Baby_Rex.X() + 5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Baby_Rex",
+            "Human",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Scene 2-c\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Human",
+            "finish",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Scene 3\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "finish"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -521,6 +818,38 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "DrawPathfinding",
+      "type": "DrawPathfinding::DrawPathfinding"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
+    },
+    {
+      "name": "PathfindingObstacle",
+      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+    },
+    {
       "name": "Platform",
       "type": "PlatformBehavior::PlatformBehavior"
     },
@@ -531,6 +860,18 @@
     {
       "name": "RemapForPlatformer",
       "type": "BehaviorRemapper::RemapForPlatformer"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "ThreeDFlip",
+      "type": "ThreeDFlip::ThreeDFlip"
     }
   ]
 }
