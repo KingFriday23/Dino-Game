@@ -70,7 +70,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Jurassic Park",
-      "font": "..\\..\\..\\Downloads\\bm_army\\BMarmy.TTF",
+      "font": "assets\\bm_army\\BMarmy.TTF",
       "textAlignment": "left",
       "characterSize": 100,
       "color": {
