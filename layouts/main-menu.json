@@ -286,10 +286,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "ThreeDFlip",
-      "type": "ThreeDFlip::ThreeDFlip"
     }
   ]
 }
