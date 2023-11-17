@@ -935,7 +935,7 @@
         "alwaysLoaded": false,
         "file": "assets/Health.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Health.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "assets\\Health.png",
         "smoothed": true,
         "userAdded": true
@@ -984,6 +984,24 @@
         "name": "assets\\Loading_Bar4.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/carno_Temp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\carno_Temp.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite37",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
