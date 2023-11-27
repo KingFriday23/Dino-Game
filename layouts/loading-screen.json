@@ -32,8 +32,8 @@
       "name": "Loading",
       "persistentUuid": "aab91b6f-cd42-45ad-ab4a-48c18f5a9a04",
       "width": 0,
-      "x": 775,
-      "y": 264,
+      "x": 780,
+      "y": 267,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -48,8 +48,8 @@
       "name": "Loading_Bar",
       "persistentUuid": "0ccb0fdb-cce7-4de6-9c83-a7a0a6dbf969",
       "width": 502,
-      "x": 736,
-      "y": 291,
+      "x": 741,
+      "y": 294,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -1147,6 +1147,10 @@
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "FireBullet",
+      "type": "FireBullet::FireBullet"
     },
     {
       "name": "Flippable",
