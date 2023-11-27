@@ -1299,6 +1299,7 @@
           "HealToBeApplied": 0
         },
         {
+          "ignoreDefaultControls": true,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
@@ -1307,7 +1308,6 @@
           "canGrabWithoutMoving": true,
           "deceleration": 1500,
           "gravity": 1000,
-          "ignoreDefaultControls": false,
           "jumpSpeed": 600,
           "jumpSustainTime": 0.2,
           "ladderClimbingSpeed": 150,
@@ -1458,6 +1458,102 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 180,
+      "name": "Health",
+      "tags": "",
+      "texture": "assets\\Health.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 192,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Health_background",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Health_Background",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Health_outline.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 64,
+                        "y": 4
+                      },
+                      {
+                        "x": 64,
+                        "y": 60
+                      },
+                      {
+                        "x": 0,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Health_Number",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "1",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "objectsGroups": [],
@@ -1467,6 +1563,12 @@
       "name": "Weapon",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "Health",
+      "type": "number",
+      "value": 100
     }
   ],
   "layouts": [
@@ -1523,7 +1625,16 @@
       "referenceTo": "/layouts/scene-6-credits"
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/health"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/camera"
+    }
+  ],
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

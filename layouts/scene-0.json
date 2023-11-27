@@ -400,22 +400,11 @@
   ],
   "events": [
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "CentreCamera"
-          },
-          "parameters": [
-            "",
-            "Human",
-            "",
-            "",
-            ""
-          ]
-        }
-      ]
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Camera"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",

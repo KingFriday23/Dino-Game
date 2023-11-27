@@ -78,8 +78,8 @@
       "name": "Human",
       "persistentUuid": "2bd9bcc8-d1f3-4581-823e-bdce5756e004",
       "width": 96,
-      "x": 704,
-      "y": 898,
+      "x": 640,
+      "y": 896,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -538,68 +538,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Health_background",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Health_Background",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Health_outline.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 4
-                      },
-                      {
-                        "x": 64,
-                        "y": 4
-                      },
-                      {
-                        "x": 64,
-                        "y": 60
-                      },
-                      {
-                        "x": 0,
-                        "y": 60
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
       "name": "second_Quick_Time",
       "tags": "",
       "type": "Sprite",
@@ -674,40 +612,6 @@
       "string": "Press j",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 60,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
-      "assetStoreId": "",
-      "height": 180,
-      "name": "Health",
-      "tags": "",
-      "texture": "assets\\Health.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 192,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "Health_Number",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "1",
-      "font": "",
-      "textAlignment": "center",
       "characterSize": 60,
       "color": {
         "b": 0,
@@ -875,18 +779,6 @@
       "actions": [
         {
           "type": {
-            "value": "CentreCamera"
-          },
-          "parameters": [
-            "",
-            "Human",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "Cache"
           },
           "parameters": [
@@ -977,6 +869,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Quicktime #1",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1143,6 +1036,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Quicktime #2",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1309,6 +1203,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Quicktime #3",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1471,135 +1366,78 @@
       "parameters": []
     },
     {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "folded": true,
-      "name": "Health",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "carno",
-                "Human",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "carno",
-                "-",
-                "200"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "Health",
-                "-",
-                "20"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreY"
-              },
-              "parameters": [
-                "Health",
-                "+",
-                "36"
-              ]
-            }
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "carno",
+            "Human",
+            "",
+            "",
+            ""
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "TiledSpriteObject::Height"
-              },
-              "parameters": [
-                "Health",
-                "=",
-                "192 * (GlobalVariable(Health) / 100)"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "Health",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Scene 1-b\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "quick",
-                "=",
-                "0"
-              ]
-            }
-          ]
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
-      "parameters": []
+      "actions": [
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "carno",
+            "-",
+            "200"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Health",
+            "-",
+            "20"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreY"
+          },
+          "parameters": [
+            "Health",
+            "+",
+            "36"
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Camera"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Health"
     }
   ],
   "layers": [
@@ -1649,24 +1487,8 @@
   ],
   "behaviorsSharedData": [
     {
-      "name": "Animation",
-      "type": "AnimatableCapability::AnimatableBehavior"
-    },
-    {
-      "name": "Effect",
-      "type": "EffectCapability::EffectBehavior"
-    },
-    {
-      "name": "Flippable",
-      "type": "FlippableCapability::FlippableBehavior"
-    },
-    {
       "name": "Health",
       "type": "Health::Health"
-    },
-    {
-      "name": "Opacity",
-      "type": "OpacityCapability::OpacityBehavior"
     },
     {
       "name": "PathfindingObstacle",
@@ -1683,14 +1505,6 @@
     {
       "name": "RemapForPlatformer",
       "type": "BehaviorRemapper::RemapForPlatformer"
-    },
-    {
-      "name": "Resizable",
-      "type": "ResizableCapability::ResizableBehavior"
-    },
-    {
-      "name": "Scale",
-      "type": "ScalableCapability::ScalableBehavior"
     },
     {
       "name": "ThreeDFlip",
