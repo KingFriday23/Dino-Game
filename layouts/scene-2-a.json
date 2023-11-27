@@ -1312,24 +1312,12 @@
       "actions": [
         {
           "type": {
-            "value": "SetCameraCenterY"
+            "value": "CentreCamera"
           },
           "parameters": [
             "",
-            "=",
-            "lerp(CameraY(), Human.Y() - 60, 0.05)",
+            "Human",
             "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCameraCenterX"
-          },
-          "parameters": [
-            "",
-            "=",
-            "lerp(CameraX(), Human.X(), 0.1)",
             "",
             ""
           ]
@@ -1346,11 +1334,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",

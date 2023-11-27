@@ -989,7 +989,7 @@
         "alwaysLoaded": false,
         "file": "assets/carno_Temp.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/carno_Temp.png\",\"extension\":\".png\"}",
         "name": "assets\\carno_Temp.png",
         "smoothed": true,
         "userAdded": true
@@ -1299,7 +1299,6 @@
           "HealToBeApplied": 0
         },
         {
-          "ignoreDefaultControls": true,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
@@ -1308,6 +1307,7 @@
           "canGrabWithoutMoving": true,
           "deceleration": 1500,
           "gravity": 1000,
+          "ignoreDefaultControls": false,
           "jumpSpeed": 600,
           "jumpSustainTime": 0.2,
           "ladderClimbingSpeed": 150,
@@ -1460,69 +1460,93 @@
       ]
     },
     {
-      "assetStoreId": "",
-      "height": 180,
-      "name": "Health",
-      "tags": "",
-      "texture": "assets\\Health.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 192,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Health_background",
+      "name": "Rifle",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 1.8,
+          "HasJustFired": false,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "RotateBullet": true,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 0,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 0,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0,
+          "BulletSpeedVariance": 0
+        }
+      ],
       "animations": [
         {
-          "name": "Health_Background",
+          "name": "Rifle",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Health_outline.png",
-                  "points": [],
+                  "image": "assets\\Remington2.png",
+                  "points": [
+                    {
+                      "name": "Bullet",
+                      "x": 297,
+                      "y": 90
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 75.5,
+                    "y": 97.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 145,
+                    "y": 125.5
                   },
                   "customCollisionMask": [
                     [
                       {
                         "x": 0,
-                        "y": 4
+                        "y": 46
                       },
                       {
-                        "x": 64,
-                        "y": 4
+                        "x": 300,
+                        "y": 46
                       },
                       {
-                        "x": 64,
-                        "y": 60
+                        "x": 300,
+                        "y": 184
                       },
                       {
                         "x": 0,
-                        "y": 60
+                        "y": 184
                       }
                     ]
                   ]
@@ -1534,26 +1558,165 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "Health_Number",
-      "smoothed": true,
+      "name": "Shotgun",
       "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.7,
+          "HasJustFired": false,
+          "FiringArc": 45,
+          "BulletQuantity": 3,
+          "AngleVariance": 0,
+          "RotateBullet": true,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 0,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 0,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0,
+          "BulletSpeedVariance": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Shotgun",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Shotgun",
+                  "points": [
+                    {
+                      "name": "Bullet",
+                      "x": 328.5,
+                      "y": 109
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 97.5,
+                    "y": 111
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 136,
+                    "y": 134.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43,
+                        "y": 100
+                      },
+                      {
+                        "x": 331,
+                        "y": 100
+                      },
+                      {
+                        "x": 331,
+                        "y": 180
+                      },
+                      {
+                        "x": 43,
+                        "y": 180
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Bullet",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "1",
-      "font": "",
-      "textAlignment": "center",
-      "characterSize": 60,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
+      "animations": [
+        {
+          "name": "Bullet",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Bullet",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 27.5,
+                    "y": 30.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 32,
+                    "y": 32.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 27,
+                        "y": 30
+                      },
+                      {
+                        "x": 37,
+                        "y": 30
+                      },
+                      {
+                        "x": 37,
+                        "y": 35
+                      },
+                      {
+                        "x": 27,
+                        "y": 35
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [],
@@ -1563,12 +1726,6 @@
       "name": "Weapon",
       "type": "number",
       "value": 0
-    },
-    {
-      "folded": true,
-      "name": "Health",
-      "type": "number",
-      "value": 100
     }
   ],
   "layouts": [
@@ -1598,6 +1755,10 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene-2-b--movie"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/scene-2-c"
     },
     {
@@ -1621,16 +1782,7 @@
       "referenceTo": "/layouts/scene-6-credits"
     }
   ],
-  "externalEvents": [
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/health"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/camera"
-    }
-  ],
+  "externalEvents": [],
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
