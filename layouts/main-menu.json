@@ -1,13 +1,13 @@
 {
-  "b": 209,
+  "b": 245,
   "disableInputWhenNotFocused": true,
   "mangledName": "Main_32Menu",
   "name": "Main Menu",
-  "r": 209,
+  "r": 160,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 245,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -29,11 +29,11 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "Jurassic_Park",
+      "name": "Dino_Topia",
       "persistentUuid": "bb39ad07-6572-42f2-b222-1963e634425b",
       "width": 0,
-      "x": 502,
-      "y": 331,
+      "x": 614,
+      "y": 339,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -61,7 +61,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "Jurassic_Park",
+      "name": "Dino_Topia",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -69,7 +69,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Jurassic Park",
+      "string": "Dino Topia",
       "font": "assets\\bm_army\\BMarmy.TTF",
       "textAlignment": "left",
       "characterSize": 100,
@@ -250,6 +250,10 @@
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "FireBullet",
+      "type": "FireBullet::FireBullet"
     },
     {
       "name": "Flippable",
