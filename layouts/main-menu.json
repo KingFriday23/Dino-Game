@@ -1,13 +1,13 @@
 {
-  "b": 245,
+  "b": 209,
   "disableInputWhenNotFocused": true,
   "mangledName": "Main_32Menu",
   "name": "Main Menu",
-  "r": 160,
+  "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 245,
+  "v": 209,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -29,11 +29,11 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "Dino_Topia",
+      "name": "Jurassic_Park",
       "persistentUuid": "bb39ad07-6572-42f2-b222-1963e634425b",
       "width": 0,
-      "x": 614,
-      "y": 339,
+      "x": 502,
+      "y": 331,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -61,7 +61,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "Dino_Topia",
+      "name": "Jurassic_Park",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -69,7 +69,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Dino Topia",
+      "string": "Jurassic Park",
       "font": "assets\\bm_army\\BMarmy.TTF",
       "textAlignment": "left",
       "characterSize": 100,
@@ -244,28 +244,12 @@
   ],
   "behaviorsSharedData": [
     {
-      "name": "Animation",
-      "type": "AnimatableCapability::AnimatableBehavior"
-    },
-    {
-      "name": "Effect",
-      "type": "EffectCapability::EffectBehavior"
-    },
-    {
       "name": "FireBullet",
       "type": "FireBullet::FireBullet"
     },
     {
-      "name": "Flippable",
-      "type": "FlippableCapability::FlippableBehavior"
-    },
-    {
       "name": "Health",
       "type": "Health::Health"
-    },
-    {
-      "name": "Opacity",
-      "type": "OpacityCapability::OpacityBehavior"
     },
     {
       "name": "PathfindingObstacle",
@@ -282,14 +266,6 @@
     {
       "name": "RemapForPlatformer",
       "type": "BehaviorRemapper::RemapForPlatformer"
-    },
-    {
-      "name": "Resizable",
-      "type": "ResizableCapability::ResizableBehavior"
-    },
-    {
-      "name": "Scale",
-      "type": "ScalableCapability::ScalableBehavior"
     },
     {
       "name": "ThreeDFlip",
