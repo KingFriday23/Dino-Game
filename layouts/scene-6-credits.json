@@ -33,8 +33,8 @@
       "name": "Credits",
       "persistentUuid": "517e3cf4-9c93-4b01-ad70-984876a1c27f",
       "width": 1163,
-      "x": 346,
-      "y": 1198,
+      "x": 382,
+      "y": 1206,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -81,9 +81,24 @@
       "name": "Main_Menu",
       "persistentUuid": "ca4e7193-4bc1-446e-bbc9-52308238fcbf",
       "width": 283,
-      "x": 69,
-      "y": 898,
+      "x": 809,
+      "y": 565,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Thanks",
+      "persistentUuid": "7ff84884-529f-478e-9c4b-bc9550254ed8",
+      "width": 0,
+      "x": 524,
+      "y": 253,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -107,7 +122,7 @@
           "type": "Tween::TweenBehavior"
         }
       ],
-      "string": "\nJurassic Park Game \n\n\n\n\n--CAST--\n\n\n\n\n\nSTORY\nNANA BOAKYE\n\n\n\n\nPROGRAMMING\nPAOFUE MOUA\nNANA BOAKYE\n\n\n\n\nGRAPHIC DESIGN\nAYA AMIN\n\n\n\n\nMUSIC\nPAOFUE MOUA\n\n\n\n\nWORLD BUILDING\nPAOFUE MOUA\nNANA BOAKYE",
+      "string": "\nJurassic Park Game \n\n\n\n\n--CAST--\n\n\n\n\n\nSTORY\n\nNANA BOAKYE\n\n\n\n\nPROGRAMMING\n\nPAOFUE MOUA\nNANA BOAKYE\n\n\n\n\nGRAPHIC DESIGN\n\nAYA AMIN\n\n\n\n\nMUSIC\n\nPAOFUE MOUA\n\n\n\n\nWORLD BUILDING\n\nPAOFUE MOUA\nNANA BOAKYE",
       "font": "FiveFontsatFreddy's-Regular.ttf",
       "textAlignment": "center",
       "characterSize": 60,
@@ -242,6 +257,28 @@
           "width": 192
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Thanks",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "\nTHANK YOU FOR PLAYING",
+      "font": "FiveFontsatFreddy's-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 60,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
     }
   ],
   "events": [
@@ -255,6 +292,14 @@
           },
           "parameters": [
             "Main_Menu"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Thanks"
           ]
         }
       ]
@@ -280,7 +325,7 @@
             "\"moveup\"",
             "-3000",
             "\"linear\"",
-            "15000",
+            "18000",
             ""
           ]
         }
@@ -323,6 +368,41 @@
           "parameters": [
             "",
             "\"Main Menu\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Tween::HasFinished"
+          },
+          "parameters": [
+            "Credits",
+            "Tween",
+            "\"moveup\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Main_Menu",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Thanks",
             ""
           ]
         }

@@ -1188,7 +1188,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hunterfront4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hunterfront4.png\"}",
         "name": "Hunterfront4",
         "smoothed": true,
         "userAdded": true
@@ -1224,7 +1224,7 @@
         "alwaysLoaded": false,
         "file": "assets/Huntertalk3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Huntertalk3.png\"}",
         "name": "Huntertalk3",
         "smoothed": true,
         "userAdded": true
@@ -1233,7 +1233,7 @@
         "alwaysLoaded": false,
         "file": "assets/Huntertalk4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Huntertalk4.png\"}",
         "name": "Huntertalk4",
         "smoothed": true,
         "userAdded": true
@@ -1242,7 +1242,7 @@
         "alwaysLoaded": false,
         "file": "assets/Huntertalk5.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Huntertalk5.png\"}",
         "name": "Huntertalk5",
         "smoothed": true,
         "userAdded": true
@@ -1251,7 +1251,7 @@
         "alwaysLoaded": false,
         "file": "assets/Huntertalk6.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Huntertalk6.png\"}",
         "name": "Huntertalk6",
         "smoothed": true,
         "userAdded": true
@@ -1260,7 +1260,7 @@
         "alwaysLoaded": false,
         "file": "assets/Huntertalk7.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Huntertalk7.png\"}",
         "name": "Huntertalk7",
         "smoothed": true,
         "userAdded": true
@@ -2070,8 +2070,917 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite53.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite53.png\"}",
         "name": "NewSprite53",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter08.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunter08",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter0Talk.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunter0Talk",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter0Talk2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunter0Talk2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter0Talk3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunter0Talk3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter0Talk4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunter0Talk4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter0Talk5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunter0Talk5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter0Shock.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunter0Shock",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter0Shock2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunter0Shock2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter0Shock3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hunter0Shock3.png\"}",
+        "name": "Hunter0Shock3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter0Shock4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunter0Shock4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter0Shock5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunter0Shock5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter0Shock6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunter0Shock6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter0Shock7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunter0Shock7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter0Shock8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunter0Shock8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter0Shock9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunter0Shock9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter0Shock10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunter0Shock10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter0Shock11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunter0Shock11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter0Shock12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunter0Shock12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter0Shock13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunter0Shock13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter0Shock14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunter0Shock14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter0Shock15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunter0Shock15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter0Shock16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunter0Shock16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Giganotosaurus4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Giganotosaurus4.png\"}",
+        "name": "Giganotosaurus4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GigaRun.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GigaRun",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GigaRun2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GigaRun2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GigaRun3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GigaRun3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GigaRun4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GigaRun4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GigaRun5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GigaRun5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GigaRun6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GigaRun6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GigaRun7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GigaRun7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRex2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BabyRex2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/BabyRexRun.png\"}",
+        "name": "BabyRexRun",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/BabyRexRun2.png\"}",
+        "name": "BabyRexRun2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/BabyRexRun3.png\"}",
+        "name": "BabyRexRun3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BabyRexRun4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BabyRexRun5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BabyRexRun6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/BabyRexRun7.png\"}",
+        "name": "BabyRexRun7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/BabyRexRun8.png\"}",
+        "name": "BabyRexRun8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/BabyRexRun9.png\"}",
+        "name": "BabyRexRun9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/BabyRexRun10.png\"}",
+        "name": "BabyRexRun10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/BabyRexRun11.png\"}",
+        "name": "BabyRexRun11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/BabyRexRun12.png\"}",
+        "name": "BabyRexRun12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/BabyRexRun13.png\"}",
+        "name": "BabyRexRun13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/BabyRexRun14.png\"}",
+        "name": "BabyRexRun14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/BabyRexRun15.png\"}",
+        "name": "BabyRexRun15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/BabyRexRun16.png\"}",
+        "name": "BabyRexRun16",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/BabyRexRun17.png\"}",
+        "name": "BabyRexRun17",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/BabyRexRun18.png\"}",
+        "name": "BabyRexRun18",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/BabyRexRun19.png\"}",
+        "name": "BabyRexRun19",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/BabyRexRun20.png\"}",
+        "name": "BabyRexRun20",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/BabyRexRun21.png\"}",
+        "name": "BabyRexRun21",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexAttack.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/BabyRexAttack.png\"}",
+        "name": "BabyRexAttack",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexAttack2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/BabyRexAttack2.png\"}",
+        "name": "BabyRexAttack2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexAttack3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BabyRexAttack3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexAttack4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BabyRexAttack4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexAttack5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BabyRexAttack5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexDead.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BabyRexDead",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexDead2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BabyRexDead2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexDead3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BabyRexDead3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexDead4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BabyRexDead4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexDead5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BabyRexDead5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexDead6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BabyRexDead6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexDead7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BabyRexDead7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexDead8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BabyRexDead8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexDead9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BabyRexDead9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexDead10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BabyRexDead10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexDead11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BabyRexDead11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexDead12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BabyRexDead12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexDead13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BabyRexDead13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexDead14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BabyRexDead14",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexDead15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BabyRexDead15",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexDead16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BabyRexDead16",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexDead17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BabyRexDead17",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexDead18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BabyRexDead18",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite54.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite54",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter1Pfp2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hunter1Pfp2.png\"}",
+        "name": "Hunter1Pfp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter1PfpDamage.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hunter1PfpDamage.png\"}",
+        "name": "Hunter1PfpDamage",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter1PfpDead.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunter1PfpDead",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HunterShock.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HunterShock",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HunterShock2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HunterShock2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HunterShock3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HunterShock3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HunterShock4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HunterShock4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HunterShock5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HunterShock5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HunterShock6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HunterShock6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HunterShock7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HunterShock7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HunterShock8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HunterShock8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HunterShock9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HunterShock9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HunterShock10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HunterShock10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HunterShock11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HunterShock11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TyrannosaurusDead.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TyrannosaurusDead",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TyrannosaurusDead2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TyrannosaurusDead2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TyrannosaurusDead3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TyrannosaurusDead3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TyrannosaurusDead4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TyrannosaurusDead4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TyrannosaurusDead5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TyrannosaurusDead5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TyrannosaurusDead6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TyrannosaurusDead6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TyrannosaurusDead7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TyrannosaurusDead7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TyrannosaurusDead8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TyrannosaurusDead8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TyrannosaurusDead9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TyrannosaurusDead9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TyrannosaurusDead10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TyrannosaurusDead10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TyrannosaurusDead11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TyrannosaurusDead11",
         "smoothed": true,
         "userAdded": false
       }
