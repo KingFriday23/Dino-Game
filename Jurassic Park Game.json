@@ -1419,16 +1419,6 @@
           "Right": "d",
           "Jump": "Space",
           "Platformer": "PlatformerObject"
-        },
-        {
-          "name": "ThreeDFlip",
-          "type": "ThreeDFlip::ThreeDFlip",
-          "Duration": 500,
-          "IsFlipped": false,
-          "IsFlipping": false,
-          "Width": 500,
-          "ElapsedTime": 500,
-          "Toggle": false
         }
       ],
       "animations": [
@@ -1556,16 +1546,6 @@
           "Right": "d",
           "Jump": "Space",
           "Platformer": "PlatformerObject"
-        },
-        {
-          "name": "ThreeDFlip",
-          "type": "ThreeDFlip::ThreeDFlip",
-          "Duration": 500,
-          "IsFlipped": false,
-          "IsFlipping": false,
-          "Width": 500,
-          "ElapsedTime": 500,
-          "Toggle": false
         }
       ],
       "animations": [
@@ -1801,7 +1781,7 @@
           "type": "FireBullet::FireBullet",
           "FireCooldown": 0.7,
           "HasJustFired": false,
-          "FiringArc": 20,
+          "FiringArc": 45,
           "BulletQuantity": 3,
           "AngleVariance": 0,
           "RotateBullet": true,
@@ -2138,10 +2118,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/scene-6-credits"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/untitled-scene"
     }
   ],
   "externalEvents": [],
