@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.3645833333333337,
+    "snap": false,
+    "zoomFactor": 0.13480471535734606,
     "windowMask": false
   },
   "objectsGroups": [],
