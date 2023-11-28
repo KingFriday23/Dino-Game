@@ -1801,7 +1801,7 @@
           "type": "FireBullet::FireBullet",
           "FireCooldown": 0.7,
           "HasJustFired": false,
-          "FiringArc": 45,
+          "FiringArc": 20,
           "BulletQuantity": 3,
           "AngleVariance": 0,
           "RotateBullet": true,
@@ -2138,6 +2138,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/scene-6-credits"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/untitled-scene"
     }
   ],
   "externalEvents": [],
