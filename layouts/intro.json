@@ -1441,6 +1441,10 @@
       "type": "Health::Health"
     },
     {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
       "name": "PathfindingObstacle",
       "type": "PathfindingBehavior::PathfindingObstacleBehavior"
     },
@@ -1455,6 +1459,14 @@
     {
       "name": "RemapForPlatformer",
       "type": "BehaviorRemapper::RemapForPlatformer"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
     },
     {
       "name": "ThreeDFlip",
