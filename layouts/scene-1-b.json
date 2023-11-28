@@ -169,54 +169,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 192,
-      "layer": "Background",
-      "name": "Health_background",
-      "persistentUuid": "34e78a9d-c45e-45f2-bc8b-e52c79bb9220",
-      "width": 192,
-      "x": 1696,
-      "y": 864,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 180,
-      "customSize": true,
-      "depth": 0,
-      "height": 192,
-      "layer": "Background",
-      "name": "Health",
-      "persistentUuid": "8ba8a639-42b1-492a-b945-0dcffa31fa3a",
-      "width": 192,
-      "x": 1696,
-      "y": 864,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 69,
-      "layer": "Background",
-      "name": "Health_Number",
-      "persistentUuid": "335d6d49-6179-4526-b7d6-1bab1d12bcda",
-      "width": 128,
-      "x": 1728,
-      "y": 928,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
       "height": 160,
       "layer": "",
       "name": "invis_slope_Right",
@@ -352,6 +304,38 @@
       "x": 3392,
       "y": 736,
       "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "Health",
+      "name": "humannnn",
+      "persistentUuid": "ebfc4ca7-36ac-4df8-b4b5-eddcea19b00f",
+      "width": 128,
+      "x": 32,
+      "y": 32,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 32,
+      "layer": "Health",
+      "name": "MetalRedBar",
+      "persistentUuid": "6e4b19f8-5a62-43b0-8ed0-9a0c96caf975",
+      "width": 256,
+      "x": 160,
+      "y": 32,
+      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1475,11 +1459,27 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Health",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "MetalRedBar",
+                "=",
+                "GlobalVariable(Health)",
+                ""
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -1488,31 +1488,15 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "carno",
                 "Human",
+                "carno",
                 "",
                 "",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "carno",
-                "-",
-                "200"
-              ]
-            },
             {
               "type": {
                 "value": "ModVarGlobal"
@@ -1520,75 +1504,7 @@
               "parameters": [
                 "Health",
                 "-",
-                "20"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreY"
-              },
-              "parameters": [
-                "Health",
-                "+",
-                "36"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "TiledSpriteObject::Height"
-              },
-              "parameters": [
-                "Health",
-                "=",
-                "192 * (GlobalVariable(Health) / 100)"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "Health",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Scene 1-b\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "quick",
-                "=",
-                "0"
+                "1"
               ]
             }
           ]
@@ -2000,7 +1916,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": true,
-      "name": "Background",
+      "name": "Health",
       "renderingType": "",
       "visibility": true,
       "cameras": [],

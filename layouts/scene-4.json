@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5800155239904863,
+    "zoomFactor": 0.3645833333333337,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -83,6 +83,38 @@
       "x": 69,
       "y": 928,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "Health",
+      "name": "humannnn",
+      "persistentUuid": "c41becc1-5bd3-44b5-b2ed-45444b201478",
+      "width": 128,
+      "x": 32,
+      "y": 32,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 32,
+      "layer": "Health",
+      "name": "MetalRedBar",
+      "persistentUuid": "5dfd5563-7421-4527-bf5b-bc00d8697c06",
+      "width": 256,
+      "x": 160,
+      "y": 32,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -270,6 +302,65 @@
         }
       ],
       "actions": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Health",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "MetalRedBar",
+                "=",
+                "GlobalVariable(Health)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Human",
+                "star",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Health",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     },
     {
       "colorB": 228,
@@ -918,6 +1009,22 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": true,
+      "name": "Health",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
   "behaviorsSharedData": [

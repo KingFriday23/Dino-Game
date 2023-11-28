@@ -342,6 +342,38 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 126,
+      "layer": "Health",
+      "name": "humannnn",
+      "persistentUuid": "11183d37-2085-47a7-92a1-a91c1ac60a54",
+      "width": 126,
+      "x": 32,
+      "y": 32,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 32,
+      "layer": "Health",
+      "name": "MetalRedBar",
+      "persistentUuid": "ca627553-561a-4a5c-b16d-0978ea21de60",
+      "width": 256,
+      "x": 160,
+      "y": 32,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -399,10 +431,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 181,
+                    "y": 293
                   },
                   "customCollisionMask": [
                     [
@@ -684,6 +716,64 @@
       ]
     },
     {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Health",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "MetalRedBar",
+                "=",
+                "GlobalVariable(Health)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Human",
+                "Baby_Rex",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Health",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -740,35 +830,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Baby_Rex",
-            "Human",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Scene 2-c\"",
-            ""
-          ]
-        }
-      ]
     }
   ],
   "layers": [
@@ -814,36 +875,36 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": true,
+      "name": "Health",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
   "behaviorsSharedData": [
     {
-      "name": "Animation",
-      "type": "AnimatableCapability::AnimatableBehavior"
-    },
-    {
       "name": "DrawPathfinding",
       "type": "DrawPathfinding::DrawPathfinding"
-    },
-    {
-      "name": "Effect",
-      "type": "EffectCapability::EffectBehavior"
     },
     {
       "name": "FireBullet",
       "type": "FireBullet::FireBullet"
     },
     {
-      "name": "Flippable",
-      "type": "FlippableCapability::FlippableBehavior"
-    },
-    {
       "name": "Health",
       "type": "Health::Health"
-    },
-    {
-      "name": "Opacity",
-      "type": "OpacityCapability::OpacityBehavior"
     },
     {
       "name": "Pathfinding",
@@ -864,14 +925,6 @@
     {
       "name": "RemapForPlatformer",
       "type": "BehaviorRemapper::RemapForPlatformer"
-    },
-    {
-      "name": "Resizable",
-      "type": "ResizableCapability::ResizableBehavior"
-    },
-    {
-      "name": "Scale",
-      "type": "ScalableCapability::ScalableBehavior"
     },
     {
       "name": "ThreeDFlip",

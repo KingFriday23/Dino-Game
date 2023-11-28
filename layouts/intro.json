@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5290357402156854,
+    "zoomFactor": 0.9296875000000031,
     "windowMask": false
   },
   "objectsGroups": [
@@ -729,71 +729,6 @@
       }
     },
     {
-      "assetStoreId": "17a00ca25428306c8db067b2dd8379e9fe1cb562c10443ae2f65f3d561e54f1e",
-      "name": "MetalRedBar",
-      "tags": "",
-      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "PreviousHighValueDuration": 1,
-        "InitialValue": 16,
-        "MaxValue": 16,
-        "BarTopPadding": 7,
-        "BarLeftPadding": 9,
-        "BarBottomPadding": 7,
-        "BarRightPadding": 9
-      },
-      "childrenContent": {
-        "Background": {
-          "bottomMargin": 7,
-          "height": 32,
-          "leftMargin": 9,
-          "rightMargin": 9,
-          "texture": "Metal Bar Border.png",
-          "tiled": false,
-          "topMargin": 7,
-          "width": 98
-        },
-        "Buffer": {
-          "bottomMargin": 0,
-          "height": 18,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "Pixel Yellow Fill Bar.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 18
-        },
-        "FillBar": {
-          "bottomMargin": 0,
-          "height": 18,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "Pixel Red Fill Bar.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 18
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "8 / 16",
-          "font": "",
-          "textAlignment": "center",
-          "characterSize": 14,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        }
-      }
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "player_background",
@@ -845,68 +780,6 @@
                       {
                         "x": 0,
                         "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "humannnn",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "HUMUS",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite38",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 96,
-                        "y": 1
-                      },
-                      {
-                        "x": 245,
-                        "y": 1
-                      },
-                      {
-                        "x": 245,
-                        "y": 350
-                      },
-                      {
-                        "x": 96,
-                        "y": 350
                       }
                     ]
                   ]
@@ -1442,50 +1315,63 @@
       "actions": []
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Health",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": {
-            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-          },
-          "parameters": [
-            "MetalRedBar",
-            "=",
-            "GlobalVariable(Health)",
-            ""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "MetalRedBar",
+                "=",
+                "GlobalVariable(Health)",
+                ""
+              ]
+            }
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+        },
         {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Human",
-            "star",
-            "",
-            "",
-            ""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Human",
+                "star",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Health",
+                "-",
+                "1"
+              ]
+            }
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "Health",
-            "-",
-            "1"
-          ]
-        }
-      ]
+      "parameters": []
     }
   ],
   "layers": [
