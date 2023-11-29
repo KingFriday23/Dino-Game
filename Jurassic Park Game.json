@@ -1128,6 +1128,15 @@
         "name": "NewSprite39",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite40",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1419,6 +1428,16 @@
           "Right": "d",
           "Jump": "Space",
           "Platformer": "PlatformerObject"
+        },
+        {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
         }
       ],
       "animations": [
@@ -1546,6 +1565,16 @@
           "Right": "d",
           "Jump": "Space",
           "Platformer": "PlatformerObject"
+        },
+        {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
         }
       ],
       "animations": [
@@ -1781,7 +1810,7 @@
           "type": "FireBullet::FireBullet",
           "FireCooldown": 0.7,
           "HasJustFired": false,
-          "FiringArc": 45,
+          "FiringArc": 20,
           "BulletQuantity": 3,
           "AngleVariance": 0,
           "RotateBullet": true,
@@ -2053,6 +2082,130 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Medkit",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Medkit",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite40",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 15
+                      },
+                      {
+                        "x": 62,
+                        "y": 15
+                      },
+                      {
+                        "x": 62,
+                        "y": 52
+                      },
+                      {
+                        "x": 3,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Medkit_Display",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Medkit",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite40",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 15
+                      },
+                      {
+                        "x": 62,
+                        "y": 15
+                      },
+                      {
+                        "x": 62,
+                        "y": 52
+                      },
+                      {
+                        "x": 3,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [],
@@ -2068,6 +2221,12 @@
       "name": "Health",
       "type": "number",
       "value": 16
+    },
+    {
+      "folded": true,
+      "name": "Medkit_Count",
+      "type": "number",
+      "value": 1
     }
   ],
   "layouts": [

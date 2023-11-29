@@ -47,7 +47,7 @@
       "name": "Ellipsis",
       "persistentUuid": "e20ad98a-21c6-4dce-8857-d37ee9265ce2",
       "width": 0,
-      "x": 910,
+      "x": 901,
       "y": 519,
       "zOrder": 3,
       "numberProperties": [],
@@ -219,34 +219,21 @@
             "Text_AutoTyping",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "Scan",
-            "\"Text\""
-          ]
         }
       ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "conditions": [],
+      "actions": [
         {
           "type": {
-            "value": "CompareObjectTimer"
+            "value": "Wait"
           },
           "parameters": [
-            "Scan",
-            "\"Text\"",
-            "<=",
-            "2"
+            "3"
           ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
             "value": "AutoTyping::Text_AutoTyping::Resume"
