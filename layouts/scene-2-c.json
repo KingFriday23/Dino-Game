@@ -903,16 +903,8 @@
       "type": "DrawPathfinding::DrawPathfinding"
     },
     {
-      "name": "Effect",
-      "type": "EffectCapability::EffectBehavior"
-    },
-    {
       "name": "FireBullet",
       "type": "FireBullet::FireBullet"
-    },
-    {
-      "name": "Flippable",
-      "type": "FlippableCapability::FlippableBehavior"
     },
     {
       "name": "Health",
