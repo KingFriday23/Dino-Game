@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.6846283916654056,
+    "zoomFactor": 0.10339049701061989,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -281,7 +281,6 @@
       "italic": false,
       "name": "Tutorial",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -303,7 +302,6 @@
       "italic": false,
       "name": "NewText",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -325,7 +323,6 @@
       "italic": false,
       "name": "Trees",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -347,7 +344,6 @@
       "italic": false,
       "name": "Dead_Hunter",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -369,7 +365,6 @@
       "italic": false,
       "name": "Controls",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -391,7 +386,6 @@
       "italic": false,
       "name": "Climb",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -413,7 +407,6 @@
       "italic": false,
       "name": "Burrow",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -430,6 +423,32 @@
       }
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Tutorial"
+      },
+      {
+        "objectName": "NewText"
+      },
+      {
+        "objectName": "Trees"
+      },
+      {
+        "objectName": "Dead_Hunter"
+      },
+      {
+        "objectName": "Controls"
+      },
+      {
+        "objectName": "Climb"
+      },
+      {
+        "objectName": "Burrow"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -646,6 +665,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "ThreeDFlip",
