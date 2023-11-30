@@ -294,9 +294,6 @@
     }
   ],
   "objects": [],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT"
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -423,35 +420,6 @@
                 "=",
                 "GlobalVariable(Health)",
                 ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Human",
-                "star",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "Health",
-                "-",
-                "1"
               ]
             }
           ]
