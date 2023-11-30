@@ -381,6 +381,22 @@
           "actions": [
             {
               "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Count",
+                "=",
+                "\"\" + ToString(GlobalVariable(Medkit_Count))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
                 "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
               },
               "parameters": [
@@ -417,6 +433,34 @@
                 "Health",
                 "-",
                 "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Human",
+                "Medkit",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Other_pickup"
               ]
             }
           ]
@@ -495,16 +539,6 @@
                 },
                 {
                   "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "Count",
-                    "=",
-                    "\"\" + ToString(GlobalVariable(Medkit_Count))"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
@@ -513,34 +547,6 @@
                     "1"
                   ]
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Human",
-                "Medkit",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Other_pickup"
               ]
             }
           ]
