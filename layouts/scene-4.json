@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.13480471535734606,
+    "snap": true,
+    "zoomFactor": 0.2796226521839383,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -32,7 +32,7 @@
       "layer": "",
       "name": "Invis_Block",
       "persistentUuid": "3bc182f4-651b-4c89-a2cf-1ce06f4f44af",
-      "width": 4608,
+      "width": 4928,
       "x": -864,
       "y": 1216,
       "zOrder": 1,
@@ -115,6 +115,69 @@
       "x": 160,
       "y": 32,
       "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Health",
+      "name": "Medkit_Display",
+      "persistentUuid": "64bbe6b3-98a5-435d-8e55-4281101cc905",
+      "width": 0,
+      "x": 161,
+      "y": 62,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 23,
+      "layer": "Health",
+      "name": "Count",
+      "persistentUuid": "9b831a07-2d22-44c9-a53b-e9a0fedd1f71",
+      "width": 26,
+      "x": 239,
+      "y": 87,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 41,
+      "layer": "",
+      "name": "Rifle",
+      "persistentUuid": "faed5c7c-d520-4095-81c7-6ba97084ac69",
+      "width": 46,
+      "x": -244,
+      "y": 1071,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 57,
+      "layer": "",
+      "name": "Shotgun",
+      "persistentUuid": "1a199b50-8924-42f3-8f83-4c3b83c9fcf9",
+      "width": 66,
+      "x": -336,
+      "y": 1041,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -207,6 +270,37 @@
     }
   ],
   "events": [
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Camera",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Human",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
@@ -502,57 +596,7 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Human",
-                "Rifle",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "pickup",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Human",
-                "Rifle",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "e"
-              ]
-            }
-          ],
+          "conditions": [],
           "actions": [
             {
               "type": {
@@ -661,15 +705,6 @@
                 "Rifle",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "pickup",
-                ""
-              ]
             }
           ],
           "events": [
@@ -763,85 +798,85 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "Weapon",
-                "="
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Shotgun"
-              ]
             },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "Rifle",
-                "=",
-                "Human.PointX(\"Gun\")",
-                "=",
-                "Human.PointY(\"Gun\")"
-              ]
-            },
-            {
-              "type": {
-                "value": "RotateTowardPosition"
-              },
-              "parameters": [
-                "Rifle",
-                "MouseX()",
-                "MouseY()",
-                "0",
-                ""
-              ]
-            }
-          ],
-          "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "MouseButtonPressed"
+                    "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "",
-                    "Left"
+                    "Weapon",
+                    "="
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "FireBullet::FireBullet::FireTowardPosition"
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Shotgun"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
                   },
                   "parameters": [
                     "Rifle",
-                    "FireBullet",
-                    "Rifle.X(\"Bullet\")",
-                    "Rifle.Y(\"Bullet\")",
-                    "Bullet",
-                    "CursorX()",
-                    "CursorY()",
-                    "500",
+                    "=",
+                    "Human.PointX(\"Gun\")",
+                    "=",
+                    "Human.PointY(\"Gun\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RotateTowardPosition"
+                  },
+                  "parameters": [
+                    "Rifle",
+                    "MouseX()",
+                    "MouseY()",
+                    "0",
                     ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::FireTowardPosition"
+                      },
+                      "parameters": [
+                        "Rifle",
+                        "FireBullet",
+                        "Rifle.X(\"Bullet\")",
+                        "Rifle.Y(\"Bullet\")",
+                        "Bullet",
+                        "CursorX()",
+                        "CursorY()",
+                        "500",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -850,11 +885,6 @@
         }
       ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
