@@ -6817,6 +6817,60 @@
         "name": "BarrelOfFire10",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite120.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite120",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameMenuBG.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GameMenuBG",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/h.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/h.png\"}",
+        "name": "h",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameMenuBG2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/GameMenuBG2.png\"}",
+        "name": "GameMenuBG2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameMenuBG3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/GameMenuBG3.png\"}",
+        "name": "GameMenuBG3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameMenuBG4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GameMenuBG4",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
