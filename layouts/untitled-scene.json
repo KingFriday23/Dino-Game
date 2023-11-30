@@ -18306,7 +18306,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite118",
+                  "image": "Hunter16",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -18322,7 +18322,7 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 108,
+                        "x": 111,
                         "y": 21
                       },
                       {
@@ -18331,11 +18331,204 @@
                       },
                       {
                         "x": 226,
-                        "y": 239
+                        "y": 346
                       },
                       {
-                        "x": 108,
-                        "y": 239
+                        "x": 111,
+                        "y": 346
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hunter7Talk",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Hunter7Talk",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 111,
+                        "y": 21
+                      },
+                      {
+                        "x": 226,
+                        "y": 21
+                      },
+                      {
+                        "x": 226,
+                        "y": 346
+                      },
+                      {
+                        "x": 111,
+                        "y": 346
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Hunter7Talk2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 111,
+                        "y": 21
+                      },
+                      {
+                        "x": 226,
+                        "y": 21
+                      },
+                      {
+                        "x": 226,
+                        "y": 346
+                      },
+                      {
+                        "x": 111,
+                        "y": 346
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Hunter7Talk3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 111,
+                        "y": 21
+                      },
+                      {
+                        "x": 226,
+                        "y": 21
+                      },
+                      {
+                        "x": 226,
+                        "y": 346
+                      },
+                      {
+                        "x": 111,
+                        "y": 346
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Hunter7Talk4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 111,
+                        "y": 21
+                      },
+                      {
+                        "x": 226,
+                        "y": 21
+                      },
+                      {
+                        "x": 226,
+                        "y": 346
+                      },
+                      {
+                        "x": 111,
+                        "y": 346
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Hunter7Talk5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 111,
+                        "y": 21
+                      },
+                      {
+                        "x": 226,
+                        "y": 21
+                      },
+                      {
+                        "x": 226,
+                        "y": 346
+                      },
+                      {
+                        "x": 111,
+                        "y": 346
                       }
                     ]
                   ]
