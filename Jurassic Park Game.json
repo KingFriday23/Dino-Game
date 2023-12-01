@@ -6871,6 +6871,150 @@
         "name": "GameMenuBG4",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameMenuBG5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GameMenuBG5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameMenuBG6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GameMenuBG6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameMenuBG7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GameMenuBG7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameMenuBG8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GameMenuBG8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameMenuBG9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GameMenuBG9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameMenuBG10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GameMenuBG10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameMenuBG11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GameMenuBG11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameMenuBG12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GameMenuBG12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameMenuBG13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GameMenuBG13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameMenuBG14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GameMenuBG14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameMenuBG15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GameMenuBG15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameMenuBG16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GameMenuBG16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameMenuBG17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GameMenuBG17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameMenuBG18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/GameMenuBG18.png\"}",
+        "name": "GameMenuBG18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameMenuBG19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/GameMenuBG19.png\"}",
+        "name": "GameMenuBG19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medkit2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Medkit2",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
