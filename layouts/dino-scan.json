@@ -352,6 +352,10 @@
       "type": "ScalableCapability::ScalableBehavior"
     },
     {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
       "name": "Text_AutoTyping",
       "type": "AutoTyping::Text_AutoTyping"
     },

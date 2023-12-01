@@ -6138,7 +6138,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hunter5Talk.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hunter5Talk.png\"}",
         "name": "Hunter5Talk",
         "smoothed": true,
         "userAdded": false
@@ -6147,7 +6147,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hunter5Talk2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hunter5Talk2.png\"}",
         "name": "Hunter5Talk2",
         "smoothed": true,
         "userAdded": false
@@ -6156,7 +6156,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hunter5Talk3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hunter5Talk3.png\"}",
         "name": "Hunter5Talk3",
         "smoothed": true,
         "userAdded": false
@@ -6165,7 +6165,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hunter5Talk4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hunter5Talk4.png\"}",
         "name": "Hunter5Talk4",
         "smoothed": true,
         "userAdded": false
@@ -6174,7 +6174,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hunter5Talk5.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hunter5Talk5.png\"}",
         "name": "Hunter5Talk5",
         "smoothed": true,
         "userAdded": false
@@ -6183,7 +6183,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hunter5Talk6.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hunter5Talk6.png\"}",
         "name": "Hunter5Talk6",
         "smoothed": true,
         "userAdded": false
@@ -6192,7 +6192,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hunter5Talk7.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hunter5Talk7.png\"}",
         "name": "Hunter5Talk7",
         "smoothed": true,
         "userAdded": false
@@ -7013,6 +7013,267 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Medkit2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CreditsBG.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "CreditsBG",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BG.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BG",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CreditsBG2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "CreditsBG2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CreditsBG3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "CreditsBG3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CreditsBG4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "CreditsBG4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CreditsBG5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "CreditsBG5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fence.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fence",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fence2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fence2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Scene1Dock.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Scene1Dock",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/S.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/S.png\"}",
+        "name": "S",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sh.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Sh",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/S2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "S2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/S3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "S3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/S4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "S4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/S5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "S5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/S6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "S6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/S7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "S7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/S8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "S8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter5Death.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hunter5Death",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Scene1Dock2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Scene1Dock2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Scene1Dock3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Scene1Dock3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Scene1Dock4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Scene1Dock4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Scene1Dock5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Scene1Dock5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Scene1Dock6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Scene1Dock6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Scene1Dock7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Scene1Dock7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Scene1Dock8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Scene1Dock8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Scene2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Scene2.png\"}",
+        "name": "Scene1",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Scene1Cont.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Scene1Cont",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Scene1Cont2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Scene1Cont2",
         "smoothed": true,
         "userAdded": true
       }

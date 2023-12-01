@@ -504,6 +504,10 @@
       "type": "ScalableCapability::ScalableBehavior"
     },
     {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
       "name": "ThreeDFlip",
       "type": "ThreeDFlip::ThreeDFlip"
     },
