@@ -121,21 +121,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Health",
-      "name": "Medkit_Display",
-      "persistentUuid": "64bbe6b3-98a5-435d-8e55-4281101cc905",
-      "width": 0,
-      "x": 161,
-      "y": 62,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 23,
@@ -184,15 +169,31 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 352,
       "layer": "",
       "name": "Temp_last_boss",
       "persistentUuid": "4f3bee11-a5a6-49e7-82b9-8f16b4848ac1",
-      "width": 0,
-      "x": 576,
-      "y": 930,
+      "width": 350,
+      "x": 290,
+      "y": 544,
       "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Health",
+      "name": "Medkit_Display",
+      "persistentUuid": "c954036a-1690-40f5-a883-9fbfe7c1ef4e",
+      "width": 0,
+      "x": 160,
+      "y": 64,
+      "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -282,7 +283,7 @@
       }
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Temp_last_boss",
       "type": "Sprite",
@@ -293,6 +294,7 @@
         {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+          "rotateObject": false,
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -303,8 +305,27 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 200,
-          "rotateObject": true,
           "smoothingMaxCellGap": 1
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1600,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
         }
       ],
       "animations": [
@@ -379,6 +400,27 @@
       "conditions": [
         {
           "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Temp_last_boss"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "DepartScene"
           },
           "parameters": [
@@ -397,10 +439,12 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "ModVarGlobal"
           },
           "parameters": [
-            "Temp_last_boss"
+            "Medkit_Count",
+            "=",
+            "3"
           ]
         }
       ]
@@ -468,6 +512,17 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "0.5",
+                "",
+                ""
+              ]
             }
           ]
         }
@@ -479,6 +534,35 @@
       "conditions": [
         {
           "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Human",
+            "Dino_Corpse",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Examine",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
             "value": "CollisionNP"
           },
           "parameters": [
@@ -698,6 +782,125 @@
                     "1"
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "t"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Medkit_Count",
+                ">",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Medkit_Count",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Health",
+                "+",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "MetalRedBar",
+                "+",
+                "5",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Human",
+                "Temp_last_boss",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Temp_last_boss"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "Human",
+                "Health",
+                "10",
+                "no",
+                "no",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Health",
+                "-",
+                "10"
               ]
             }
           ]
@@ -1029,6 +1232,12 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -1037,7 +1246,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "5"
+                "2"
               ]
             },
             {
@@ -1046,7 +1255,7 @@
               },
               "parameters": [
                 "Temp_last_boss",
-                ""
+                "Animation"
               ]
             }
           ]
@@ -1086,77 +1295,44 @@
                 "Temp_last_boss",
                 "Pathfinding",
                 "",
-                "Human.X() - 5",
+                "Human.X() ",
                 "Human.Y()"
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "PathfindingBehavior::SetImpassable"
               },
               "parameters": [
-                "Temp_last_boss",
-                "invis_slope_Right",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "Temp_last_boss",
-                "=",
-                "Temp_last_boss.X() + 5"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Temp_last_boss",
                 "Invis_Block",
-                "",
-                "",
-                ""
+                "PathfindingObstacle",
+                "yes"
               ]
-            }
-          ],
-          "actions": [
+            },
             {
               "type": {
-                "value": "MettreX"
+                "value": "PathfindingBehavior::SetImpassable"
               },
               "parameters": [
-                "Temp_last_boss",
-                "=",
-                "Temp_last_boss.X() + 5"
+                "invis_slope_Right",
+                "PathfindingObstacle",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetImpassable"
+              },
+              "parameters": [
+                "invis_slope_left",
+                "PathfindingObstacle",
+                "yes"
               ]
             }
           ]
         }
       ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
@@ -1212,7 +1388,7 @@
       "camera3DNearPlaneDistance": 0.1,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "Health",
       "renderingType": "",
       "visibility": true,
