@@ -1,13 +1,13 @@
 {
-  "b": 209,
+  "b": 50,
   "disableInputWhenNotFocused": true,
   "mangledName": "Intro",
   "name": "Intro",
-  "r": 209,
+  "r": 50,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 51,
   "uiSettings": {
     "grid": true,
     "gridType": "rectangular",
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.4950840073748916,
+    "snap": true,
+    "zoomFactor": 0.3797121001947981,
     "windowMask": false
   },
   "objectsGroups": [
@@ -63,38 +63,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 352,
-      "layer": "",
-      "name": "invis_slope_Right",
-      "persistentUuid": "5de36aad-3b73-4b5d-975a-22033b1f3c69",
-      "width": 256,
-      "x": 2304,
-      "y": 1056,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 352,
-      "layer": "",
-      "name": "invis_slope_left",
-      "persistentUuid": "4d47c2f2-2aef-4533-923f-3a683ae9b87e",
-      "width": 256,
-      "x": 2560,
-      "y": 1056,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -104,82 +72,6 @@
       "x": 4864,
       "y": -256,
       "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "layer": "",
-      "name": "Invis_Block",
-      "persistentUuid": "bfa279f8-276b-4f06-86e3-6c814ee23529",
-      "width": 64,
-      "x": 0,
-      "y": 1344,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Barrel",
-      "persistentUuid": "d91d4b3e-e7df-4cbb-ba99-051e6a4424b8",
-      "width": 0,
-      "x": -384,
-      "y": 1056,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Armored_vehicle",
-      "persistentUuid": "518dce4e-8b5e-4c17-afd7-f45be2078182",
-      "width": 0,
-      "x": 6734,
-      "y": 992,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Armored_vehicle",
-      "persistentUuid": "22f306a5-e091-425e-86c8-b54490e37be4",
-      "width": 0,
-      "x": 5728,
-      "y": 1024,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Stack_of_tires",
-      "persistentUuid": "0d90ce01-a4f9-4a01-be30-188bc2fa458d",
-      "width": 0,
-      "x": 4544,
-      "y": 1088,
-      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -225,7 +117,7 @@
       "width": 96,
       "x": -960,
       "y": 1216,
-      "zOrder": 15,
+      "zOrder": 100000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -241,70 +133,6 @@
       "x": 1664,
       "y": 864,
       "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 352,
-      "layer": "",
-      "name": "invis_slope_Right",
-      "persistentUuid": "b1122550-25c6-46d1-ba8d-6ae1da92d854",
-      "width": 256,
-      "x": 768,
-      "y": 1088,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 352,
-      "layer": "",
-      "name": "invis_slope_left",
-      "persistentUuid": "12d0d9cb-d588-46e1-b15e-9f7387f16026",
-      "width": 256,
-      "x": 1024,
-      "y": 1088,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 352,
-      "layer": "",
-      "name": "invis_slope_Right",
-      "persistentUuid": "4cf59b86-6545-4f1e-b3c3-56f7a1c1222e",
-      "width": 256,
-      "x": 1536,
-      "y": 1056,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 352,
-      "layer": "",
-      "name": "invis_slope_left",
-      "persistentUuid": "e35fd436-e3d3-48ce-ae82-3593d8984f07",
-      "width": 256,
-      "x": 1792,
-      "y": 1056,
-      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -377,21 +205,6 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
-      "name": "star",
-      "persistentUuid": "4e1b3ea1-da27-4964-a570-e5ee18d43668",
-      "width": 0,
-      "x": 0,
-      "y": 1312,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
       "layer": "info",
       "name": "Medkit_Display",
       "persistentUuid": "35357b01-9f8f-468e-b4ed-5b1ef59e6acf",
@@ -438,14 +251,94 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
+      "height": 100,
+      "layer": "background",
+      "name": "Grass",
+      "persistentUuid": "b08c6824-7eaf-4bef-8d2e-8a091925e847",
+      "width": 12896,
+      "x": -1344,
+      "y": 1408,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 288,
+      "layer": "background",
+      "name": "Tent",
+      "persistentUuid": "23e6a1a4-6f1f-46d1-8eb5-62899b386619",
+      "width": 544,
+      "x": 1920,
+      "y": 1184,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 288,
+      "layer": "background",
+      "name": "Tent_2",
+      "persistentUuid": "f4bd0937-880b-46d3-850d-1042951bdda6",
+      "width": 608,
+      "x": 1600,
+      "y": 1184,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 288,
+      "layer": "background",
+      "name": "Tent",
+      "persistentUuid": "a1d7cdbe-fbc3-4457-bbd2-42b65a47c7c1",
+      "width": 544,
+      "x": 2272,
+      "y": 1184,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 288,
+      "layer": "background",
+      "name": "Tent_2",
+      "persistentUuid": "1bde51d3-c933-4fc5-8374-276c35666226",
+      "width": 608,
+      "x": 1312,
+      "y": 1184,
+      "zOrder": 59,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
       "height": 192,
       "layer": "",
-      "name": "Temp_Sprite",
-      "persistentUuid": "66120585-42b5-4676-b3c9-3e73e755dad4",
-      "width": 224,
-      "x": 4640,
-      "y": 1216,
-      "zOrder": 25,
+      "name": "Tent_2",
+      "persistentUuid": "a71e4c93-f9f6-4c52-ae92-8b9e16b6c221",
+      "width": 452,
+      "x": 2432,
+      "y": 1280,
+      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -454,14 +347,158 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 256,
+      "height": 192,
+      "layer": "background",
+      "name": "Tent_2",
+      "persistentUuid": "aefe2380-079c-400e-bec3-591788552579",
+      "width": 452,
+      "x": 2646,
+      "y": 1280,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "layer": "background",
+      "name": "Tent",
+      "persistentUuid": "16d5cdd2-6560-437a-8d64-99dd98f077cd",
+      "width": 405,
+      "x": 2884,
+      "y": 1280,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "layer": "background",
+      "name": "Tent",
+      "persistentUuid": "e83a1d3f-35e7-4bf7-9275-fd30a9a13b17",
+      "width": 405,
+      "x": 3147,
+      "y": 1280,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 414,
       "layer": "",
-      "name": "Temp_Sprite",
-      "persistentUuid": "da355532-aac6-46b2-9806-51489764b620",
-      "width": 480,
+      "name": "Car",
+      "persistentUuid": "352846e1-b047-42c3-939d-b20c67200fa9",
+      "width": 608,
       "x": 5632,
+      "y": 1120,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 414,
+      "layer": "",
+      "name": "Car",
+      "persistentUuid": "369d1ce4-cae9-476f-b37d-02810a9ce27b",
+      "width": 608,
+      "x": 5920,
+      "y": 1120,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 414,
+      "layer": "",
+      "name": "Car",
+      "persistentUuid": "551d8d82-318c-403e-b518-b3aed7e9f9ea",
+      "width": 608,
+      "x": 6208,
+      "y": 1120,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 414,
+      "layer": "",
+      "name": "Car",
+      "persistentUuid": "ec95add8-252e-4a45-96d2-2359faa20f3a",
+      "width": 608,
+      "x": 6496,
+      "y": 1120,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 414,
+      "layer": "",
+      "name": "Car",
+      "persistentUuid": "fce91c3f-0ab7-4d45-a498-ff7acad9fb79",
+      "width": 608,
+      "x": 6784,
+      "y": 1120,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 414,
+      "layer": "",
+      "name": "Car",
+      "persistentUuid": "d3b240bb-6c84-4b0f-b44d-121ec6f37a73",
+      "width": 608,
+      "x": 7072,
+      "y": 1120,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 384,
+      "layer": "",
+      "name": "tires",
+      "persistentUuid": "2e42d676-7bca-437b-bcad-9f328340aa35",
+      "width": 350,
+      "x": 4544,
       "y": 1152,
-      "zOrder": 25,
+      "zOrder": 61,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -470,14 +507,30 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 256,
+      "height": 384,
       "layer": "",
-      "name": "Temp_Sprite",
-      "persistentUuid": "0c0dac98-4813-4d34-bdf2-322fd8d8ec58",
-      "width": 480,
-      "x": 6720,
+      "name": "tires",
+      "persistentUuid": "022beab4-a676-4208-8d0e-39d0af8ccb7c",
+      "width": 350,
+      "x": 4546,
+      "y": 1056,
+      "zOrder": 61,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 384,
+      "layer": "",
+      "name": "tires",
+      "persistentUuid": "b4a608a0-53ef-4d88-9505-68cc43420ad6",
+      "width": 350,
+      "x": 4610,
       "y": 1152,
-      "zOrder": 25,
+      "zOrder": 61,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -486,14 +539,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 320,
+      "height": 384,
       "layer": "",
-      "name": "Temp_Sprite",
-      "persistentUuid": "4b324215-d5af-4ad3-bcde-619b8c9bd51e",
-      "width": 96,
-      "x": 9184,
-      "y": 1088,
-      "zOrder": 26,
+      "name": "tires",
+      "persistentUuid": "38664d04-b684-4067-acef-669b54d9a9e4",
+      "width": 350,
+      "x": 4674,
+      "y": 1152,
+      "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -502,14 +555,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 320,
+      "height": 384,
       "layer": "",
-      "name": "Temp_Sprite",
-      "persistentUuid": "e7b023f6-a647-470b-bfb0-8d85913bf0f4",
-      "width": 96,
-      "x": 9536,
-      "y": 1088,
-      "zOrder": 26,
+      "name": "tires",
+      "persistentUuid": "f99f9ab4-8c20-41cf-9413-1bb94a9740aa",
+      "width": 350,
+      "x": 4674,
+      "y": 1056,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -518,14 +571,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 320,
+      "height": 384,
       "layer": "",
-      "name": "Temp_Sprite",
-      "persistentUuid": "3f3b281a-18b8-4440-a2c6-11ee6b67fd6d",
-      "width": 96,
-      "x": 9888,
+      "name": "tires",
+      "persistentUuid": "139199d7-8902-445b-aec6-0b90166472ed",
+      "width": 350,
+      "x": 4610,
       "y": 1088,
-      "zOrder": 26,
+      "zOrder": 61,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -534,14 +587,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 320,
+      "height": 192,
       "layer": "",
-      "name": "Temp_Sprite",
-      "persistentUuid": "7437093d-8012-43bb-86a9-0e6e6990dc03",
-      "width": 96,
-      "x": 10272,
-      "y": 1088,
-      "zOrder": 26,
+      "name": "Shooting_dummy",
+      "persistentUuid": "3cea8afc-6ba8-4ba1-a12a-1cae07487e3b",
+      "width": 224,
+      "x": 9120,
+      "y": 1248,
+      "zOrder": 62,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -550,14 +603,190 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 320,
+      "height": 192,
       "layer": "",
-      "name": "Temp_Sprite",
-      "persistentUuid": "931c5a51-75d5-4bd9-a372-7a057fe087c9",
-      "width": 96,
-      "x": 10720,
+      "name": "Shooting_dummy",
+      "persistentUuid": "3d927d9c-a368-403e-915d-541ab8800e66",
+      "width": 224,
+      "x": 9472,
+      "y": 1248,
+      "zOrder": 62,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "layer": "",
+      "name": "Shooting_dummy",
+      "persistentUuid": "585ab6af-c7a3-4c22-ad09-f4966bf4430b",
+      "width": 224,
+      "x": 9824,
+      "y": 1248,
+      "zOrder": 62,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "layer": "",
+      "name": "Shooting_dummy",
+      "persistentUuid": "7f8ff29a-1731-44d0-8295-f85dcd1c113a",
+      "width": 224,
+      "x": 10208,
+      "y": 1248,
+      "zOrder": 62,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "layer": "",
+      "name": "Shooting_dummy",
+      "persistentUuid": "185a8b2c-dc4c-4bc4-94df-49ffb58b7f6e",
+      "width": 224,
+      "x": 10656,
+      "y": 1248,
+      "zOrder": 62,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "layer": "",
+      "name": "Shooting_dummy",
+      "persistentUuid": "44ffe63d-d574-46c3-b050-2fae76e00ccf",
+      "width": 224,
+      "x": 9120,
+      "y": 1120,
+      "zOrder": 62,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "layer": "",
+      "name": "Shooting_dummy",
+      "persistentUuid": "28adffd1-dfa3-4280-ab39-ad6faa4a45be",
+      "width": 224,
+      "x": 9472,
+      "y": 1120,
+      "zOrder": 62,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "layer": "",
+      "name": "Shooting_dummy",
+      "persistentUuid": "1f9adc28-9284-4fd7-b60f-0807f962d1c3",
+      "width": 224,
+      "x": 9824,
+      "y": 1120,
+      "zOrder": 62,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "layer": "",
+      "name": "Shooting_dummy",
+      "persistentUuid": "1bc4c204-c7e9-4e16-8592-0eddfc8c6422",
+      "width": 224,
+      "x": 10208,
+      "y": 1120,
+      "zOrder": 62,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "layer": "",
+      "name": "Shooting_dummy",
+      "persistentUuid": "f3e91483-0e34-496e-96c2-2e2c91d688f5",
+      "width": 224,
+      "x": 10656,
+      "y": 1120,
+      "zOrder": 62,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 350,
+      "layer": "backing_background",
+      "name": "bg",
+      "persistentUuid": "d5ae0be0-7b55-4dae-b9ea-07a2dced7762",
+      "width": 12832,
+      "x": -1344,
       "y": 1088,
-      "zOrder": 26,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 222,
+      "layer": "",
+      "name": "fire_barrel",
+      "persistentUuid": "ac04cd11-b31c-4e8a-805d-cc0a0959725c",
+      "width": 224,
+      "x": -288,
+      "y": 1248,
+      "zOrder": 63,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "star",
+      "persistentUuid": "4aa817da-4b24-49c2-b601-861bd8c57d72",
+      "width": 32,
+      "x": -192,
+      "y": 1280,
+      "zOrder": 64,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -849,7 +1078,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewSprite39",
+                  "image": "NewSprite43",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -957,6 +1186,697 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Tent",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite41",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 36
+                      },
+                      {
+                        "x": 184,
+                        "y": 36
+                      },
+                      {
+                        "x": 184,
+                        "y": 168
+                      },
+                      {
+                        "x": 9,
+                        "y": 168
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Tent_2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite42",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 36
+                      },
+                      {
+                        "x": 184,
+                        "y": 36
+                      },
+                      {
+                        "x": 184,
+                        "y": 168
+                      },
+                      {
+                        "x": 9,
+                        "y": 168
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Car",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Vehicle.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 59
+                      },
+                      {
+                        "x": 304,
+                        "y": 59
+                      },
+                      {
+                        "x": 304,
+                        "y": 247
+                      },
+                      {
+                        "x": 6,
+                        "y": 247
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "tires",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Tires.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 131
+                      },
+                      {
+                        "x": 247,
+                        "y": 131
+                      },
+                      {
+                        "x": 247,
+                        "y": 250
+                      },
+                      {
+                        "x": 116,
+                        "y": 250
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Shooting_dummy",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\BarrelOfFire.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 51,
+                        "y": 42
+                      },
+                      {
+                        "x": 149,
+                        "y": 42
+                      },
+                      {
+                        "x": 149,
+                        "y": 186
+                      },
+                      {
+                        "x": 51,
+                        "y": 186
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 350,
+      "name": "background",
+      "texture": "assets\\Tree.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 350,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 350,
+      "name": "bg",
+      "texture": "assets\\Forestbackground.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 350,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "fire_barrel",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\BarrelOfFire2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 131.5,
+                        "y": 264
+                      },
+                      {
+                        "x": 222,
+                        "y": 266.5
+                      },
+                      {
+                        "x": 224.5,
+                        "y": 128.5
+                      },
+                      {
+                        "x": 129.5,
+                        "y": 125.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\BarrelOfFire3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 131.5,
+                        "y": 264
+                      },
+                      {
+                        "x": 222,
+                        "y": 266.5
+                      },
+                      {
+                        "x": 224.5,
+                        "y": 128.5
+                      },
+                      {
+                        "x": 129.5,
+                        "y": 125.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\BarrelOfFire4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 131.5,
+                        "y": 264
+                      },
+                      {
+                        "x": 222,
+                        "y": 266.5
+                      },
+                      {
+                        "x": 224.5,
+                        "y": 128.5
+                      },
+                      {
+                        "x": 129.5,
+                        "y": 125.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\BarrelOfFire5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 131.5,
+                        "y": 264
+                      },
+                      {
+                        "x": 222,
+                        "y": 266.5
+                      },
+                      {
+                        "x": 224.5,
+                        "y": 128.5
+                      },
+                      {
+                        "x": 129.5,
+                        "y": 125.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\BarrelOfFire6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 131.5,
+                        "y": 264
+                      },
+                      {
+                        "x": 222,
+                        "y": 266.5
+                      },
+                      {
+                        "x": 224.5,
+                        "y": 128.5
+                      },
+                      {
+                        "x": 129.5,
+                        "y": 125.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\BarrelOfFire7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 131.5,
+                        "y": 264
+                      },
+                      {
+                        "x": 222,
+                        "y": 266.5
+                      },
+                      {
+                        "x": 224.5,
+                        "y": 128.5
+                      },
+                      {
+                        "x": 129.5,
+                        "y": 125.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\BarrelOfFire8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 131.5,
+                        "y": 264
+                      },
+                      {
+                        "x": 222,
+                        "y": 266.5
+                      },
+                      {
+                        "x": 224.5,
+                        "y": 128.5
+                      },
+                      {
+                        "x": 129.5,
+                        "y": 125.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\BarrelOfFire9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 131.5,
+                        "y": 264
+                      },
+                      {
+                        "x": 222,
+                        "y": 266.5
+                      },
+                      {
+                        "x": 224.5,
+                        "y": 128.5
+                      },
+                      {
+                        "x": 129.5,
+                        "y": 125.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\BarrelOfFire10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 131.5,
+                        "y": 264
+                      },
+                      {
+                        "x": 222,
+                        "y": 266.5
+                      },
+                      {
+                        "x": 224.5,
+                        "y": 128.5
+                      },
+                      {
+                        "x": 129.5,
+                        "y": 125.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -994,6 +1914,33 @@
       },
       {
         "objectName": "Temp_Sprite"
+      },
+      {
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "Tent"
+      },
+      {
+        "objectName": "Tent_2"
+      },
+      {
+        "objectName": "Car"
+      },
+      {
+        "objectName": "tires"
+      },
+      {
+        "objectName": "Shooting_dummy"
+      },
+      {
+        "objectName": "background"
+      },
+      {
+        "objectName": "bg"
+      },
+      {
+        "objectName": "fire_barrel"
       }
     ]
   },
@@ -1020,6 +1967,14 @@
             "Health",
             "16",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "star"
           ]
         }
       ]
@@ -1711,6 +2666,38 @@
   ],
   "layers": [
     {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "backing_background",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
       "ambientLightColorB": 0,
       "ambientLightColorG": 8042920,
       "ambientLightColorR": 16,
@@ -1736,6 +2723,38 @@
         }
       ],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "background",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     },
     {
       "ambientLightColorB": 200,

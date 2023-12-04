@@ -275,70 +275,6 @@
         "g": 255,
         "r": 255
       }
-    },
-    {
-      "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
-      "name": "Mini_Game",
-      "tags": "",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 0,
-        "RightPadding": 0,
-        "PressedLabelOffsetY": 4,
-        "BottomPadding": 6,
-        "TopPadding": 0,
-        "HoveredFadeOutDuration": 0
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 10,
-          "height": 64,
-          "leftMargin": 6,
-          "rightMargin": 6,
-          "texture": "Transparent Button With White Blue Border_Hovered.png",
-          "tiled": false,
-          "topMargin": 10,
-          "width": 192
-        },
-        "Idle": {
-          "bottomMargin": 10,
-          "height": 64,
-          "leftMargin": 6,
-          "rightMargin": 6,
-          "texture": "Transparent Button With White Blue Border_Idle.png",
-          "tiled": false,
-          "topMargin": 10,
-          "width": 192
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "\nMini Game",
-          "font": "FiveFontsatFreddy's-Regular.ttf",
-          "textAlignment": "center",
-          "characterSize": 45,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 10,
-          "height": 64,
-          "leftMargin": 6,
-          "rightMargin": 6,
-          "texture": "Transparent Button With White Blue Border_Pressed.png",
-          "tiled": false,
-          "topMargin": 10,
-          "width": 192
-        }
-      }
     }
   ],
   "objectsFolderStructure": {
@@ -482,15 +418,6 @@
             "Thanks",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "Mini_Game",
-            ""
-          ]
         }
       ]
     }
@@ -588,6 +515,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "ThreeDFlip",

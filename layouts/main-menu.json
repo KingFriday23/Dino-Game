@@ -1,15 +1,15 @@
 {
-  "b": 209,
+  "b": 167,
   "disableInputWhenNotFocused": true,
   "mangledName": "Main_32Menu",
   "name": "Main Menu",
-  "r": 209,
+  "r": 167,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 167,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,7 +17,7 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
+    "snap": false,
     "zoomFactor": 0.3645833333333333,
     "windowMask": false
   },
@@ -305,6 +305,43 @@
             "",
             "\"Dino_Droppings\"",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "main-menu-better_main.mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "main-menu-better_main.mp3",
+            "1",
+            "yes",
+            "75",
+            "1"
           ]
         }
       ]
