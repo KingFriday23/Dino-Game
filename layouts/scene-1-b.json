@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.1068768586969781,
+    "zoomFactor": 0.2890516203134922,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -346,6 +346,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "First_Quick_Time",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -409,6 +410,7 @@
       "italic": false,
       "name": "first_quick",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -428,6 +430,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "carno",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -520,6 +523,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Health_background",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -581,6 +585,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "second_Quick_Time",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -644,6 +649,7 @@
       "italic": false,
       "name": "Second_Quick_Text",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -663,6 +669,7 @@
       "assetStoreId": "",
       "height": 180,
       "name": "Health",
+      "tags": "",
       "texture": "assets\\Health.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 192,
@@ -676,6 +683,7 @@
       "italic": false,
       "name": "Health_Number",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -695,6 +703,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "test",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -762,6 +771,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "quick_time_three",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -825,6 +835,7 @@
       "italic": false,
       "name": "NewText",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -841,44 +852,6 @@
       }
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "First_Quick_Time"
-      },
-      {
-        "objectName": "first_quick"
-      },
-      {
-        "objectName": "carno"
-      },
-      {
-        "objectName": "Health_background"
-      },
-      {
-        "objectName": "second_Quick_Time"
-      },
-      {
-        "objectName": "Second_Quick_Text"
-      },
-      {
-        "objectName": "Health"
-      },
-      {
-        "objectName": "Health_Number"
-      },
-      {
-        "objectName": "test"
-      },
-      {
-        "objectName": "quick_time_three"
-      },
-      {
-        "objectName": "NewText"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",

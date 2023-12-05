@@ -231,9 +231,6 @@
     }
   ],
   "objects": [],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT"
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1107,10 +1104,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "ThreeDFlip",

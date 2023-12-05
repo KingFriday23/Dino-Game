@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.2796226521839383,
+    "snap": false,
+    "zoomFactor": 0.8353591827059922,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -123,13 +123,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 23,
+      "height": 26,
       "layer": "Health",
       "name": "Count",
       "persistentUuid": "9b831a07-2d22-44c9-a53b-e9a0fedd1f71",
-      "width": 26,
-      "x": 239,
-      "y": 87,
+      "width": 24,
+      "x": 216,
+      "y": 84,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -176,8 +176,8 @@
       "name": "Temp_last_boss",
       "persistentUuid": "4f3bee11-a5a6-49e7-82b9-8f16b4848ac1",
       "width": 350,
-      "x": 290,
-      "y": 544,
+      "x": 258,
+      "y": 800,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -185,13 +185,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "layer": "Health",
       "name": "Medkit_Display",
       "persistentUuid": "c954036a-1690-40f5-a883-9fbfe7c1ef4e",
-      "width": 0,
-      "x": 160,
+      "width": 68,
+      "x": 156,
       "y": 64,
       "zOrder": 12,
       "numberProperties": [],
@@ -204,6 +205,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Dino_Corpse",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -267,6 +269,7 @@
       "italic": false,
       "name": "Examine",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -283,9 +286,10 @@
       }
     },
     {
-      "adaptCollisionMaskAutomatically": false,
+      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Temp_last_boss",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -339,7 +343,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\T-Rex.png",
+                  "image": "assets\\CarnotaurusAttack.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -355,20 +359,176 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 18,
-                        "y": 18
+                        "x": 2,
+                        "y": 27
                       },
                       {
-                        "x": 345,
-                        "y": 18
+                        "x": 399,
+                        "y": 27
                       },
                       {
-                        "x": 345,
-                        "y": 270
+                        "x": 399,
+                        "y": 388
                       },
                       {
-                        "x": 18,
-                        "y": 270
+                        "x": 2,
+                        "y": 388
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walking",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\CarnotaurusRun.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 27
+                      },
+                      {
+                        "x": 399,
+                        "y": 27
+                      },
+                      {
+                        "x": 399,
+                        "y": 388
+                      },
+                      {
+                        "x": 2,
+                        "y": 388
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\CarnotaurusRun2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 27
+                      },
+                      {
+                        "x": 399,
+                        "y": 27
+                      },
+                      {
+                        "x": 399,
+                        "y": 388
+                      },
+                      {
+                        "x": 2,
+                        "y": 388
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\CarnotaurusRun3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 27
+                      },
+                      {
+                        "x": 399,
+                        "y": 27
+                      },
+                      {
+                        "x": 399,
+                        "y": 388
+                      },
+                      {
+                        "x": 2,
+                        "y": 388
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\CarnotaurusRun4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 27
+                      },
+                      {
+                        "x": 399,
+                        "y": 27
+                      },
+                      {
+                        "x": 399,
+                        "y": 388
+                      },
+                      {
+                        "x": 2,
+                        "y": 388
                       }
                     ]
                   ]
@@ -380,20 +540,6 @@
       ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "Dino_Corpse"
-      },
-      {
-        "objectName": "Examine"
-      },
-      {
-        "objectName": "Temp_last_boss"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -435,16 +581,6 @@
           },
           "parameters": [
             "Examine"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "Medkit_Count",
-            "=",
-            "3"
           ]
         }
       ]
@@ -1448,10 +1584,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "ThreeDFlip",
