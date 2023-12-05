@@ -173,11 +173,11 @@
       "height": 57,
       "layer": "",
       "name": "Shotgun",
-      "persistentUuid": "1a199b50-8924-42f3-8f83-4c3b83c9fcf9",
-      "width": 66,
-      "x": -336,
-      "y": 1041,
-      "zOrder": 10,
+      "persistentUuid": "c954036a-1690-40f5-a883-9fbfe7c1ef4e",
+      "width": 68,
+      "x": 148,
+      "y": 59,
+      "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -187,12 +187,28 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "Carno",
-      "persistentUuid": "4f3bee11-a5a6-49e7-82b9-8f16b4848ac1",
+      "name": "Dino_Corpse",
+      "persistentUuid": "e3c45c4a-fbdf-4093-aeb4-6b9cb358e278",
       "width": 0,
-      "x": 432,
-      "y": 640,
-      "zOrder": 11,
+      "x": -52,
+      "y": 1110,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "layer": "",
+      "name": "Grass",
+      "persistentUuid": "5d44ab84-fb96-41bc-8c93-b339e49684a9",
+      "width": 9237,
+      "x": -879,
+      "y": 1214,
+      "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -674,6 +690,20 @@
       ]
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Dino_Corpse"
+      },
+      {
+        "objectName": "Examine"
+      },
+      {
+        "objectName": "Carno"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -769,11 +799,50 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "0.5",
+                "",
+                ""
+              ]
             }
           ]
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Human",
+            "Dino_Corpse",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Examine"
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",

@@ -1149,6 +1149,15 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/Medkit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Medkit.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/Temp_Sprite.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -1157,24 +1166,49 @@
         "userAdded": true
       },
       {
-        "file": "Main Menu.mp3",
-        "kind": "audio",
+        "alwaysLoaded": false,
+        "file": "assets/Medkit2.png",
+        "kind": "image",
         "metadata": "",
-        "name": "Main Menu.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
+        "name": "assets\\Medkit2.png",
+        "smoothed": true,
         "userAdded": true
       },
       {
-        "file": "main-menu_rijXcAkZ.mp3",
-        "kind": "audio",
+        "alwaysLoaded": false,
+        "file": "assets/CarnotaurusAttack.png",
+        "kind": "image",
         "metadata": "",
-        "name": "main-menu_rijXcAkZ.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
+        "name": "assets\\CarnotaurusAttack.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CarnotaurusRun.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CarnotaurusRun.png",
+        "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CarnotaurusRun2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CarnotaurusRun2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CarnotaurusRun3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CarnotaurusRun3.png",
+        "smoothed": true,
+        "userAdded": false
       },
       {
         "file": "main-menu-better_main.mp3",
@@ -1198,6 +1232,33 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/CarnotaurusRun4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CarnotaurusRun4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/StackOfBones.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\StackOfBones.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HunterShock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HunterShock.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/GrassyDirt.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/GrassyDirt.png\",\"extension\":\".png\",\"pskl\":{}}",
@@ -1216,6 +1277,24 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/HunterShock2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HunterShock2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HunterShock3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HunterShock3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/NewSprite42.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -1225,12 +1304,75 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/HunterShock4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HunterShock4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/Vehicle.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\Vehicle.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HunterShock7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HunterShock7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HunterShock8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HunterShock8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BarrelOfFire8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BarrelOfFire8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HunterShock9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HunterShock9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BarrelOfFire9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BarrelOfFire9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HunterShock10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HunterShock10.png",
+        "smoothed": true,
+        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -2724,6 +2866,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/untitled-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/testing-2"
     }
   ],
   "externalEvents": [],
