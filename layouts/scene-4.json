@@ -196,6 +196,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "layer": "",
+      "name": "Grass",
+      "persistentUuid": "5d44ab84-fb96-41bc-8c93-b339e49684a9",
+      "width": 9237,
+      "x": -879,
+      "y": 1214,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
