@@ -173,11 +173,11 @@
       "height": 57,
       "layer": "",
       "name": "Shotgun",
-      "persistentUuid": "1a199b50-8924-42f3-8f83-4c3b83c9fcf9",
-      "width": 66,
-      "x": -336,
-      "y": 1041,
-      "zOrder": 10,
+      "persistentUuid": "c954036a-1690-40f5-a883-9fbfe7c1ef4e",
+      "width": 68,
+      "x": 148,
+      "y": 59,
+      "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -187,12 +187,28 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "Temp_last_boss",
-      "persistentUuid": "4f3bee11-a5a6-49e7-82b9-8f16b4848ac1",
+      "name": "Dino_Corpse",
+      "persistentUuid": "e3c45c4a-fbdf-4093-aeb4-6b9cb358e278",
       "width": 0,
-      "x": 576,
-      "y": 930,
-      "zOrder": 11,
+      "x": -52,
+      "y": 1110,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "layer": "",
+      "name": "Grass",
+      "persistentUuid": "5d44ab84-fb96-41bc-8c93-b339e49684a9",
+      "width": 9237,
+      "x": -879,
+      "y": 1214,
+      "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -210,7 +226,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Dino Corpse",
+          "name": "Bones",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -220,7 +236,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\carno_Temp.png",
+                  "image": "assets\\StackOfBones.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -236,20 +252,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 8
+                        "x": 48,
+                        "y": 58
                       },
                       {
-                        "x": 64,
-                        "y": 8
+                        "x": 154,
+                        "y": 58
                       },
                       {
-                        "x": 64,
-                        "y": 62
+                        "x": 154,
+                        "y": 116
                       },
                       {
-                        "x": 2,
-                        "y": 62
+                        "x": 48,
+                        "y": 116
                       }
                     ]
                   ]
@@ -284,7 +300,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Temp_last_boss",
+      "name": "Carno",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -293,6 +309,7 @@
         {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+          "rotateObject": false,
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -303,13 +320,32 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 200,
-          "rotateObject": true,
           "smoothingMaxCellGap": 1
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
         }
       ],
       "animations": [
         {
-          "name": "Temp last boss",
+          "name": "Carno",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -318,7 +354,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\T-Rex.png",
+                  "image": "assets\\CarnotaurusAttack.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -334,20 +370,176 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 18,
-                        "y": 18
+                        "x": 2,
+                        "y": 27
                       },
                       {
-                        "x": 345,
-                        "y": 18
+                        "x": 399,
+                        "y": 27
                       },
                       {
-                        "x": 345,
-                        "y": 270
+                        "x": 399,
+                        "y": 388
                       },
                       {
-                        "x": 18,
-                        "y": 270
+                        "x": 2,
+                        "y": 388
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walking",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\CarnotaurusRun.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 27
+                      },
+                      {
+                        "x": 399,
+                        "y": 27
+                      },
+                      {
+                        "x": 399,
+                        "y": 388
+                      },
+                      {
+                        "x": 2,
+                        "y": 388
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\CarnotaurusRun2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 27
+                      },
+                      {
+                        "x": 399,
+                        "y": 27
+                      },
+                      {
+                        "x": 399,
+                        "y": 388
+                      },
+                      {
+                        "x": 2,
+                        "y": 388
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\CarnotaurusRun3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 27
+                      },
+                      {
+                        "x": 399,
+                        "y": 27
+                      },
+                      {
+                        "x": 399,
+                        "y": 388
+                      },
+                      {
+                        "x": 2,
+                        "y": 388
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\CarnotaurusRun4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 27
+                      },
+                      {
+                        "x": 399,
+                        "y": 27
+                      },
+                      {
+                        "x": 399,
+                        "y": 388
+                      },
+                      {
+                        "x": 2,
+                        "y": 388
                       }
                     ]
                   ]
@@ -369,7 +561,7 @@
         "objectName": "Examine"
       },
       {
-        "objectName": "Temp_last_boss"
+        "objectName": "Carno"
       }
     ]
   },
@@ -400,7 +592,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "Temp_last_boss"
+            "Carno"
           ]
         }
       ]
@@ -468,11 +660,50 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "0.5",
+                "",
+                ""
+              ]
             }
           ]
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Human",
+            "Dino_Corpse",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Examine"
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1024,7 +1255,7 @@
               },
               "parameters": [
                 "Human",
-                "Temp_last_boss",
+                "Carno",
                 "",
                 "",
                 ""
@@ -1045,7 +1276,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "Temp_last_boss",
+                "Carno",
                 ""
               ]
             }
@@ -1072,7 +1303,7 @@
                 "value": "PathfindingBehavior::Acceleration"
               },
               "parameters": [
-                "Temp_last_boss",
+                "Carno",
                 "Pathfinding",
                 "=",
                 "600"
@@ -1083,69 +1314,11 @@
                 "value": "PathfindingBehavior::SetDestination"
               },
               "parameters": [
-                "Temp_last_boss",
+                "Carno",
                 "Pathfinding",
                 "",
                 "Human.X() - 5",
                 "Human.Y()"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Temp_last_boss",
-                "invis_slope_Right",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "Temp_last_boss",
-                "=",
-                "Temp_last_boss.X() + 5"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Temp_last_boss",
-                "Invis_Block",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "Temp_last_boss",
-                "=",
-                "Temp_last_boss.X() + 5"
               ]
             }
           ]
