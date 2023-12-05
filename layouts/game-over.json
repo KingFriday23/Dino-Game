@@ -1,8 +1,8 @@
 {
   "b": 0,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Dino_32Scan",
-  "name": "Dino Scan",
+  "mangledName": "Game_32Over",
+  "name": "Game Over",
   "r": 0,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3300560049165927,
+    "zoomFactor": 0.3645833333333333,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -26,14 +26,15 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 865,
       "layer": "",
-      "name": "Scan",
-      "persistentUuid": "cc0375ff-08c6-4351-ad18-73611d72b744",
-      "width": 0,
-      "x": 837,
-      "y": 462,
+      "name": "Game_over",
+      "persistentUuid": "f61066ca-9147-402d-88eb-e645d4842cbe",
+      "width": 1395,
+      "x": 273,
+      "y": 92,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -41,31 +42,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Ellipsis",
-      "persistentUuid": "e20ad98a-21c6-4dce-8857-d37ee9265ce2",
-      "width": 0,
-      "x": 901,
-      "y": 519,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 1323,
+      "depth": 32,
+      "height": 75,
       "layer": "",
-      "name": "Background",
-      "persistentUuid": "d4359eb4-a499-4de0-8f1e-ba68790f9203",
-      "width": 2513,
-      "x": -309,
-      "y": -102,
-      "zOrder": 0,
+      "name": "Retry",
+      "persistentUuid": "9c713846-13e2-4577-9ce6-0eeaf39acdde",
+      "width": 222,
+      "x": 834,
+      "y": 989,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -73,69 +59,9 @@
   ],
   "objects": [
     {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Scan",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Text_AutoTyping",
-          "type": "AutoTyping::Text_AutoTyping",
-          "Interval": 0.1,
-          "CharacterJustAdded": false,
-          "CurrentCharacter": ""
-        }
-      ],
-      "string": "Aquiring Data",
-      "font": "",
-      "textAlignment": "center",
-      "characterSize": 51,
-      "color": {
-        "b": 252,
-        "g": 183,
-        "r": 123
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Ellipsis",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Text_AutoTyping",
-          "type": "AutoTyping::Text_AutoTyping",
-          "Interval": 0.2,
-          "CharacterJustAdded": false,
-          "CurrentCharacter": ""
-        }
-      ],
-      "string": ".     .     .",
-      "font": "",
-      "textAlignment": "center",
-      "characterSize": 51,
-      "color": {
-        "b": 252,
-        "g": 183,
-        "r": 123
-      }
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Background",
+      "name": "Game_over",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -144,16 +70,16 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Background",
+          "name": "Game Over",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "timeBetweenFrames": 0.4,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\assets_Dino_outline.png",
+                  "image": "assets\\GameOver136.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -169,20 +95,56 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 238,
-                        "y": 137
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 841,
-                        "y": 137
+                        "x": 350,
+                        "y": 0
                       },
                       {
-                        "x": 841,
-                        "y": 471
+                        "x": 350,
+                        "y": 350
                       },
                       {
-                        "x": 238,
-                        "y": 471
+                        "x": 0,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\GameOver135.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 350,
+                        "y": 0
+                      },
+                      {
+                        "x": 350,
+                        "y": 350
+                      },
+                      {
+                        "x": 0,
+                        "y": 350
                       }
                     ]
                   ]
@@ -192,6 +154,70 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
+      "name": "Retry",
+      "tags": "",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 6,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 10,
+          "height": 64,
+          "leftMargin": 6,
+          "rightMargin": 6,
+          "texture": "Transparent Button With White Blue Border_Hovered.png",
+          "tiled": false,
+          "topMargin": 10,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 10,
+          "height": 64,
+          "leftMargin": 6,
+          "rightMargin": 6,
+          "texture": "Transparent Button With White Blue Border_Idle.png",
+          "tiled": false,
+          "topMargin": 10,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "\nRETRY",
+          "font": "FiveFontsatFreddy's-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 45,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 10,
+          "height": 64,
+          "leftMargin": 6,
+          "rightMargin": 6,
+          "texture": "Transparent Button With White Blue Border_Pressed.png",
+          "tiled": false,
+          "topMargin": 10,
+          "width": 192
+        }
+      }
     }
   ],
   "events": [
@@ -200,11 +226,9 @@
       "conditions": [
         {
           "type": {
-            "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+            "value": "DepartScene"
           },
           "parameters": [
-            "Scan",
-            "Text_AutoTyping",
             ""
           ]
         }
@@ -212,12 +236,10 @@
       "actions": [
         {
           "type": {
-            "value": "AutoTyping::Text_AutoTyping::Pause"
+            "value": "Cache"
           },
           "parameters": [
-            "Scan",
-            "Text_AutoTyping",
-            ""
+            "Retry"
           ]
         }
       ]
@@ -231,27 +253,42 @@
             "value": "Wait"
           },
           "parameters": [
-            "3"
+            "5"
           ]
         },
         {
           "type": {
-            "value": "AutoTyping::Text_AutoTyping::Resume"
+            "value": "Montre"
           },
           "parameters": [
-            "Scan",
-            "Text_AutoTyping",
+            "Retry",
             ""
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
         {
           "type": {
-            "value": "TextObject::String"
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
-            "Scan",
-            "=",
-            "\"Analyzing\""
+            "Retry",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Loading Screen\"",
+            ""
           ]
         }
       ]
@@ -350,14 +387,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
-    },
-    {
-      "name": "Text_AutoTyping",
-      "type": "AutoTyping::Text_AutoTyping"
     },
     {
       "name": "ThreeDFlip",
