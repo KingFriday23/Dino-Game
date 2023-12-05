@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5843784410741008,
+    "zoomFactor": 0.30104611971824985,
     "windowMask": false
   },
   "objectsGroups": [
@@ -799,6 +799,7 @@
       "italic": false,
       "name": "NewText",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -820,6 +821,7 @@
       "italic": false,
       "name": "Barrel",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -841,6 +843,7 @@
       "italic": false,
       "name": "Armored_vehicle",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -862,6 +865,7 @@
       "italic": false,
       "name": "Stack_of_tires",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -883,6 +887,7 @@
       "italic": false,
       "name": "Trees",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -904,6 +909,7 @@
       "italic": false,
       "name": "Shooting_range",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -925,6 +931,7 @@
       "italic": false,
       "name": "Tents",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -943,6 +950,7 @@
     {
       "assetStoreId": "",
       "name": "NewResourceBar",
+      "tags": "",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -1000,6 +1008,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "player_background",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1061,6 +1070,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "star",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1122,6 +1132,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Temp_Sprite",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1191,6 +1202,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1202,6 +1214,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Tent",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1263,6 +1276,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Tent_2",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1324,6 +1338,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Car",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1384,6 +1399,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "tires",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1444,6 +1460,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Shooting_dummy",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1504,6 +1521,7 @@
       "assetStoreId": "",
       "height": 350,
       "name": "background",
+      "tags": "",
       "texture": "assets\\Tree.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 350,
@@ -1515,6 +1533,7 @@
       "assetStoreId": "",
       "height": 350,
       "name": "bg",
+      "tags": "",
       "texture": "assets\\Forestbackground.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 350,
@@ -1526,6 +1545,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "fire_barrel",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1879,71 +1899,6 @@
       ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "NewText"
-      },
-      {
-        "objectName": "Barrel"
-      },
-      {
-        "objectName": "Armored_vehicle"
-      },
-      {
-        "objectName": "Stack_of_tires"
-      },
-      {
-        "objectName": "Trees"
-      },
-      {
-        "objectName": "Shooting_range"
-      },
-      {
-        "objectName": "Tents"
-      },
-      {
-        "objectName": "NewResourceBar"
-      },
-      {
-        "objectName": "player_background"
-      },
-      {
-        "objectName": "star"
-      },
-      {
-        "objectName": "Temp_Sprite"
-      },
-      {
-        "objectName": "NewSprite"
-      },
-      {
-        "objectName": "Tent"
-      },
-      {
-        "objectName": "Tent_2"
-      },
-      {
-        "objectName": "Car"
-      },
-      {
-        "objectName": "tires"
-      },
-      {
-        "objectName": "Shooting_dummy"
-      },
-      {
-        "objectName": "background"
-      },
-      {
-        "objectName": "bg"
-      },
-      {
-        "objectName": "fire_barrel"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
