@@ -1,15 +1,15 @@
 {
-  "b": 209,
+  "b": 34,
   "disableInputWhenNotFocused": true,
   "mangledName": "Scene_321_45b",
   "name": "Scene 1-b",
-  "r": 209,
+  "r": 34,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 34,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.09359905204022716,
+    "snap": true,
+    "zoomFactor": 0.3411856023473466,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -287,7 +287,7 @@
       "persistentUuid": "cec16c5a-55a1-44fc-ac93-fbe319100db3",
       "width": 224,
       "x": 3392,
-      "y": 384,
+      "y": 416,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -336,6 +336,261 @@
       "x": 160,
       "y": 32,
       "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "layer": "",
+      "name": "Grass",
+      "persistentUuid": "1208d18f-f39e-4e14-a473-60a971a076cc",
+      "width": 7939,
+      "x": -883,
+      "y": 1024,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1415,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "e8397dd1-7cf1-4c9a-9ae8-5cf3c776b88d",
+      "width": 8189,
+      "x": -1131,
+      "y": 1089,
+      "zOrder": 100,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 40,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "layer": "",
+      "name": "Grass",
+      "persistentUuid": "5cf5857e-1262-4f13-b47c-43b97f5fb447",
+      "width": 438,
+      "x": 877,
+      "y": 991,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -45,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "layer": "",
+      "name": "Grass",
+      "persistentUuid": "9e057e4f-49fc-424c-af8a-3a7f6c5f810f",
+      "width": 438,
+      "x": 622,
+      "y": 1003,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 120,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "0db687e3-1831-4657-8d00-a629b8e7f194",
+      "width": 162,
+      "x": 887,
+      "y": 993,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 40,
+      "customSize": true,
+      "depth": 1,
+      "height": 57,
+      "layer": "",
+      "name": "Grass",
+      "persistentUuid": "91420fc2-f3a7-4e1e-a16b-375a623a1ac1",
+      "width": 80,
+      "x": 950,
+      "y": 898,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "cc0d7d6e-2b77-48de-a8b6-9715aac1f3db",
+      "width": 302,
+      "x": 818,
+      "y": 1023,
+      "zOrder": 52,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -3.5,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "layer": "",
+      "name": "Grass",
+      "persistentUuid": "db85b2ba-1793-416e-884f-282acef20d28",
+      "width": 1059,
+      "x": 1916,
+      "y": 991,
+      "zOrder": 53,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 10,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "layer": "",
+      "name": "Grass",
+      "persistentUuid": "2b220900-d7b0-4a09-8a7a-8c9ebd398a28",
+      "width": 450,
+      "x": 2960,
+      "y": 997,
+      "zOrder": 54,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 334,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "layer": "",
+      "name": "Grass",
+      "persistentUuid": "9303aeb3-5304-4756-9feb-f548a87a10e2",
+      "width": 1321,
+      "x": 3078,
+      "y": 822,
+      "zOrder": 55,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 67,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "layer": "",
+      "name": "Grass",
+      "persistentUuid": "ff30887e-0076-4ea0-a326-e5e6ee58b28f",
+      "width": 624,
+      "x": 4083,
+      "y": 795,
+      "zOrder": 56,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 64,
+      "customSize": true,
+      "depth": 2,
+      "height": 1085,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "1391d09e-7e60-48ad-a7cc-7570b85e6a80",
+      "width": 1084,
+      "x": 3490,
+      "y": 828,
+      "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "8df773b1-6690-4511-aa79-0fb327021b8e",
+      "width": 1878,
+      "x": 2674,
+      "y": 1057,
+      "zOrder": 101,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 335,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Grass",
+      "persistentUuid": "8f33a89f-137d-44ce-89c6-8200685ed8a7",
+      "width": 0,
+      "x": 4230,
+      "y": 560,
+      "zOrder": 102,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 356,
+      "layer": "",
+      "name": "BG",
+      "persistentUuid": "7849fe2a-aac2-41ae-8ff7-122656894589",
+      "width": 6988,
+      "x": 60,
+      "y": 674,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 334,
+      "customSize": true,
+      "depth": 1,
+      "height": 350,
+      "layer": "",
+      "name": "BG",
+      "persistentUuid": "6aeeb3b3-4c9f-4712-8ef9-688902c89d55",
+      "width": 986,
+      "x": 3337,
+      "y": 508,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -850,25 +1105,65 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "assetStoreId": "",
+      "height": 350,
+      "name": "BG",
+      "texture": "assets\\Forestbackground.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 350,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "First_Quick_Time"
+      },
+      {
+        "objectName": "first_quick"
+      },
+      {
+        "objectName": "carno"
+      },
+      {
+        "objectName": "Health_background"
+      },
+      {
+        "objectName": "second_Quick_Time"
+      },
+      {
+        "objectName": "Second_Quick_Text"
+      },
+      {
+        "objectName": "Health"
+      },
+      {
+        "objectName": "Health_Number"
+      },
+      {
+        "objectName": "test"
+      },
+      {
+        "objectName": "quick_time_three"
+      },
+      {
+        "objectName": "NewText"
+      },
+      {
+        "objectName": "BG"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
-        {
-          "type": {
-            "value": "CentreCamera"
-          },
-          "parameters": [
-            "",
-            "Human",
-            "",
-            "",
-            ""
-          ]
-        },
         {
           "type": {
             "value": "Cache"
@@ -923,6 +1218,36 @@
           },
           "parameters": [
             "Finish"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCameraCenterX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "lerp(CameraX(), Human.X(), 0.1)",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "lerp(CameraY(), Human.Y(), 0.1)",
+            "",
+            ""
           ]
         }
       ]

@@ -1342,7 +1342,7 @@
         "alwaysLoaded": false,
         "file": "assets/BarrelOfFire8.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/BarrelOfFire8.png\",\"extension\":\".png\"}",
         "name": "assets\\BarrelOfFire8.png",
         "smoothed": true,
         "userAdded": false
@@ -1360,7 +1360,7 @@
         "alwaysLoaded": false,
         "file": "assets/BarrelOfFire9.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/BarrelOfFire9.png\",\"extension\":\".png\"}",
         "name": "assets\\BarrelOfFire9.png",
         "smoothed": true,
         "userAdded": false
@@ -1414,7 +1414,7 @@
         "alwaysLoaded": false,
         "file": "assets/BarrelOfFire2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/BarrelOfFire2.png\",\"extension\":\".png\"}",
         "name": "assets\\BarrelOfFire2.png",
         "smoothed": true,
         "userAdded": true
@@ -1423,7 +1423,7 @@
         "alwaysLoaded": false,
         "file": "assets/BarrelOfFire3.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/BarrelOfFire3.png\",\"extension\":\".png\"}",
         "name": "assets\\BarrelOfFire3.png",
         "smoothed": true,
         "userAdded": true
@@ -1432,7 +1432,7 @@
         "alwaysLoaded": false,
         "file": "assets/BarrelOfFire4.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/BarrelOfFire4.png\",\"extension\":\".png\"}",
         "name": "assets\\BarrelOfFire4.png",
         "smoothed": true,
         "userAdded": false
@@ -1441,7 +1441,7 @@
         "alwaysLoaded": false,
         "file": "assets/BarrelOfFire5.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/BarrelOfFire5.png\",\"extension\":\".png\"}",
         "name": "assets\\BarrelOfFire5.png",
         "smoothed": true,
         "userAdded": false
@@ -1450,7 +1450,7 @@
         "alwaysLoaded": false,
         "file": "assets/BarrelOfFire6.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/BarrelOfFire6.png\",\"extension\":\".png\"}",
         "name": "assets\\BarrelOfFire6.png",
         "smoothed": true,
         "userAdded": true
@@ -1459,7 +1459,7 @@
         "alwaysLoaded": false,
         "file": "assets/BarrelOfFire7.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/BarrelOfFire7.png\",\"extension\":\".png\"}",
         "name": "assets\\BarrelOfFire7.png",
         "smoothed": true,
         "userAdded": true
@@ -1486,7 +1486,7 @@
         "alwaysLoaded": false,
         "file": "assets/BarrelOfFire10.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/BarrelOfFire10.png\",\"extension\":\".png\"}",
         "name": "assets\\BarrelOfFire10.png",
         "smoothed": true,
         "userAdded": false
@@ -1495,7 +1495,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite43.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite43.png\"}",
         "name": "NewSprite43",
         "smoothed": true,
         "userAdded": true
@@ -2497,6 +2497,15 @@
         "metadata": "",
         "name": "assets\\HunterShock11.png",
         "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter1Pfp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Hunter1Pfp.png",
+        "smoothed": true,
         "userAdded": false
       },
       {
@@ -2514,6 +2523,15 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\Hunter5Death.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/DirtTexture.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/DirtTexture.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\DirtTexture.png",
         "smoothed": true,
         "userAdded": true
       }
@@ -3453,7 +3471,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Hunter1.png",
+                  "image": "assets\\Hunter1Pfp.png",
                   "points": [
                     {
                       "name": "Gun",
@@ -3475,20 +3493,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 96,
-                        "y": 1
+                        "x": 91,
+                        "y": 51
                       },
                       {
-                        "x": 245,
-                        "y": 1
+                        "x": 265,
+                        "y": 51
                       },
                       {
-                        "x": 245,
-                        "y": 350
+                        "x": 265,
+                        "y": 222
                       },
                       {
-                        "x": 96,
-                        "y": 350
+                        "x": 91,
+                        "y": 222
                       }
                     ]
                   ]
@@ -3907,7 +3925,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite38",
+                  "image": "assets\\Hunter1Pfp.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3923,20 +3941,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 96,
-                        "y": 1
+                        "x": 91,
+                        "y": 51
                       },
                       {
-                        "x": 245,
-                        "y": 1
+                        "x": 265,
+                        "y": 51
                       },
                       {
-                        "x": 245,
-                        "y": 350
+                        "x": 265,
+                        "y": 222
                       },
                       {
-                        "x": 96,
-                        "y": 350
+                        "x": 91,
+                        "y": 222
                       }
                     ]
                   ]
@@ -4127,7 +4145,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "",
+      "string": "temp",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -4148,8 +4166,78 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 100,
+      "name": "dirt",
+      "texture": "assets\\DirtTexture.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 100,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "invis_slope_Right"
+      },
+      {
+        "objectName": "invis_slope_left"
+      },
+      {
+        "objectName": "Invis_Block"
+      },
+      {
+        "objectName": "Human"
+      },
+      {
+        "objectName": "Human2"
+      },
+      {
+        "objectName": "Finish"
+      },
+      {
+        "objectName": "Rifle"
+      },
+      {
+        "objectName": "Shotgun"
+      },
+      {
+        "objectName": "humannnn"
+      },
+      {
+        "objectName": "Bullet"
+      },
+      {
+        "objectName": "MetalRedBar"
+      },
+      {
+        "objectName": "Medkit"
+      },
+      {
+        "objectName": "Medkit_Display"
+      },
+      {
+        "objectName": "Other_pickup"
+      },
+      {
+        "objectName": "pickup"
+      },
+      {
+        "objectName": "Count"
+      },
+      {
+        "objectName": "Grass"
+      },
+      {
+        "objectName": "dirt"
+      }
+    ]
+  },
   "objectsGroups": [],
   "variables": [
     {
@@ -4227,6 +4315,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/dino_droppings"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/untitled-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/untitled-scene2"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

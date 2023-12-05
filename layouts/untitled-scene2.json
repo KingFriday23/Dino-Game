@@ -20531,6 +20531,152 @@
       ]
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "M_C_"
+      },
+      {
+        "objectName": "Hunter1"
+      },
+      {
+        "objectName": "Hunter3"
+      },
+      {
+        "objectName": "Hunter2"
+      },
+      {
+        "objectName": "TyrannosaurusRex"
+      },
+      {
+        "objectName": "BabyRex"
+      },
+      {
+        "objectName": "Wood_texture"
+      },
+      {
+        "objectName": "Remington"
+      },
+      {
+        "objectName": "Hunter0"
+      },
+      {
+        "objectName": "Beowulf_TCR"
+      },
+      {
+        "objectName": "Giganotosaurus"
+      },
+      {
+        "objectName": "Tree"
+      },
+      {
+        "objectName": "Tires"
+      },
+      {
+        "objectName": "Nest"
+      },
+      {
+        "objectName": "Water"
+      },
+      {
+        "objectName": "Dirttexture"
+      },
+      {
+        "objectName": "GrassyDirt"
+      },
+      {
+        "objectName": "Footprint"
+      },
+      {
+        "objectName": "ArmoredVehicle"
+      },
+      {
+        "objectName": "Helicopter"
+      },
+      {
+        "objectName": "HelicopterAnimation"
+      },
+      {
+        "objectName": "Tent"
+      },
+      {
+        "objectName": "Tent2"
+      },
+      {
+        "objectName": "Endscene5"
+      },
+      {
+        "objectName": "Campfire"
+      },
+      {
+        "objectName": "Startscene1"
+      },
+      {
+        "objectName": "Startscene"
+      },
+      {
+        "objectName": "Medkit"
+      },
+      {
+        "objectName": "Bullet"
+      },
+      {
+        "objectName": "Forestbackground"
+      },
+      {
+        "objectName": "Hunter2Ani"
+      },
+      {
+        "objectName": "Boat"
+      },
+      {
+        "objectName": "StackOfBones"
+      },
+      {
+        "objectName": "Hunter1Pfp"
+      },
+      {
+        "objectName": "Hunter4"
+      },
+      {
+        "objectName": "GameOver"
+      },
+      {
+        "objectName": "Hunter5"
+      },
+      {
+        "objectName": "Hunter6"
+      },
+      {
+        "objectName": "Hunter7"
+      },
+      {
+        "objectName": "BarrelOfFire"
+      },
+      {
+        "objectName": "GameMenuBG"
+      },
+      {
+        "objectName": "Medkit2"
+      },
+      {
+        "objectName": "CreditsBG"
+      },
+      {
+        "objectName": "Fence"
+      },
+      {
+        "objectName": "Scene1Dock"
+      },
+      {
+        "objectName": "Scene1"
+      },
+      {
+        "objectName": "Carnotaurus"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
