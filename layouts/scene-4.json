@@ -935,6 +935,24 @@
           "conditions": [
             {
               "type": {
+                "value": "Health::Health::Health"
+              },
+              "parameters": [
+                "Human",
+                "Health",
+                "=",
+                "0",
+                ""
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "CollisionNP"
               },
               "parameters": [

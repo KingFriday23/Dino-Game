@@ -2510,6 +2510,24 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/Hunter0Dead10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Hunter0Dead10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter5Death.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Hunter5Death.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/DirtTexture.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/DirtTexture.png\",\"extension\":\".png\",\"pskl\":{}}",
