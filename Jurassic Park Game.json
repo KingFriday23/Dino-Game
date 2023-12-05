@@ -1580,6 +1580,897 @@
         "name": "assets\\Medkit2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver107.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver107.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver108.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver108.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver109.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver109.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver110.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver110.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver111.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver111.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver112.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver112.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver113.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver113.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver114.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver114.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver115.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver115.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver116.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver116.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver117.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver117.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver118.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver118.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver119.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver119.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver120.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver120.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver121.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver121.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver122.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver122.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver123.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver123.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver124.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver124.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver125.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver125.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver126.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver126.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver135.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver135.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver136.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver136.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver137.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver137.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver138.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver138.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver139.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver139.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver140.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver140.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver141.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver141.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver142.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver142.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver143.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver143.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver144.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver144.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver145.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver145.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver146.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver146.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver147.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver147.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver148.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver148.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver149.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver149.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver150.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver150.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver151.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver151.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver152.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver152.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver153.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver153.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver154.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver154.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver155.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver155.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver156.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver156.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver157.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver157.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver158.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver158.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver159.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver159.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver160.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver160.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver161.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver161.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver162.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver162.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver163.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver163.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver55.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver55.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver56.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver56.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver58.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver59.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver59.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver60.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver61.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver61.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver62.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver62.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver63.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver63.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver64.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver65.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver65.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver66.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver66.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver68.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver68.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver69.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver69.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver70.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver70.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver71.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver71.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver72.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver73.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver73.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver74.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver74.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver75.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver75.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver76.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver76.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver77.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver77.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver78.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver78.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver79.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver79.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver80.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver80.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver81.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver81.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver82.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver82.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver83.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver83.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver84.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver84.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver85.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver85.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver86.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver86.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver87.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver87.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver88.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver88.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver89.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver89.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver90.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver90.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver91.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver91.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver92.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver92.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver93.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver93.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver94.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver94.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver95.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver95.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver96.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver96.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver97.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver97.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver98.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver98.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver99.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver99.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver100.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver101.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver101.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver102.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver102.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver103.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver103.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver104.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver104.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver105.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver105.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver106.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver106.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2729,62 +3620,6 @@
       "behaviors": []
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "invis_slope_Right"
-      },
-      {
-        "objectName": "invis_slope_left"
-      },
-      {
-        "objectName": "Invis_Block"
-      },
-      {
-        "objectName": "Human"
-      },
-      {
-        "objectName": "Human2"
-      },
-      {
-        "objectName": "Finish"
-      },
-      {
-        "objectName": "Rifle"
-      },
-      {
-        "objectName": "Shotgun"
-      },
-      {
-        "objectName": "Bullet"
-      },
-      {
-        "objectName": "MetalRedBar"
-      },
-      {
-        "objectName": "humannnn"
-      },
-      {
-        "objectName": "Medkit"
-      },
-      {
-        "objectName": "Medkit_Display"
-      },
-      {
-        "objectName": "Other_pickup"
-      },
-      {
-        "objectName": "pickup"
-      },
-      {
-        "objectName": "Count"
-      },
-      {
-        "objectName": "Grass"
-      }
-    ]
-  },
   "objectsGroups": [],
   "variables": [
     {
@@ -2869,7 +3704,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/testing-2"
+      "referenceTo": "/layouts/untitled-scene2"
     }
   ],
   "externalEvents": [],
