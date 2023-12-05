@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3797121001947981,
+    "zoomFactor": 1.29529165512361,
     "windowMask": false
   },
   "objectsGroups": [
@@ -251,38 +251,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "layer": "info",
-      "name": "player_background",
-      "persistentUuid": "f60988b0-7a55-48dd-aa7f-1a9cda1b24b0",
-      "width": 128,
-      "x": 32,
-      "y": 32,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "layer": "info",
-      "name": "humannnn",
-      "persistentUuid": "3b6a19be-4032-4868-b494-33749a006e57",
-      "width": 128,
-      "x": 32,
-      "y": 32,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "info",
@@ -332,13 +300,13 @@
       "customSize": true,
       "depth": 1,
       "height": 100,
-      "layer": "background",
+      "layer": "",
       "name": "Grass",
       "persistentUuid": "b08c6824-7eaf-4bef-8d2e-8a091925e847",
       "width": 12896,
       "x": -1344,
       "y": 1408,
-      "zOrder": 20,
+      "zOrder": 70,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -348,7 +316,7 @@
       "customSize": true,
       "depth": 1,
       "height": 288,
-      "layer": "background",
+      "layer": "",
       "name": "Tent",
       "persistentUuid": "23e6a1a4-6f1f-46d1-8eb5-62899b386619",
       "width": 544,
@@ -364,7 +332,7 @@
       "customSize": true,
       "depth": 1,
       "height": 288,
-      "layer": "background",
+      "layer": "",
       "name": "Tent_2",
       "persistentUuid": "f4bd0937-880b-46d3-850d-1042951bdda6",
       "width": 608,
@@ -380,7 +348,7 @@
       "customSize": true,
       "depth": 1,
       "height": 288,
-      "layer": "background",
+      "layer": "",
       "name": "Tent",
       "persistentUuid": "a1d7cdbe-fbc3-4457-bbd2-42b65a47c7c1",
       "width": 544,
@@ -396,7 +364,7 @@
       "customSize": true,
       "depth": 1,
       "height": 288,
-      "layer": "background",
+      "layer": "",
       "name": "Tent_2",
       "persistentUuid": "1bde51d3-c933-4fc5-8374-276c35666226",
       "width": 608,
@@ -428,7 +396,7 @@
       "customSize": true,
       "depth": 1,
       "height": 192,
-      "layer": "background",
+      "layer": "",
       "name": "Tent_2",
       "persistentUuid": "aefe2380-079c-400e-bec3-591788552579",
       "width": 452,
@@ -444,7 +412,7 @@
       "customSize": true,
       "depth": 1,
       "height": 192,
-      "layer": "background",
+      "layer": "",
       "name": "Tent",
       "persistentUuid": "16d5cdd2-6560-437a-8d64-99dd98f077cd",
       "width": 405,
@@ -460,7 +428,7 @@
       "customSize": true,
       "depth": 1,
       "height": 192,
-      "layer": "background",
+      "layer": "",
       "name": "Tent",
       "persistentUuid": "e83a1d3f-35e7-4bf7-9275-fd30a9a13b17",
       "width": 405,
@@ -475,13 +443,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 414,
+      "height": 318,
       "layer": "",
       "name": "Car",
       "persistentUuid": "352846e1-b047-42c3-939d-b20c67200fa9",
-      "width": 608,
-      "x": 5632,
-      "y": 1120,
+      "width": 380,
+      "x": 5631,
+      "y": 1184,
       "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
@@ -491,13 +459,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 414,
+      "height": 318,
       "layer": "",
       "name": "Car",
       "persistentUuid": "369d1ce4-cae9-476f-b37d-02810a9ce27b",
-      "width": 608,
-      "x": 5920,
-      "y": 1120,
+      "width": 380,
+      "x": 5811,
+      "y": 1184,
       "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
@@ -507,13 +475,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 414,
+      "height": 318,
       "layer": "",
       "name": "Car",
       "persistentUuid": "551d8d82-318c-403e-b518-b3aed7e9f9ea",
-      "width": 608,
-      "x": 6208,
-      "y": 1120,
+      "width": 380,
+      "x": 5991,
+      "y": 1184,
       "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
@@ -523,13 +491,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 414,
+      "height": 318,
       "layer": "",
       "name": "Car",
       "persistentUuid": "ec95add8-252e-4a45-96d2-2359faa20f3a",
-      "width": 608,
-      "x": 6496,
-      "y": 1120,
+      "width": 380,
+      "x": 6171,
+      "y": 1184,
       "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
@@ -539,13 +507,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 414,
+      "height": 318,
       "layer": "",
       "name": "Car",
       "persistentUuid": "fce91c3f-0ab7-4d45-a498-ff7acad9fb79",
-      "width": 608,
-      "x": 6784,
-      "y": 1120,
+      "width": 380,
+      "x": 6351,
+      "y": 1184,
       "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
@@ -555,13 +523,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 414,
+      "height": 318,
       "layer": "",
       "name": "Car",
       "persistentUuid": "d3b240bb-6c84-4b0f-b44d-121ec6f37a73",
-      "width": 608,
-      "x": 7072,
-      "y": 1120,
+      "width": 380,
+      "x": 6532,
+      "y": 1184,
       "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
@@ -828,7 +796,7 @@
       "customSize": true,
       "depth": 1,
       "height": 350,
-      "layer": "backing_background",
+      "layer": "",
       "name": "bg",
       "persistentUuid": "d5ae0be0-7b55-4dae-b9ea-07a2dced7762",
       "width": 12832,
@@ -1960,65 +1928,83 @@
       "name": "Player",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraX(), Human.X(), 0.1)",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraY(), Human.Y(), 0.1)",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Human",
+                "Finish",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Loading Screen\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Loading_Screen",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        }
+      ],
       "parameters": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "CentreCamera"
-          },
-          "parameters": [
-            "",
-            "Human",
-            "",
-            "",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Human",
-            "Finish",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Loading Screen\"",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "Loading_Screen",
-            "+",
-            "1"
-          ]
-        }
-      ]
+      "actions": []
     },
     {
       "colorB": 228,
@@ -2391,6 +2377,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Health",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2738,7 +2725,7 @@
       "camera3DNearPlaneDistance": 0.1,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "info",
       "renderingType": "",
       "visibility": true,
