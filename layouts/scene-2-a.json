@@ -940,7 +940,6 @@
       "italic": false,
       "name": "NewText",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -960,7 +959,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Dino_Eggs",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1024,7 +1022,6 @@
       "italic": false,
       "name": "Interact_Egg",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -1044,7 +1041,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Info",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1108,7 +1104,6 @@
       "italic": false,
       "name": "Dino_Egg_Info_title",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -1130,7 +1125,6 @@
       "italic": false,
       "name": "Dino_Egg_Info_Text",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -1150,7 +1144,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Raptor_Egg",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1213,7 +1206,6 @@
       "italic": false,
       "name": "Raptor_Info",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -1233,7 +1225,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1245,7 +1236,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "footstep",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1309,7 +1299,6 @@
       "italic": false,
       "name": "Dino_Foot_Text",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -1326,6 +1315,44 @@
       }
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "NewText"
+      },
+      {
+        "objectName": "Dino_Eggs"
+      },
+      {
+        "objectName": "Interact_Egg"
+      },
+      {
+        "objectName": "Info"
+      },
+      {
+        "objectName": "Dino_Egg_Info_title"
+      },
+      {
+        "objectName": "Dino_Egg_Info_Text"
+      },
+      {
+        "objectName": "Raptor_Egg"
+      },
+      {
+        "objectName": "Raptor_Info"
+      },
+      {
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "footstep"
+      },
+      {
+        "objectName": "Dino_Foot_Text"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.1638682658311912,
+    "zoomFactor": 0.35269049347712395,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -232,15 +232,14 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 77,
+      "customSize": false,
+      "height": 0,
       "layer": "Health",
       "name": "Medkit_Display",
       "persistentUuid": "c074fb02-30b0-48b5-9722-9ab0eae8f8df",
-      "width": 81,
-      "x": 144,
-      "y": 54,
+      "width": 0,
+      "x": 160,
+      "y": 64,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -250,13 +249,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 22,
+      "height": 24,
       "layer": "Health",
       "name": "Count",
       "persistentUuid": "f9ff2ee1-cf2f-43db-8b6a-09fa88cf28d9",
       "width": 25,
-      "x": 216,
-      "y": 80,
+      "x": 241,
+      "y": 87,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -295,6 +294,9 @@
     }
   ],
   "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1106,7 +1108,7 @@
       "camera3DNearPlaneDistance": 0.1,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "Health",
       "renderingType": "",
       "visibility": true,
@@ -1162,6 +1164,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "ThreeDFlip",

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.21446078431372617,
+    "zoomFactor": 0.18169065978486237,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -68,6 +68,67 @@
       "x": -3232,
       "y": -864,
       "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tutorial",
+      "persistentUuid": "3f65b866-789b-44cc-9220-595b5cfef1d4",
+      "width": 0,
+      "x": 576,
+      "y": -1184,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Trees",
+      "persistentUuid": "1d61e26f-900e-41fa-ae18-e419b8d58000",
+      "width": 0,
+      "x": 640,
+      "y": -1056,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "Invis_Block",
+      "persistentUuid": "81d712cb-35fc-45f0-880a-2901edac44ad",
+      "width": 320,
+      "x": -2080,
+      "y": 1024,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Dead_Hunter",
+      "persistentUuid": "812fc642-bc4d-456c-a92f-c13e6b4dd8b8",
+      "width": 0,
+      "x": -2064,
+      "y": 928,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -211,53 +272,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Health",
-      "name": "Medkit_Display",
-      "persistentUuid": "a8e6c90f-0628-49c9-943d-9812bbc5daec",
-      "width": 0,
-      "x": 160,
-      "y": 64,
-      "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 34,
-      "layer": "Health",
-      "name": "Count",
-      "persistentUuid": "6d735a77-5ef2-4b98-8e95-b907efadad39",
-      "width": 27,
-      "x": 234,
-      "y": 86,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 132,
-      "layer": "",
-      "name": "Dead_Hunter2",
-      "persistentUuid": "337da89f-ee0b-430f-9fcd-ada056e02977",
-      "width": 163,
-      "x": -2048,
-      "y": 1024,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "objects": [
@@ -267,7 +281,6 @@
       "italic": false,
       "name": "Tutorial",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -289,7 +302,6 @@
       "italic": false,
       "name": "NewText",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -311,7 +323,6 @@
       "italic": false,
       "name": "Trees",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -331,9 +342,29 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
+      "name": "Dead_Hunter",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Dead Hunter ",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 51,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
       "name": "Controls",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -355,7 +386,6 @@
       "italic": false,
       "name": "Climb",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -377,7 +407,6 @@
       "italic": false,
       "name": "Burrow",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -392,69 +421,34 @@
         "g": 0,
         "r": 0
       }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Dead_Hunter2",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Hunter5Death",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Hunter5Death.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 40,
-                        "y": 211
-                      },
-                      {
-                        "x": 383,
-                        "y": 211
-                      },
-                      {
-                        "x": 383,
-                        "y": 391
-                      },
-                      {
-                        "x": 40,
-                        "y": 391
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Tutorial"
+      },
+      {
+        "objectName": "NewText"
+      },
+      {
+        "objectName": "Trees"
+      },
+      {
+        "objectName": "Dead_Hunter"
+      },
+      {
+        "objectName": "Controls"
+      },
+      {
+        "objectName": "Climb"
+      },
+      {
+        "objectName": "Burrow"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -671,6 +665,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "ThreeDFlip",

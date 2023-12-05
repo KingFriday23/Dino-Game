@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.7817486425451784,
+    "snap": true,
+    "zoomFactor": 0.2144607843137264,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -374,38 +374,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 95,
-      "layer": "Health",
-      "name": "Medkit_Display",
-      "persistentUuid": "f476df61-f36e-4bcc-a4c2-2e3994fe9bb0",
-      "width": 94,
-      "x": 145,
-      "y": 51,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 20,
-      "layer": "Health",
-      "name": "Count",
-      "persistentUuid": "137746ff-24f5-4a25-8d6e-aeec09b1aaf3",
-      "width": 15,
-      "x": 231,
-      "y": 83,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "objects": [
@@ -413,7 +381,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Baby_Rex",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -499,7 +466,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "finish",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -558,6 +524,17 @@
       ]
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Baby_Rex"
+      },
+      {
+        "objectName": "finish"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -928,177 +905,6 @@
                     "1"
                   ]
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Human",
-                "Medkit",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Other_pickup"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Human",
-                "Medkit",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "Other_pickup",
-                ""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Human",
-                    "Medkit",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "e"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Medkit",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Other_pickup",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "Medkit_Count",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "t"
-              ]
-            },
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "Medkit_Count",
-                ">",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "Medkit_Count",
-                "-",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "Health",
-                "+",
-                "5"
-              ]
-            },
-            {
-              "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-              },
-              "parameters": [
-                "MetalRedBar",
-                "+",
-                "5",
-                ""
               ]
             }
           ]

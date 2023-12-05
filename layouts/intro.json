@@ -9,7 +9,7 @@
   "title": "",
   "v": 51,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.29529165512361,
+    "zoomFactor": 0.2022070730360214,
     "windowMask": false
   },
   "objectsGroups": [
@@ -93,86 +93,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 320,
-      "layer": "",
-      "name": "Invis_Block",
-      "persistentUuid": "3584e9c6-2cdc-4462-b704-b28e133a84dd",
-      "width": 96,
-      "x": 10720,
-      "y": 1088,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 320,
-      "layer": "",
-      "name": "Invis_Block",
-      "persistentUuid": "2cf88a4a-acd4-4f49-a3ee-8cbf633322af",
-      "width": 96,
-      "x": 9184,
-      "y": 1088,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 320,
-      "layer": "",
-      "name": "Invis_Block",
-      "persistentUuid": "dc43374e-4fd4-4465-bdd0-0981911731c4",
-      "width": 96,
-      "x": 9536,
-      "y": 1088,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 320,
-      "layer": "",
-      "name": "Invis_Block",
-      "persistentUuid": "b42e0c6b-035d-4a78-9e40-93468160a4f8",
-      "width": 96,
-      "x": 9888,
-      "y": 1088,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 320,
-      "layer": "",
-      "name": "Invis_Block",
-      "persistentUuid": "4a478922-0a77-4df3-8235-d2e027301389",
-      "width": 96,
-      "x": 10272,
-      "y": 1088,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -225,9 +145,9 @@
       "layer": "",
       "name": "Finish",
       "persistentUuid": "86e2c6cd-dd7d-4f4f-8631-4bbc4da7d17a",
-      "width": 0,
-      "x": 11360,
-      "y": 1312,
+      "width": 64,
+      "x": 11488,
+      "y": 768,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -245,6 +165,38 @@
       "x": 160,
       "y": 32,
       "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "info",
+      "name": "player_background",
+      "persistentUuid": "f60988b0-7a55-48dd-aa7f-1a9cda1b24b0",
+      "width": 128,
+      "x": 32,
+      "y": 32,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "info",
+      "name": "humannnn",
+      "persistentUuid": "3b6a19be-4032-4868-b494-33749a006e57",
+      "width": 128,
+      "x": 32,
+      "y": 32,
+      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -443,13 +395,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 318,
+      "height": 414,
       "layer": "",
       "name": "Car",
       "persistentUuid": "352846e1-b047-42c3-939d-b20c67200fa9",
-      "width": 380,
-      "x": 5631,
-      "y": 1184,
+      "width": 608,
+      "x": 5632,
+      "y": 1120,
       "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
@@ -459,13 +411,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 318,
+      "height": 414,
       "layer": "",
       "name": "Car",
       "persistentUuid": "369d1ce4-cae9-476f-b37d-02810a9ce27b",
-      "width": 380,
-      "x": 5811,
-      "y": 1184,
+      "width": 608,
+      "x": 5920,
+      "y": 1120,
       "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
@@ -475,13 +427,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 318,
+      "height": 414,
       "layer": "",
       "name": "Car",
       "persistentUuid": "551d8d82-318c-403e-b518-b3aed7e9f9ea",
-      "width": 380,
-      "x": 5991,
-      "y": 1184,
+      "width": 608,
+      "x": 6208,
+      "y": 1120,
       "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
@@ -491,13 +443,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 318,
+      "height": 414,
       "layer": "",
       "name": "Car",
       "persistentUuid": "ec95add8-252e-4a45-96d2-2359faa20f3a",
-      "width": 380,
-      "x": 6171,
-      "y": 1184,
+      "width": 608,
+      "x": 6496,
+      "y": 1120,
       "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
@@ -507,13 +459,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 318,
+      "height": 414,
       "layer": "",
       "name": "Car",
       "persistentUuid": "fce91c3f-0ab7-4d45-a498-ff7acad9fb79",
-      "width": 380,
-      "x": 6351,
-      "y": 1184,
+      "width": 608,
+      "x": 6784,
+      "y": 1120,
       "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
@@ -523,13 +475,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 318,
+      "height": 414,
       "layer": "",
       "name": "Car",
       "persistentUuid": "d3b240bb-6c84-4b0f-b44d-121ec6f37a73",
-      "width": 380,
-      "x": 6532,
-      "y": 1184,
+      "width": 608,
+      "x": 7072,
+      "y": 1120,
       "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
@@ -847,7 +799,6 @@
       "italic": false,
       "name": "NewText",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -869,7 +820,6 @@
       "italic": false,
       "name": "Barrel",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -891,7 +841,6 @@
       "italic": false,
       "name": "Armored_vehicle",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -913,7 +862,6 @@
       "italic": false,
       "name": "Stack_of_tires",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -935,7 +883,6 @@
       "italic": false,
       "name": "Trees",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -957,7 +904,6 @@
       "italic": false,
       "name": "Shooting_range",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -979,7 +925,6 @@
       "italic": false,
       "name": "Tents",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -998,7 +943,6 @@
     {
       "assetStoreId": "",
       "name": "NewResourceBar",
-      "tags": "",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -1055,8 +999,68 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
+      "name": "player_background",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Player_Background",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Player_Background",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
       "name": "star",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1118,7 +1122,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Temp_Sprite",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1188,7 +1191,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1200,7 +1202,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Tent",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1262,7 +1263,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Tent_2",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1324,7 +1324,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Car",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1385,7 +1384,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "tires",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1446,7 +1444,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Shooting_dummy",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1507,7 +1504,6 @@
       "assetStoreId": "",
       "height": 350,
       "name": "background",
-      "tags": "",
       "texture": "assets\\Tree.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 350,
@@ -1519,7 +1515,6 @@
       "assetStoreId": "",
       "height": 350,
       "name": "bg",
-      "tags": "",
       "texture": "assets\\Forestbackground.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 350,
@@ -1531,7 +1526,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "fire_barrel",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1885,6 +1879,71 @@
       ]
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "NewText"
+      },
+      {
+        "objectName": "Barrel"
+      },
+      {
+        "objectName": "Armored_vehicle"
+      },
+      {
+        "objectName": "Stack_of_tires"
+      },
+      {
+        "objectName": "Trees"
+      },
+      {
+        "objectName": "Shooting_range"
+      },
+      {
+        "objectName": "Tents"
+      },
+      {
+        "objectName": "NewResourceBar"
+      },
+      {
+        "objectName": "player_background"
+      },
+      {
+        "objectName": "star"
+      },
+      {
+        "objectName": "Temp_Sprite"
+      },
+      {
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "Tent"
+      },
+      {
+        "objectName": "Tent_2"
+      },
+      {
+        "objectName": "Car"
+      },
+      {
+        "objectName": "tires"
+      },
+      {
+        "objectName": "Shooting_dummy"
+      },
+      {
+        "objectName": "background"
+      },
+      {
+        "objectName": "bg"
+      },
+      {
+        "objectName": "fire_barrel"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2725,7 +2784,7 @@
       "camera3DNearPlaneDistance": 0.1,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "info",
       "renderingType": "",
       "visibility": true,
