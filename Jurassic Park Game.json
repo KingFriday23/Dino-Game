@@ -1357,177 +1357,6 @@
         "name": "NewSprite43",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Medkit.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Medkit.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Medkit2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Medkit2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/CarnotaurusAttack.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\CarnotaurusAttack.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/CarnotaurusRun.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\CarnotaurusRun.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/CarnotaurusRun2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\CarnotaurusRun2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/CarnotaurusRun3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\CarnotaurusRun3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/CarnotaurusRun4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\CarnotaurusRun4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/StackOfBones.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\StackOfBones.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/HunterShock.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\HunterShock.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/HunterShock2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\HunterShock2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/HunterShock3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\HunterShock3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/HunterShock4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\HunterShock4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/HunterShock5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\HunterShock5.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/HunterShock6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\HunterShock6.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/HunterShock7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\HunterShock7.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/HunterShock8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\HunterShock8.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/HunterShock9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\HunterShock9.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/HunterShock10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\HunterShock10.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/HunterShock11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\HunterShock11.png",
-        "smoothed": true,
-        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1537,7 +1366,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "invis_slope_Right",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1609,7 +1437,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "invis_slope_left",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1681,7 +1508,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Invis_Block",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1756,7 +1582,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Human",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1833,7 +1658,7 @@
       ],
       "animations": [
         {
-          "name": "Idle",
+          "name": "NewSprite",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1886,480 +1711,6 @@
               ]
             }
           ]
-        },
-        {
-          "name": "Taking Damage",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\HunterShock.png",
-                  "points": [
-                    {
-                      "name": "Gun",
-                      "x": 141,
-                      "y": 222.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 96,
-                        "y": 1
-                      },
-                      {
-                        "x": 245,
-                        "y": 1
-                      },
-                      {
-                        "x": 245,
-                        "y": 350
-                      },
-                      {
-                        "x": 96,
-                        "y": 350
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\HunterShock2.png",
-                  "points": [
-                    {
-                      "name": "Gun",
-                      "x": 141,
-                      "y": 222.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 96,
-                        "y": 1
-                      },
-                      {
-                        "x": 245,
-                        "y": 1
-                      },
-                      {
-                        "x": 245,
-                        "y": 350
-                      },
-                      {
-                        "x": 96,
-                        "y": 350
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\HunterShock3.png",
-                  "points": [
-                    {
-                      "name": "Gun",
-                      "x": 141,
-                      "y": 222.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 96,
-                        "y": 1
-                      },
-                      {
-                        "x": 245,
-                        "y": 1
-                      },
-                      {
-                        "x": 245,
-                        "y": 350
-                      },
-                      {
-                        "x": 96,
-                        "y": 350
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\HunterShock4.png",
-                  "points": [
-                    {
-                      "name": "Gun",
-                      "x": 141,
-                      "y": 222.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 96,
-                        "y": 1
-                      },
-                      {
-                        "x": 245,
-                        "y": 1
-                      },
-                      {
-                        "x": 245,
-                        "y": 350
-                      },
-                      {
-                        "x": 96,
-                        "y": 350
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\HunterShock5.png",
-                  "points": [
-                    {
-                      "name": "Gun",
-                      "x": 141,
-                      "y": 222.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 96,
-                        "y": 1
-                      },
-                      {
-                        "x": 245,
-                        "y": 1
-                      },
-                      {
-                        "x": 245,
-                        "y": 350
-                      },
-                      {
-                        "x": 96,
-                        "y": 350
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\HunterShock6.png",
-                  "points": [
-                    {
-                      "name": "Gun",
-                      "x": 141,
-                      "y": 222.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 96,
-                        "y": 1
-                      },
-                      {
-                        "x": 245,
-                        "y": 1
-                      },
-                      {
-                        "x": 245,
-                        "y": 350
-                      },
-                      {
-                        "x": 96,
-                        "y": 350
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\HunterShock7.png",
-                  "points": [
-                    {
-                      "name": "Gun",
-                      "x": 141,
-                      "y": 222.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 96,
-                        "y": 1
-                      },
-                      {
-                        "x": 245,
-                        "y": 1
-                      },
-                      {
-                        "x": 245,
-                        "y": 350
-                      },
-                      {
-                        "x": 96,
-                        "y": 350
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\HunterShock8.png",
-                  "points": [
-                    {
-                      "name": "Gun",
-                      "x": 141,
-                      "y": 222.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 96,
-                        "y": 1
-                      },
-                      {
-                        "x": 245,
-                        "y": 1
-                      },
-                      {
-                        "x": 245,
-                        "y": 350
-                      },
-                      {
-                        "x": 96,
-                        "y": 350
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\HunterShock9.png",
-                  "points": [
-                    {
-                      "name": "Gun",
-                      "x": 141,
-                      "y": 222.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 96,
-                        "y": 1
-                      },
-                      {
-                        "x": 245,
-                        "y": 1
-                      },
-                      {
-                        "x": 245,
-                        "y": 350
-                      },
-                      {
-                        "x": 96,
-                        "y": 350
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\HunterShock10.png",
-                  "points": [
-                    {
-                      "name": "Gun",
-                      "x": 141,
-                      "y": 222.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 96,
-                        "y": 1
-                      },
-                      {
-                        "x": 245,
-                        "y": 1
-                      },
-                      {
-                        "x": 245,
-                        "y": 350
-                      },
-                      {
-                        "x": 96,
-                        "y": 350
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\HunterShock11.png",
-                  "points": [
-                    {
-                      "name": "Gun",
-                      "x": 141,
-                      "y": 222.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 96,
-                        "y": 1
-                      },
-                      {
-                        "x": 245,
-                        "y": 1
-                      },
-                      {
-                        "x": 245,
-                        "y": 350
-                      },
-                      {
-                        "x": 96,
-                        "y": 350
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -2367,7 +1718,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Human2",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2504,7 +1854,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Finish",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2566,7 +1915,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Rifle",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2664,7 +2012,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Shotgun",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2763,7 +2110,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Bullet",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2824,7 +2170,6 @@
     {
       "assetStoreId": "17a00ca25428306c8db067b2dd8379e9fe1cb562c10443ae2f65f3d561e54f1e",
       "name": "MetalRedBar",
-      "tags": "",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -2890,7 +2235,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "humannnn",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2952,7 +2296,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Medkit",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2970,7 +2313,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Medkit2.png",
+                  "image": "NewSprite40",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2986,20 +2329,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 21,
-                        "y": 17
+                        "x": 3,
+                        "y": 15
                       },
                       {
-                        "x": 79,
-                        "y": 17
+                        "x": 62,
+                        "y": 15
                       },
                       {
-                        "x": 79,
-                        "y": 70
+                        "x": 62,
+                        "y": 52
                       },
                       {
-                        "x": 21,
-                        "y": 70
+                        "x": 3,
+                        "y": 52
                       }
                     ]
                   ]
@@ -3014,7 +2357,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Medkit_Display",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3032,7 +2374,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Medkit2.png",
+                  "image": "NewSprite40",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3048,20 +2390,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 21,
-                        "y": 17
+                        "x": 3,
+                        "y": 15
                       },
                       {
-                        "x": 79,
-                        "y": 17
+                        "x": 62,
+                        "y": 15
                       },
                       {
-                        "x": 79,
-                        "y": 70
+                        "x": 62,
+                        "y": 52
                       },
                       {
-                        "x": 21,
-                        "y": 70
+                        "x": 3,
+                        "y": 52
                       }
                     ]
                   ]
@@ -3078,7 +2420,6 @@
       "italic": false,
       "name": "Other_pickup",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -3100,7 +2441,6 @@
       "italic": false,
       "name": "pickup",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -3122,7 +2462,6 @@
       "italic": false,
       "name": "Count",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -3142,7 +2481,6 @@
       "assetStoreId": "",
       "height": 100,
       "name": "Grass",
-      "tags": "",
       "texture": "assets\\GrassyDirt.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 100,
@@ -3151,6 +2489,13 @@
       "behaviors": []
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "invis_slope_Right"
+      },
+      {
         "objectName": "invis_slope_left"
       },
       {
