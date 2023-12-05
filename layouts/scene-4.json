@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.1941505911274083,
+    "snap": false,
+    "zoomFactor": 0.27962265218393895,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -36,22 +36,6 @@
       "x": -864,
       "y": 1216,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 224,
-      "layer": "",
-      "name": "Dino_Corpse",
-      "persistentUuid": "0879c7c2-44ef-4eac-a0be-149bf5b962e2",
-      "width": 256,
-      "x": -32,
-      "y": 992,
-      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -80,8 +64,8 @@
       "name": "Examine",
       "persistentUuid": "6d815f04-a3ae-4178-9ede-6f0db0e077b4",
       "width": 0,
-      "x": 69,
-      "y": 928,
+      "x": 40,
+      "y": 1096,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -121,30 +105,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Health",
-      "name": "Medkit_Display",
-      "persistentUuid": "64bbe6b3-98a5-435d-8e55-4281101cc905",
-      "width": 0,
-      "x": 161,
-      "y": 62,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 23,
+      "height": 26,
       "layer": "Health",
       "name": "Count",
       "persistentUuid": "9b831a07-2d22-44c9-a53b-e9a0fedd1f71",
-      "width": 26,
-      "x": 239,
-      "y": 87,
+      "width": 24,
+      "x": 216,
+      "y": 84,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -187,12 +156,43 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "Temp_last_boss",
+      "name": "Carno",
       "persistentUuid": "4f3bee11-a5a6-49e7-82b9-8f16b4848ac1",
-      "width": 0,
-      "x": 576,
-      "y": 930,
+      "width": 350,
+      "x": 258,
+      "y": 800,
       "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "Health",
+      "name": "Medkit_Display",
+      "persistentUuid": "c954036a-1690-40f5-a883-9fbfe7c1ef4e",
+      "width": 68,
+      "x": 148,
+      "y": 59,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Dino_Corpse",
+      "persistentUuid": "e3c45c4a-fbdf-4093-aeb4-6b9cb358e278",
+      "width": 0,
+      "x": -52,
+      "y": 1110,
+      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -203,6 +203,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Dino_Corpse",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -210,7 +211,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Dino Corpse",
+          "name": "Bones",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -220,7 +221,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\carno_Temp.png",
+                  "image": "assets\\StackOfBones.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -236,20 +237,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 8
+                        "x": 48,
+                        "y": 58
                       },
                       {
-                        "x": 64,
-                        "y": 8
+                        "x": 154,
+                        "y": 58
                       },
                       {
-                        "x": 64,
-                        "y": 62
+                        "x": 154,
+                        "y": 116
                       },
                       {
-                        "x": 2,
-                        "y": 62
+                        "x": 48,
+                        "y": 116
                       }
                     ]
                   ]
@@ -266,6 +267,7 @@
       "italic": false,
       "name": "Examine",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -284,7 +286,8 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Temp_last_boss",
+      "name": "Carno",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -292,6 +295,7 @@
       "behaviors": [
         {
           "name": "Pathfinding",
+          "rotateObject": false,
           "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
@@ -303,13 +307,32 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 200,
-          "rotateObject": true,
           "smoothingMaxCellGap": 1
+        },
+        {
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "name": "PlatformerObject",
+          "slopeMaxAngle": 60,
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
         }
       ],
       "animations": [
         {
-          "name": "Temp last boss",
+          "name": "Carno",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -318,7 +341,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\T-Rex.png",
+                  "image": "assets\\CarnotaurusAttack.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -334,20 +357,176 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 18,
-                        "y": 18
+                        "x": 2,
+                        "y": 27
                       },
                       {
-                        "x": 345,
-                        "y": 18
+                        "x": 399,
+                        "y": 27
                       },
                       {
-                        "x": 345,
-                        "y": 270
+                        "x": 399,
+                        "y": 388
                       },
                       {
-                        "x": 18,
-                        "y": 270
+                        "x": 2,
+                        "y": 388
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walking",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\CarnotaurusRun.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 27
+                      },
+                      {
+                        "x": 399,
+                        "y": 27
+                      },
+                      {
+                        "x": 399,
+                        "y": 388
+                      },
+                      {
+                        "x": 2,
+                        "y": 388
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\CarnotaurusRun2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 27
+                      },
+                      {
+                        "x": 399,
+                        "y": 27
+                      },
+                      {
+                        "x": 399,
+                        "y": 388
+                      },
+                      {
+                        "x": 2,
+                        "y": 388
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\CarnotaurusRun3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 27
+                      },
+                      {
+                        "x": 399,
+                        "y": 27
+                      },
+                      {
+                        "x": 399,
+                        "y": 388
+                      },
+                      {
+                        "x": 2,
+                        "y": 388
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\CarnotaurusRun4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 27
+                      },
+                      {
+                        "x": 399,
+                        "y": 27
+                      },
+                      {
+                        "x": 399,
+                        "y": 388
+                      },
+                      {
+                        "x": 2,
+                        "y": 388
                       }
                     ]
                   ]
@@ -359,20 +538,6 @@
       ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "Dino_Corpse"
-      },
-      {
-        "objectName": "Examine"
-      },
-      {
-        "objectName": "Temp_last_boss"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -400,7 +565,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "Temp_last_boss"
+            "Carno"
           ]
         }
       ]
@@ -468,11 +633,50 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "0.5",
+                "",
+                ""
+              ]
             }
           ]
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Human",
+            "Dino_Corpse",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Examine"
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1024,7 +1228,7 @@
               },
               "parameters": [
                 "Human",
-                "Temp_last_boss",
+                "Carno",
                 "",
                 "",
                 ""
@@ -1045,7 +1249,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "Temp_last_boss",
+                "Carno",
                 ""
               ]
             }
@@ -1072,7 +1276,7 @@
                 "value": "PathfindingBehavior::Acceleration"
               },
               "parameters": [
-                "Temp_last_boss",
+                "Carno",
                 "Pathfinding",
                 "=",
                 "600"
@@ -1083,69 +1287,11 @@
                 "value": "PathfindingBehavior::SetDestination"
               },
               "parameters": [
-                "Temp_last_boss",
+                "Carno",
                 "Pathfinding",
                 "",
                 "Human.X() - 5",
                 "Human.Y()"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Temp_last_boss",
-                "invis_slope_Right",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "Temp_last_boss",
-                "=",
-                "Temp_last_boss.X() + 5"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Temp_last_boss",
-                "Invis_Block",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "Temp_last_boss",
-                "=",
-                "Temp_last_boss.X() + 5"
               ]
             }
           ]
@@ -1272,10 +1418,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "ThreeDFlip",
