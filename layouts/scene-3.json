@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.364583333333335,
+    "snap": false,
+    "zoomFactor": 0.35269049347712395,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -128,8 +128,8 @@
       "name": "Shotgun",
       "persistentUuid": "f7025ff3-39f1-403e-a237-979dd2a4abd8",
       "width": 64,
-      "x": -143,
-      "y": 244,
+      "x": 401,
+      "y": 1012,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -163,6 +163,69 @@
       "x": 160,
       "y": 32,
       "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Medkit",
+      "persistentUuid": "70b485c9-16ab-4606-95da-3930ffcf1f11",
+      "width": 32,
+      "x": 170,
+      "y": 1083,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Other_pickup",
+      "persistentUuid": "03da2ff5-bc35-4e5b-b1c0-3a236bf76192",
+      "width": 0,
+      "x": 57,
+      "y": 1066,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Medkit",
+      "persistentUuid": "e5d057a0-e28f-41fa-bc1a-9408cfe9327c",
+      "width": 32,
+      "x": 64,
+      "y": 1088,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Medkit",
+      "persistentUuid": "5f38ecef-2c89-4ebc-b190-ac5a0eae7a32",
+      "width": 32,
+      "x": 117,
+      "y": 1081,
+      "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -496,12 +559,6 @@
                 ">",
                 "0"
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
