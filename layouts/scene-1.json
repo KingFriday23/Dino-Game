@@ -1,13 +1,13 @@
 {
-  "b": 209,
+  "b": 177,
   "disableInputWhenNotFocused": true,
   "mangledName": "Scene_321",
   "name": "Scene 1",
-  "r": 209,
+  "r": 177,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 177,
   "uiSettings": {
     "grid": true,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.35269049347712245,
+    "zoomFactor": 0.229168016107488,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -211,6 +211,70 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "layer": "",
+      "name": "Grass",
+      "persistentUuid": "4c77d3a8-7da4-481d-9ea9-51d3bea46dff",
+      "width": 3296,
+      "x": -1056,
+      "y": 1024,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -18,
+      "customSize": true,
+      "depth": 2,
+      "height": 197,
+      "layer": "",
+      "name": "Grass",
+      "persistentUuid": "d6b1350d-3cd1-4e99-84c8-9db98f4569eb",
+      "width": 2527,
+      "x": 2016,
+      "y": 642,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -18,
+      "customSize": true,
+      "depth": 18,
+      "height": 1372,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "74b3ab0c-e9ba-4676-9525-3fe898f6cf9d",
+      "width": 2482,
+      "x": 2295,
+      "y": 670,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 9,
+      "height": 678,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "0dbdf8eb-aeb1-4cc8-b3e6-5999472618a1",
+      "width": 3264,
+      "x": -800,
+      "y": 1088,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -315,6 +379,17 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
     }
   ],
   "objectsFolderStructure": {
@@ -328,6 +403,9 @@
       },
       {
         "objectName": "Tp"
+      },
+      {
+        "objectName": "NewSprite"
       }
     ]
   },
@@ -338,12 +416,24 @@
       "actions": [
         {
           "type": {
-            "value": "CentreCamera"
+            "value": "SetCameraCenterX"
           },
           "parameters": [
             "",
-            "Human",
+            "=",
+            "lerp(CameraX(), Human.X(), 0.1)",
             "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "lerp(CameraY(), Human.Y(), 0.1)",
             "",
             ""
           ]

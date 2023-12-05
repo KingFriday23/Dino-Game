@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.18169065978486237,
+    "zoomFactor": 0.8926462115230271,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -228,21 +228,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Finish",
-      "persistentUuid": "f1b60c78-de1d-4a13-a0fd-76b7d8caf72b",
-      "width": 0,
-      "x": -2848,
-      "y": 1088,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 0,
       "height": 128,
@@ -269,6 +254,22 @@
       "x": 160,
       "y": 32,
       "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1920,
+      "layer": "",
+      "name": "Finish",
+      "persistentUuid": "8e9fba1d-79df-4a8f-b0d8-d6a8f1842346",
+      "width": 64,
+      "x": 6496,
+      "y": -768,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []

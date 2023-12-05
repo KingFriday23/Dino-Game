@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5843784410741008,
+    "zoomFactor": 0.7619362677197719,
     "windowMask": false
   },
   "objectsGroups": [
@@ -172,43 +172,12 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "layer": "info",
-      "name": "player_background",
-      "persistentUuid": "f60988b0-7a55-48dd-aa7f-1a9cda1b24b0",
-      "width": 128,
-      "x": 32,
-      "y": 32,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "layer": "info",
-      "name": "humannnn",
-      "persistentUuid": "3b6a19be-4032-4868-b494-33749a006e57",
-      "width": 128,
-      "x": 32,
-      "y": 32,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "depth": 1,
+      "height": 96,
       "layer": "info",
       "name": "Medkit_Display",
       "persistentUuid": "35357b01-9f8f-468e-b4ed-5b1ef59e6acf",
-      "width": 0,
+      "width": 96,
       "x": 160,
       "y": 64,
       "zOrder": 22,
@@ -224,9 +193,9 @@
       "layer": "info",
       "name": "Count",
       "persistentUuid": "a43e3e2a-21ef-42a0-90c1-ae9434369fd9",
-      "width": 32,
-      "x": 234,
-      "y": 86,
+      "width": 64,
+      "x": 256,
+      "y": 96,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -253,8 +222,10 @@
       "depth": 1,
       "height": 100,
       "layer": "",
+      "locked": true,
       "name": "Grass",
       "persistentUuid": "b08c6824-7eaf-4bef-8d2e-8a091925e847",
+      "sealed": true,
       "width": 12896,
       "x": -1344,
       "y": 1408,
@@ -749,28 +720,14 @@
       "depth": 1,
       "height": 350,
       "layer": "",
+      "locked": true,
       "name": "bg",
       "persistentUuid": "d5ae0be0-7b55-4dae-b9ea-07a2dced7762",
+      "sealed": true,
       "width": 12832,
-      "x": -1344,
-      "y": 1088,
+      "x": -1376,
+      "y": 1056,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 222,
-      "layer": "",
-      "name": "fire_barrel",
-      "persistentUuid": "ac04cd11-b31c-4e8a-805d-cc0a0959725c",
-      "width": 224,
-      "x": -288,
-      "y": 1248,
-      "zOrder": 63,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -787,6 +744,38 @@
       "x": -192,
       "y": 1280,
       "zOrder": 64,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 256,
+      "layer": "info",
+      "name": "humannnn",
+      "persistentUuid": "40c4b940-b156-4567-8bad-3f0bb65becad",
+      "width": 256,
+      "x": -32,
+      "y": -32,
+      "zOrder": 100001,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 224,
+      "layer": "",
+      "name": "Fire_Barrel",
+      "persistentUuid": "2ac810fc-af9d-4f8c-aaa4-3bfacf605260",
+      "width": 224,
+      "x": -288,
+      "y": 1248,
+      "zOrder": 100002,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1523,19 +1512,30 @@
       "behaviors": []
     },
     {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
+    },
+    {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "fire_barrel",
+      "name": "Fire_Barrel",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [
         {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
           "canBeGrabbed": true,
+          "name": "Platform",
           "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
           "yGrabOffset": 0
         }
       ],
@@ -1566,20 +1566,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 131.5,
-                        "y": 264
+                        "x": 127,
+                        "y": 127.5
                       },
                       {
-                        "x": 222,
-                        "y": 266.5
+                        "x": 226,
+                        "y": 126
                       },
                       {
-                        "x": 224.5,
-                        "y": 128.5
+                        "x": 226,
+                        "y": 269
                       },
                       {
-                        "x": 129.5,
-                        "y": 125.5
+                        "x": 128,
+                        "y": 269
                       }
                     ]
                   ]
@@ -1602,20 +1602,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 131.5,
-                        "y": 264
+                        "x": 127,
+                        "y": 127.5
                       },
                       {
-                        "x": 222,
-                        "y": 266.5
+                        "x": 226,
+                        "y": 126
                       },
                       {
-                        "x": 224.5,
-                        "y": 128.5
+                        "x": 226,
+                        "y": 269
                       },
                       {
-                        "x": 129.5,
-                        "y": 125.5
+                        "x": 128,
+                        "y": 269
                       }
                     ]
                   ]
@@ -1638,20 +1638,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 131.5,
-                        "y": 264
+                        "x": 127,
+                        "y": 127.5
                       },
                       {
-                        "x": 222,
-                        "y": 266.5
+                        "x": 226,
+                        "y": 126
                       },
                       {
-                        "x": 224.5,
-                        "y": 128.5
+                        "x": 226,
+                        "y": 269
                       },
                       {
-                        "x": 129.5,
-                        "y": 125.5
+                        "x": 128,
+                        "y": 269
                       }
                     ]
                   ]
@@ -1674,20 +1674,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 131.5,
-                        "y": 264
+                        "x": 127,
+                        "y": 127.5
                       },
                       {
-                        "x": 222,
-                        "y": 266.5
+                        "x": 226,
+                        "y": 126
                       },
                       {
-                        "x": 224.5,
-                        "y": 128.5
+                        "x": 226,
+                        "y": 269
                       },
                       {
-                        "x": 129.5,
-                        "y": 125.5
+                        "x": 128,
+                        "y": 269
                       }
                     ]
                   ]
@@ -1710,20 +1710,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 131.5,
-                        "y": 264
+                        "x": 127,
+                        "y": 127.5
                       },
                       {
-                        "x": 222,
-                        "y": 266.5
+                        "x": 226,
+                        "y": 126
                       },
                       {
-                        "x": 224.5,
-                        "y": 128.5
+                        "x": 226,
+                        "y": 269
                       },
                       {
-                        "x": 129.5,
-                        "y": 125.5
+                        "x": 128,
+                        "y": 269
                       }
                     ]
                   ]
@@ -1746,128 +1746,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 131.5,
-                        "y": 264
+                        "x": 127,
+                        "y": 127.5
                       },
                       {
-                        "x": 222,
-                        "y": 266.5
+                        "x": 226,
+                        "y": 126
                       },
                       {
-                        "x": 224.5,
-                        "y": 128.5
+                        "x": 226,
+                        "y": 269
                       },
                       {
-                        "x": 129.5,
-                        "y": 125.5
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\BarrelOfFire8.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 131.5,
-                        "y": 264
-                      },
-                      {
-                        "x": 222,
-                        "y": 266.5
-                      },
-                      {
-                        "x": 224.5,
-                        "y": 128.5
-                      },
-                      {
-                        "x": 129.5,
-                        "y": 125.5
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\BarrelOfFire9.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 131.5,
-                        "y": 264
-                      },
-                      {
-                        "x": 222,
-                        "y": 266.5
-                      },
-                      {
-                        "x": 224.5,
-                        "y": 128.5
-                      },
-                      {
-                        "x": 129.5,
-                        "y": 125.5
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\BarrelOfFire10.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 131.5,
-                        "y": 264
-                      },
-                      {
-                        "x": 222,
-                        "y": 266.5
-                      },
-                      {
-                        "x": 224.5,
-                        "y": 128.5
-                      },
-                      {
-                        "x": 129.5,
-                        "y": 125.5
+                        "x": 128,
+                        "y": 269
                       }
                     ]
                   ]
@@ -1940,7 +1832,10 @@
         "objectName": "bg"
       },
       {
-        "objectName": "fire_barrel"
+        "objectName": "NewSprite2"
+      },
+      {
+        "objectName": "Fire_Barrel"
       }
     ]
   },
@@ -2784,7 +2679,7 @@
       "camera3DNearPlaneDistance": 0.1,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "info",
       "renderingType": "",
       "visibility": true,
