@@ -1526,6 +1526,111 @@
         "name": "assets\\DirtTexture.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/FootPrint.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\FootPrint.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "lake scene.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "lake scene.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Scene1Beach.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Scene1Beach.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\Scene1Beach.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/DinoNest.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\DinoNest.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Flight-Carno.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Flight-Carno.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Dream.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Dream.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Tutorial-End.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Tutorial-End.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "main-menu-better_main2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "main-menu-better_main2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "main-menu-better_main3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "main-menu-better_main3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hunter5Death.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Hunter5Death.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fence.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fence.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

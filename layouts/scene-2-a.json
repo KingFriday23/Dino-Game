@@ -1,13 +1,13 @@
 {
-  "b": 209,
+  "b": 211,
   "disableInputWhenNotFocused": true,
   "mangledName": "Scene_322_45a",
   "name": "Scene 2-a",
-  "r": 209,
+  "r": 170,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 223,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.28536124092182996,
+    "zoomFactor": 0.11655004085202918,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -432,31 +432,33 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "angle": 357,
+      "customSize": true,
+      "depth": 1,
+      "height": 40,
       "layer": "",
       "name": "Dino_Eggs",
       "persistentUuid": "a4450995-de27-4b9e-901a-a3c219fb10be",
-      "width": 0,
-      "x": 13792,
-      "y": 2432,
-      "zOrder": 33,
+      "width": 42,
+      "x": 13807,
+      "y": 2438,
+      "zOrder": 81,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "angle": 356,
+      "customSize": true,
+      "depth": 1,
+      "height": 53,
       "layer": "",
       "name": "Dino_Eggs",
       "persistentUuid": "046236e0-cb22-425f-ab3e-9a1b843607ee",
-      "width": 0,
-      "x": 13856,
-      "y": 2432,
-      "zOrder": 34,
+      "width": 57,
+      "x": 13877,
+      "y": 2425,
+      "zOrder": 81,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -470,8 +472,8 @@
       "name": "Interact_Egg",
       "persistentUuid": "c474725a-ca54-499f-be6a-dc2d1e338b7d",
       "width": 448,
-      "x": 13638,
-      "y": 2351,
+      "x": 13705,
+      "y": 2301,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -528,14 +530,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 768,
+      "depth": 1,
+      "height": 737,
       "layer": "",
       "name": "Raptor_Egg",
       "persistentUuid": "3a498445-86a7-416c-92cc-42c3fe705b78",
-      "width": 1536,
-      "x": 2272,
-      "y": 2624,
+      "width": 791,
+      "x": 2641,
+      "y": 2655,
       "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
@@ -581,9 +583,9 @@
       "name": "footstep",
       "persistentUuid": "08c249b3-9628-4d32-839e-7eaa59d6c6fa",
       "width": 0,
-      "x": 1568,
-      "y": 960,
-      "zOrder": 41,
+      "x": 1565,
+      "y": 982,
+      "zOrder": 78,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -596,9 +598,9 @@
       "name": "footstep",
       "persistentUuid": "6e4b6244-876b-49f4-93d0-5ca1d29164ce",
       "width": 0,
-      "x": 2784,
-      "y": 896,
-      "zOrder": 42,
+      "x": 2781,
+      "y": 918,
+      "zOrder": 78,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -611,9 +613,9 @@
       "name": "footstep",
       "persistentUuid": "b361ed78-9b57-45f0-840a-9be52e8ba152",
       "width": 0,
-      "x": 4288,
-      "y": 928,
-      "zOrder": 43,
+      "x": 4561,
+      "y": 1013,
+      "zOrder": 78,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -626,9 +628,9 @@
       "name": "footstep",
       "persistentUuid": "851abeb6-2237-44ef-b0aa-d9878b466609",
       "width": 0,
-      "x": 5952,
-      "y": 896,
-      "zOrder": 44,
+      "x": 5949,
+      "y": 918,
+      "zOrder": 78,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -641,9 +643,9 @@
       "name": "footstep",
       "persistentUuid": "869ead05-32f8-4bf2-bdf4-aeeb9e646915",
       "width": 0,
-      "x": 6880,
-      "y": 960,
-      "zOrder": 45,
+      "x": 6877,
+      "y": 1019,
+      "zOrder": 78,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -656,9 +658,9 @@
       "name": "footstep",
       "persistentUuid": "c7a9fbe5-78a8-4d61-80f4-3a8f31ccfbdf",
       "width": 0,
-      "x": 9344,
-      "y": 2048,
-      "zOrder": 46,
+      "x": 9341,
+      "y": 2070,
+      "zOrder": 78,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -671,9 +673,9 @@
       "name": "footstep",
       "persistentUuid": "b393bcac-fb0a-4760-a235-81f7fecd117b",
       "width": 0,
-      "x": 10304,
-      "y": 2208,
-      "zOrder": 47,
+      "x": 10301,
+      "y": 2230,
+      "zOrder": 78,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -686,9 +688,9 @@
       "name": "footstep",
       "persistentUuid": "51585b1c-00ba-4ea6-8e44-4b5b984a42a2",
       "width": 0,
-      "x": 11392,
-      "y": 2400,
-      "zOrder": 48,
+      "x": 11389,
+      "y": 2422,
+      "zOrder": 78,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -696,15 +698,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 96,
+      "depth": 1,
+      "height": 86,
       "layer": "",
       "name": "footstep",
       "persistentUuid": "e1ccfd88-28cc-4135-b100-2c46408e190f",
-      "width": 256,
-      "x": 12352,
-      "y": 2464,
-      "zOrder": 49,
+      "width": 62,
+      "x": 12412,
+      "y": 2515,
+      "zOrder": 78,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -717,9 +719,9 @@
       "name": "footstep",
       "persistentUuid": "4fcff30d-1176-4af9-b261-858fa4f2c648",
       "width": 0,
-      "x": 13344,
+      "x": 13341,
       "y": 2464,
-      "zOrder": 50,
+      "zOrder": 78,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -829,8 +831,8 @@
       "name": "Dino_Foot_Text",
       "persistentUuid": "ccb829ff-6b9c-448c-b15e-fc2dc49230d5",
       "width": 507,
-      "x": 4069,
-      "y": 736,
+      "x": 4364,
+      "y": 863,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -936,12 +938,12 @@
       "angle": -3,
       "customSize": true,
       "depth": 1,
-      "height": 100,
+      "height": 144,
       "layer": "",
       "name": "Grass",
       "persistentUuid": "9d8f61ad-4fc3-4656-ae45-908f6cc75c4f",
-      "width": 512,
-      "x": 62,
+      "width": 739,
+      "x": -160,
       "y": 973,
       "zOrder": 55,
       "numberProperties": [],
@@ -1213,9 +1215,9 @@
       "name": "Grass",
       "persistentUuid": "9395cdda-f023-4df3-9bdb-89f007c84131",
       "width": 1794.569586,
-      "x": 12194,
-      "y": 2509,
-      "zOrder": 70,
+      "x": 12195,
+      "y": 2506,
+      "zOrder": 76,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1231,7 +1233,7 @@
       "width": 615.53229,
       "x": 13973,
       "y": 2510,
-      "zOrder": 71,
+      "zOrder": 75,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1283,6 +1285,324 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 566,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "4bd10dbb-4cec-4e70-96d2-229c6edaec76",
+      "width": 1312,
+      "x": -193,
+      "y": 1038,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 566,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "c34b52dc-485f-4658-b179-85978c34430f",
+      "width": 1109,
+      "x": 1093,
+      "y": 1078,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 566,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "5cefb2ff-0f6a-4d10-bd6e-5c8b2c304fa7",
+      "width": 1109,
+      "x": 2007,
+      "y": 1049,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 566,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "a64f16ec-bd9d-470e-8d9b-11dd2d3f1c5a",
+      "width": 1109,
+      "x": 3055,
+      "y": 1066,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 566,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "124e63c1-9fef-435e-8017-4cccd6afa5d6",
+      "width": 3120,
+      "x": 4050,
+      "y": 1080,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 566,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "65dcf462-c6b1-4126-9c21-6d2f302f49f7",
+      "width": 1466,
+      "x": 5003,
+      "y": 1049,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 24,
+      "customSize": true,
+      "depth": 1,
+      "height": 445,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "395f5c7c-ea99-4502-a740-3b4ad4a75d9d",
+      "width": 1692,
+      "x": 6971,
+      "y": 1402,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 31,
+      "customSize": true,
+      "depth": 1,
+      "height": 445,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "cfb09c87-3ae3-483c-b119-190b5102c7e6",
+      "width": 1692,
+      "x": 8311,
+      "y": 2147,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 8,
+      "customSize": true,
+      "depth": 1,
+      "height": 445,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "695ec447-31cf-4fb6-8295-3d7c4a2c059a",
+      "width": 1692,
+      "x": 9214,
+      "y": 2278,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 24,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Grass",
+      "persistentUuid": "f0604fb4-0c96-4e57-a945-41d5a2b61704",
+      "width": 0,
+      "x": 9177,
+      "y": 2063,
+      "zOrder": 79,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Grass",
+      "persistentUuid": "d69ee1b4-fe72-4af6-93a1-b6b42e21842d",
+      "width": 0,
+      "x": 12146,
+      "y": 2552,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 8,
+      "customSize": true,
+      "depth": 1,
+      "height": 445,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "5b537c67-e7ff-4f98-8569-3f266f9746c3",
+      "width": 1692,
+      "x": 10736,
+      "y": 2533,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 356,
+      "customSize": true,
+      "depth": 1,
+      "height": 445,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "901f411e-39c5-40b8-8434-7f4a10e66c0f",
+      "width": 1692,
+      "x": 12059,
+      "y": 2586,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 3,
+      "customSize": true,
+      "depth": 1,
+      "height": 445,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "ced8aa3e-5daf-4a75-b12f-43890694215b",
+      "width": 1692,
+      "x": 13558,
+      "y": 2580,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 359,
+      "customSize": true,
+      "depth": 1,
+      "height": 445,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "20510603-e4d2-4e3d-8b83-70a843d8ab22",
+      "width": 1692,
+      "x": 14970,
+      "y": 2641,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 8,
+      "customSize": true,
+      "depth": 1,
+      "height": 445,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "f002bfc0-3619-4c1b-82f6-ae688e5c2348",
+      "width": 1692,
+      "x": 14761,
+      "y": 2673,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 990,
+      "layer": "",
+      "name": "tre3e",
+      "persistentUuid": "36a98ae4-9e16-475a-a5a7-42f103e379ab",
+      "width": 812,
+      "x": 77,
+      "y": -22,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1083,
+      "layer": "",
+      "name": "tre3e",
+      "persistentUuid": "25fda72f-8031-4ff3-be8e-6bdc1859c536",
+      "width": 572,
+      "x": 1140,
+      "y": -39,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1064,
+      "layer": "",
+      "name": "tre3e",
+      "persistentUuid": "9dfe241e-5858-4200-b438-a00b72d23029",
+      "width": 1249,
+      "x": 1770,
+      "y": -21,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1206,
+      "layer": "",
+      "name": "tre3e",
+      "persistentUuid": "33f22a83-cfe2-4c30-b01a-440a775a5e24",
+      "width": 1292,
+      "x": 2499,
+      "y": -109,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1328,7 +1648,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Temp_Egg.png",
+                  "image": "assets\\DinoNest.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1344,20 +1664,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 9
+                        "x": 2,
+                        "y": 30
                       },
                       {
-                        "x": 40,
-                        "y": 9
+                        "x": 200,
+                        "y": 30
                       },
                       {
-                        "x": 40,
-                        "y": 48
+                        "x": 200,
+                        "y": 165
                       },
                       {
-                        "x": 8,
-                        "y": 48
+                        "x": 2,
+                        "y": 165
                       }
                     ]
                   ]
@@ -1512,7 +1832,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Raptor Eggs2.webp",
+                  "image": "assets\\DinoNest.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1528,20 +1848,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 2,
+                        "y": 30
                       },
                       {
-                        "x": 768,
-                        "y": 0
+                        "x": 200,
+                        "y": 30
                       },
                       {
-                        "x": 768,
-                        "y": 512
+                        "x": 200,
+                        "y": 165
                       },
                       {
-                        "x": 0,
-                        "y": 512
+                        "x": 2,
+                        "y": 165
                       }
                     ]
                   ]
@@ -1605,7 +1925,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite33",
+                  "image": "assets\\GrassyDirt.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1621,20 +1941,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 15,
-                        "y": 10
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 56,
-                        "y": 10
+                        "x": 100,
+                        "y": 0
                       },
                       {
-                        "x": 56,
-                        "y": 47
+                        "x": 100,
+                        "y": 100
                       },
                       {
-                        "x": 15,
-                        "y": 47
+                        "x": 0,
+                        "y": 100
                       }
                     ]
                   ]
@@ -1661,10 +1981,81 @@
       "textAlignment": "left",
       "characterSize": 60,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
+    },
+    {
+      "assetStoreId": "",
+      "height": 400,
+      "name": "bg",
+      "texture": "assets\\Scene1Beach.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 400,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "tre3e",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Tree.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 343,
+                        "y": 0
+                      },
+                      {
+                        "x": 343,
+                        "y": 350
+                      },
+                      {
+                        "x": 0,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1702,6 +2093,12 @@
       },
       {
         "objectName": "Dino_Foot_Text"
+      },
+      {
+        "objectName": "bg"
+      },
+      {
+        "objectName": "tre3e"
       }
     ]
   },
@@ -1800,6 +2197,12 @@
           "parameters": [
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
