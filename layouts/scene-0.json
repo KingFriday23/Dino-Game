@@ -1,13 +1,13 @@
 {
-  "b": 209,
+  "b": 214,
   "disableInputWhenNotFocused": true,
   "mangledName": "Scene_320",
   "name": "Scene 0",
-  "r": 209,
+  "r": 194,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 211,
   "uiSettings": {
     "grid": true,
     "gridType": "rectangular",
@@ -110,8 +110,8 @@
       "name": "Controls",
       "persistentUuid": "bb713b6b-ee9d-4fef-9150-cadebd5f84c6",
       "width": 0,
-      "x": -3121,
-      "y": 448,
+      "x": -2918,
+      "y": 959,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -129,83 +129,6 @@
       "x": -3070,
       "y": 1056,
       "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 416,
-      "layer": "",
-      "name": "Invis_Block",
-      "persistentUuid": "f919d1da-3212-46f8-bf18-0e8b4a713a6b",
-      "width": 96,
-      "x": -32,
-      "y": 736,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Climb",
-      "persistentUuid": "7e6daac8-8050-4c8c-9fae-fe478aef99c0",
-      "width": 0,
-      "x": -160,
-      "y": 608,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "layer": "",
-      "name": "Invis_Block",
-      "persistentUuid": "4b3aa2fd-0dac-4171-9015-e24728fec631",
-      "width": 128,
-      "x": 1312,
-      "y": 1088,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Burrow",
-      "persistentUuid": "6d8ea519-d433-4d6e-b3e9-2078da3245b0",
-      "width": 0,
-      "x": 1280,
-      "y": 928,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Finish",
-      "persistentUuid": "f1b60c78-de1d-4a13-a0fd-76b7d8caf72b",
-      "width": 0,
-      "x": -2016,
-      "y": 768,
-      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -269,7 +192,144 @@
       "width": 9856,
       "x": -3232,
       "y": 1152,
+      "zOrder": 17
+    },
+    { 
+      "height": 128,
+      "layer": "",
+      "name": "Dead",
+      "persistentUuid": "a2a0c8ce-ae52-4922-9512-b0c1b6c48429",
+      "width": 128,
+      "x": -2080,
+      "y": 1024,
       "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 318,
+      "layer": "",
+      "name": "fence",
+      "persistentUuid": "188960d3-819b-4203-a5f4-f769867b5744",
+      "width": 350,
+      "x": -320,
+      "y": 928,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 318,
+      "layer": "",
+      "name": "fence",
+      "persistentUuid": "8e4b3327-0803-45be-9b8e-d1fef19816b6",
+      "width": 350,
+      "x": -318,
+      "y": 834,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 318,
+      "layer": "",
+      "name": "fence",
+      "persistentUuid": "991cf3c3-4bb5-416d-a442-7913b6ee0ef4",
+      "width": 350,
+      "x": -320,
+      "y": 738,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 318,
+      "layer": "",
+      "name": "fence",
+      "persistentUuid": "17e33d02-8269-425e-b5e0-7911f636f389",
+      "width": 350,
+      "x": -318,
+      "y": 640,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Climb2",
+      "persistentUuid": "eed41795-9d81-4643-af3f-48569af12164",
+      "width": 0,
+      "x": -352,
+      "y": 1065,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "layer": "",
+      "name": "random",
+      "persistentUuid": "7daf4390-51b4-4de4-b4f4-a45c36e32703",
+      "width": 256,
+      "x": 1248,
+      "y": 1088,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "layer": "",
+      "name": "Grass",
+      "persistentUuid": "9316df2a-b00e-4d74-a0e3-e41bfbd91c72",
+      "width": 10464,
+      "x": -3584,
+      "y": 1152,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1472,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "1fa65089-8956-43c3-8252-6435b678c5b3",
+      "width": 10464,
+      "x": -3584,
+      "y": 1216,
+      "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -357,7 +417,7 @@
       "string": "W - Climb\nA - Move Left\nD - Move Right\nE - Interact\nSPACE - Jump\nLMB - Shoot\nT - Heal",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 60,
+      "characterSize": 20,
       "color": {
         "b": 0,
         "g": 0,
@@ -411,8 +471,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Dead_Hunter",
-      "tags": "",
+      "name": "Dead",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -420,7 +479,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Dead",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -468,8 +527,195 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "fence",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "Ladder",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Tires.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 131
+                      },
+                      {
+                        "x": 247,
+                        "y": 131
+                      },
+                      {
+                        "x": 247,
+                        "y": 250
+                      },
+                      {
+                        "x": 116,
+                        "y": 250
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Climb2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Try to climb",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "random",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\BarrelOfFire.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 51,
+                        "y": 42
+                      },
+                      {
+                        "x": 149,
+                        "y": 42
+                      },
+                      {
+                        "x": 149,
+                        "y": 186
+                      },
+                      {
+                        "x": 51,
+                        "y": 186
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Tutorial"
+      },
+      {
+        "objectName": "NewText"
+      },
+      {
+        "objectName": "Trees"
+      },
+      {
+        "objectName": "Dead_Hunter"
+      },
+      {
+        "objectName": "Controls"
+      },
+      {
+        "objectName": "Climb"
+      },
+      {
+        "objectName": "Burrow"
+      },
+      {
+        "objectName": "Dead"
+      },
+      {
+        "objectName": "fence"
+      },
+      {
+        "objectName": "Climb2"
+      },
+      {
+        "objectName": "random"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -483,6 +729,17 @@
             "",
             "Human",
             "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "1.5",
             "",
             ""
           ]
@@ -908,6 +1165,39 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "main-menu-better_main3.mp3",
+            "yes",
+            "60",
+            "1"
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
