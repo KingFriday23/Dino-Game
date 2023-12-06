@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.1941505911274083,
+    "snap": false,
+    "zoomFactor": 0.27050126039625655,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -660,17 +660,6 @@
                 "",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "ZoomCamera"
-              },
-              "parameters": [
-                "",
-                "0.5",
-                "",
-                ""
-              ]
             }
           ]
         }
@@ -746,7 +735,18 @@
           ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Dino Scan\"",
+            ""
+          ]
+        }
+      ]
     },
     {
       "colorB": 228,

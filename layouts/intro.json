@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.2912258866911159,
+    "zoomFactor": 0.24672586957406614,
     "windowMask": false
   },
   "objectsGroups": [
@@ -779,6 +779,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 254,
+      "layer": "",
+      "name": "fire_barrel",
+      "persistentUuid": "215bce3e-27cb-40d2-bbb2-94effea845a4",
+      "width": 286,
+      "x": -32,
+      "y": 1216,
+      "zOrder": 100003,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1515,6 +1531,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite2",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1771,74 +1788,6 @@
       ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "NewText"
-      },
-      {
-        "objectName": "Barrel"
-      },
-      {
-        "objectName": "Armored_vehicle"
-      },
-      {
-        "objectName": "Stack_of_tires"
-      },
-      {
-        "objectName": "Trees"
-      },
-      {
-        "objectName": "Shooting_range"
-      },
-      {
-        "objectName": "Tents"
-      },
-      {
-        "objectName": "NewResourceBar"
-      },
-      {
-        "objectName": "player_background"
-      },
-      {
-        "objectName": "star"
-      },
-      {
-        "objectName": "Temp_Sprite"
-      },
-      {
-        "objectName": "NewSprite"
-      },
-      {
-        "objectName": "Tent"
-      },
-      {
-        "objectName": "Tent_2"
-      },
-      {
-        "objectName": "Car"
-      },
-      {
-        "objectName": "tires"
-      },
-      {
-        "objectName": "Shooting_dummy"
-      },
-      {
-        "objectName": "background"
-      },
-      {
-        "objectName": "bg"
-      },
-      {
-        "objectName": "NewSprite2"
-      },
-      {
-        "objectName": "Fire_Barrel"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2342,7 +2291,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Health",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2375,6 +2323,106 @@
                 "MetalRedBar",
                 "=",
                 "GlobalVariable(Health)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::Health"
+              },
+              "parameters": [
+                "Human",
+                "Health",
+                "<",
+                "8",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+              },
+              "parameters": [
+                "MetalRedBar",
+                "<=",
+                "8",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "humannnn",
+                "Animation",
+                "=",
+                "\"Hurt\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::Health"
+              },
+              "parameters": [
+                "Human",
+                "Health",
+                "=",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+              },
+              "parameters": [
+                "MetalRedBar",
+                "=",
+                "0",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "humannnn",
+                "Animation",
+                "=",
+                "\"Dead\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Game Over\"",
                 ""
               ]
             }
@@ -2775,10 +2823,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "ThreeDFlip",
