@@ -2575,6 +2575,7 @@
           "italic": false,
           "name": "Label",
           "smoothed": true,
+          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -2597,6 +2598,7 @@
           "leftMargin": 0,
           "name": "Idle",
           "rightMargin": 0,
+          "tags": "",
           "texture": "",
           "tiled": false,
           "topMargin": 0,
@@ -2626,6 +2628,7 @@
           "leftMargin": 0,
           "name": "Hovered",
           "rightMargin": 0,
+          "tags": "",
           "texture": "",
           "tiled": false,
           "topMargin": 0,
@@ -2647,6 +2650,7 @@
           "leftMargin": 0,
           "name": "Pressed",
           "rightMargin": 0,
+          "tags": "",
           "texture": "",
           "tiled": false,
           "topMargin": 0,
@@ -2656,24 +2660,7 @@
           "effects": [],
           "behaviors": []
         }
-      ],
-      "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "Label"
-          },
-          {
-            "objectName": "Idle"
-          },
-          {
-            "objectName": "Hovered"
-          },
-          {
-            "objectName": "Pressed"
-          }
-        ]
-      }
+      ]
     }
   ]
 }
