@@ -779,6 +779,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 286,
+      "layer": "",
+      "name": "fire_barrel",
+      "persistentUuid": "1dcd311c-d5e5-4eaf-9384-98069b6e9c40",
+      "width": 286,
+      "x": -62,
+      "y": 1186,
+      "zOrder": 100003,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1771,74 +1787,6 @@
       ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "NewText"
-      },
-      {
-        "objectName": "Barrel"
-      },
-      {
-        "objectName": "Armored_vehicle"
-      },
-      {
-        "objectName": "Stack_of_tires"
-      },
-      {
-        "objectName": "Trees"
-      },
-      {
-        "objectName": "Shooting_range"
-      },
-      {
-        "objectName": "Tents"
-      },
-      {
-        "objectName": "NewResourceBar"
-      },
-      {
-        "objectName": "player_background"
-      },
-      {
-        "objectName": "star"
-      },
-      {
-        "objectName": "Temp_Sprite"
-      },
-      {
-        "objectName": "NewSprite"
-      },
-      {
-        "objectName": "Tent"
-      },
-      {
-        "objectName": "Tent_2"
-      },
-      {
-        "objectName": "Car"
-      },
-      {
-        "objectName": "tires"
-      },
-      {
-        "objectName": "Shooting_dummy"
-      },
-      {
-        "objectName": "background"
-      },
-      {
-        "objectName": "bg"
-      },
-      {
-        "objectName": "NewSprite2"
-      },
-      {
-        "objectName": "Fire_Barrel"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2342,7 +2290,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Health",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2775,10 +2722,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "ThreeDFlip",

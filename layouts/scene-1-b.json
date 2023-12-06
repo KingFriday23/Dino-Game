@@ -1107,47 +1107,6 @@
       "behaviors": []
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "First_Quick_Time"
-      },
-      {
-        "objectName": "first_quick"
-      },
-      {
-        "objectName": "carno"
-      },
-      {
-        "objectName": "Health_background"
-      },
-      {
-        "objectName": "second_Quick_Time"
-      },
-      {
-        "objectName": "Second_Quick_Text"
-      },
-      {
-        "objectName": "Health"
-      },
-      {
-        "objectName": "Health_Number"
-      },
-      {
-        "objectName": "test"
-      },
-      {
-        "objectName": "quick_time_three"
-      },
-      {
-        "objectName": "NewText"
-      },
-      {
-        "objectName": "BG"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
