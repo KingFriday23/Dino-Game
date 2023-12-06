@@ -379,13 +379,13 @@
       "angle": -0.5,
       "customSize": true,
       "depth": 1,
-      "height": 100,
+      "height": 107,
       "layer": "",
       "name": "Grass",
       "persistentUuid": "a0fdf9f6-c080-469b-aa46-be44834de049",
-      "width": 2304,
-      "x": 64,
-      "y": 1066,
+      "width": 2469,
+      "x": -101,
+      "y": 1063,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -589,7 +589,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Baby_Rex",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -675,7 +674,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "finish",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -734,6 +732,17 @@
       ]
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Baby_Rex"
+      },
+      {
+        "objectName": "finish"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -863,6 +872,45 @@
             "invis_slope_left",
             "PathfindingObstacle",
             "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "invis_slope_Right"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "invis_slope_left"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Invis_Block"
           ]
         }
       ]
@@ -1180,6 +1228,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Weapons",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1518,8 +1567,42 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "invis_slope_Right"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "invis_slope_left"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Invis_Block"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
