@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.10001786170017075,
+    "zoomFactor": 0.2006974131454978,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -169,13 +169,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1920,
+      "height": 128,
       "layer": "",
-      "name": "Finish",
-      "persistentUuid": "8e9fba1d-79df-4a8f-b0d8-d6a8f1842346",
-      "width": 64,
-      "x": 6496,
-      "y": -768,
+      "name": "Dead_Hunter",
+      "persistentUuid": "65f2193b-58ff-4502-a4dd-92594ff65231",
+      "width": 128,
+      "x": -2688,
+      "y": 1024,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -185,6 +185,21 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
+      "height": 100,
+      "layer": "",
+      "name": "Grass",
+      "persistentUuid": "ac652990-5bd6-41ea-a0f3-affac0cd966a",
+      "width": 9856,
+      "x": -3232,
+      "y": 1152,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
       "height": 128,
       "layer": "",
       "name": "Dead",
@@ -332,6 +347,7 @@
       "italic": false,
       "name": "Tutorial",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -353,6 +369,7 @@
       "italic": false,
       "name": "NewText",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -374,6 +391,7 @@
       "italic": false,
       "name": "Trees",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -393,35 +411,15 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "Dead_Hunter",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Dead Hunter ",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 51,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
       "name": "Controls",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "W - Climb\nA - Move Left\nD - Move Right\nE - Interact\nSPACE - Jump\nLMB - Shoot\n",
+      "string": "W - Climb\nA - Move Left\nD - Move Right\nE - Interact\nSPACE - Jump\nLMB - Shoot\nT - Heal",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -437,6 +435,7 @@
       "italic": false,
       "name": "Climb",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -458,6 +457,7 @@
       "italic": false,
       "name": "Burrow",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -477,6 +477,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Dead",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -537,16 +538,17 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "fence",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "Ladder",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "Ladder",
           "yGrabOffset": 0
         }
       ],
@@ -607,6 +609,7 @@
       "italic": false,
       "name": "Climb2",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -626,6 +629,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "random",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -821,7 +825,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Health",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -868,6 +871,329 @@
                 "Health",
                 "-",
                 "1"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Weapons",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Pickup",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsMouseWheelScrollingDown"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Weapon",
+                "False"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsMouseWheelScrollingUp"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Weapon",
+                "True"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Pickup",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Rifle",
+                "=",
+                "Human.PointX(\"Gun\")",
+                "=",
+                "Human.PointY(\"Gun\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "Rifle",
+                "MouseX()",
+                "MouseY()",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Rifle",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Weapon",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Rifle"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Shotgun",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Shotgun",
+                    "=",
+                    "Human.PointX(\"Gun\")",
+                    "=",
+                    "Human.PointY(\"Gun\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RotateTowardPosition"
+                  },
+                  "parameters": [
+                    "Shotgun",
+                    "MouseX()",
+                    "MouseY()",
+                    "0",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::FireTowardPosition"
+                      },
+                      "parameters": [
+                        "Shotgun",
+                        "FireBullet",
+                        "Shotgun.X(\"Bullet\")",
+                        "Shotgun.Y(\"Bullet\")",
+                        "Bullet",
+                        "CursorX()",
+                        "CursorY()",
+                        "300",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        "Scale",
+                        "=",
+                        "0.4"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Weapon",
+                    "="
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Shotgun"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Rifle",
+                    "=",
+                    "Human.PointX(\"Gun\")",
+                    "=",
+                    "Human.PointY(\"Gun\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RotateTowardPosition"
+                  },
+                  "parameters": [
+                    "Rifle",
+                    "MouseX()",
+                    "MouseY()",
+                    "0",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::FireTowardPosition"
+                      },
+                      "parameters": [
+                        "Rifle",
+                        "FireBullet",
+                        "Rifle.X(\"Bullet\")",
+                        "Rifle.Y(\"Bullet\")",
+                        "Bullet",
+                        "CursorX()",
+                        "CursorY()",
+                        "500",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        "Scale",
+                        "=",
+                        "0.5"
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ]
@@ -1007,10 +1333,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "ThreeDFlip",

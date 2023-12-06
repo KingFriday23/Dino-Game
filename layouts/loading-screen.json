@@ -61,6 +61,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Loading_Bar",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -772,6 +773,7 @@
       "italic": false,
       "name": "Loading",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -788,17 +790,6 @@
       }
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "Loading_Bar"
-      },
-      {
-        "objectName": "Loading"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -851,7 +842,7 @@
             "",
             "\"Loading_Timer\"",
             ">=",
-            "4"
+            "3.25"
           ]
         }
       ],
