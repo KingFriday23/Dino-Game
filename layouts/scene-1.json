@@ -396,23 +396,6 @@
       "animations": []
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "NewText"
-      },
-      {
-        "objectName": "NewText2"
-      },
-      {
-        "objectName": "Tp"
-      },
-      {
-        "objectName": "NewSprite"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",

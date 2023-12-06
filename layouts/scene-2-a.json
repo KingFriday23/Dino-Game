@@ -2071,50 +2071,6 @@
       ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "NewText"
-      },
-      {
-        "objectName": "Dino_Eggs"
-      },
-      {
-        "objectName": "Interact_Egg"
-      },
-      {
-        "objectName": "Info"
-      },
-      {
-        "objectName": "Dino_Egg_Info_title"
-      },
-      {
-        "objectName": "Dino_Egg_Info_Text"
-      },
-      {
-        "objectName": "Raptor_Egg"
-      },
-      {
-        "objectName": "Raptor_Info"
-      },
-      {
-        "objectName": "NewSprite"
-      },
-      {
-        "objectName": "footstep"
-      },
-      {
-        "objectName": "Dino_Foot_Text"
-      },
-      {
-        "objectName": "bg"
-      },
-      {
-        "objectName": "tre3e"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",

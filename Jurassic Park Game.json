@@ -2693,6 +2693,15 @@
         "name": "assets\\HunterWalk6.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite44",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4687,65 +4696,6 @@
       "behaviors": []
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "invis_slope_Right"
-      },
-      {
-        "objectName": "invis_slope_left"
-      },
-      {
-        "objectName": "Invis_Block"
-      },
-      {
-        "objectName": "Human"
-      },
-      {
-        "objectName": "Human2"
-      },
-      {
-        "objectName": "Finish"
-      },
-      {
-        "objectName": "Rifle"
-      },
-      {
-        "objectName": "Shotgun"
-      },
-      {
-        "objectName": "humannnn"
-      },
-      {
-        "objectName": "Bullet"
-      },
-      {
-        "objectName": "MetalRedBar"
-      },
-      {
-        "objectName": "Medkit"
-      },
-      {
-        "objectName": "Medkit_Display"
-      },
-      {
-        "objectName": "Other_pickup"
-      },
-      {
-        "objectName": "pickup"
-      },
-      {
-        "objectName": "Count"
-      },
-      {
-        "objectName": "Grass"
-      },
-      {
-        "objectName": "dirt"
-      }
-    ]
-  },
   "objectsGroups": [],
   "variables": [
     {

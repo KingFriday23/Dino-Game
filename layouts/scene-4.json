@@ -773,6 +773,17 @@
             "\"Loading Screen\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "2",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -797,17 +808,6 @@
                 "",
                 "Human",
                 "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ZoomCamera"
-              },
-              "parameters": [
-                "",
-                "0.5",
                 "",
                 ""
               ]
@@ -1459,18 +1459,6 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Human",
-                "Carno",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -1833,7 +1821,7 @@
                 "Human",
                 "Animation",
                 "=",
-                ""
+                "\"Walking\""
               ]
             }
           ]

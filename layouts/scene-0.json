@@ -687,44 +687,6 @@
       ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "Tutorial"
-      },
-      {
-        "objectName": "NewText"
-      },
-      {
-        "objectName": "Trees"
-      },
-      {
-        "objectName": "Dead_Hunter"
-      },
-      {
-        "objectName": "Controls"
-      },
-      {
-        "objectName": "Climb"
-      },
-      {
-        "objectName": "Burrow"
-      },
-      {
-        "objectName": "Dead"
-      },
-      {
-        "objectName": "fence"
-      },
-      {
-        "objectName": "Climb2"
-      },
-      {
-        "objectName": "random"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
