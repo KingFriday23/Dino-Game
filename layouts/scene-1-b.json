@@ -1110,6 +1110,7 @@
       "assetStoreId": "",
       "height": 350,
       "name": "BG",
+      "tags": "",
       "texture": "assets\\Forestbackground.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 350,

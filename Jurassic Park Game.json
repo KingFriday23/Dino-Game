@@ -2639,6 +2639,60 @@
         "name": "assets\\Fence.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HunterWalk.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HunterWalk.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HunterWalk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HunterWalk2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HunterWalk3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HunterWalk3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HunterWalk4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HunterWalk4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HunterWalk5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HunterWalk5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HunterWalk6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HunterWalk6.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2955,6 +3009,839 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Hunter1.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 141,
+                      "y": 222.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 96,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 350
+                      },
+                      {
+                        "x": 96,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Taking Damage",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\HunterShock.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 141,
+                      "y": 222.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 96,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 350
+                      },
+                      {
+                        "x": 96,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\HunterShock2.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 141,
+                      "y": 222.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 96,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 350
+                      },
+                      {
+                        "x": 96,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\HunterShock3.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 141,
+                      "y": 222.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 96,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 350
+                      },
+                      {
+                        "x": 96,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\HunterShock4.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 141,
+                      "y": 222.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 96,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 350
+                      },
+                      {
+                        "x": 96,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\HunterShock5.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 141,
+                      "y": 222.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 96,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 350
+                      },
+                      {
+                        "x": 96,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\HunterShock6.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 141,
+                      "y": 222.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 96,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 350
+                      },
+                      {
+                        "x": 96,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\HunterShock7.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 141,
+                      "y": 222.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 96,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 350
+                      },
+                      {
+                        "x": 96,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\HunterShock8.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 141,
+                      "y": 222.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 96,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 350
+                      },
+                      {
+                        "x": 96,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\HunterShock9.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 141,
+                      "y": 222.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 96,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 350
+                      },
+                      {
+                        "x": 96,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\HunterShock10.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 141,
+                      "y": 222.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 96,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 350
+                      },
+                      {
+                        "x": 96,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\HunterShock11.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 141,
+                      "y": 222.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 96,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 350
+                      },
+                      {
+                        "x": 96,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walking",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\HunterWalk.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 141,
+                      "y": 222.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 96,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 350
+                      },
+                      {
+                        "x": 96,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\HunterWalk2.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 141,
+                      "y": 222.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 96,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 350
+                      },
+                      {
+                        "x": 96,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\HunterWalk3.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 141,
+                      "y": 222.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 96,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 350
+                      },
+                      {
+                        "x": 96,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\HunterWalk4.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 141,
+                      "y": 222.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 96,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 350
+                      },
+                      {
+                        "x": 96,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\HunterWalk5.png",
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 141,
+                      "y": 222.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 96,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 1
+                      },
+                      {
+                        "x": 245,
+                        "y": 350
+                      },
+                      {
+                        "x": 96,
+                        "y": 350
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Human",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 16,
+          "CurrentHealth": 0,
+          "MaxHealth": 16,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 6,
+          "HealthRegenDelay": 1,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": false,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        },
+        {
+          "name": "RemapForPlatformer",
+          "type": "BehaviorRemapper::RemapForPlatformer",
+          "Up": "w",
+          "Left": "a",
+          "Down": "s",
+          "Right": "d",
+          "Jump": "Space",
+          "Platformer": "PlatformerObject"
+        },
+        {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\HunterWalk6.png",
                   "points": [
                     {
                       "name": "Gun",
@@ -3791,6 +4678,7 @@
       "assetStoreId": "",
       "height": 100,
       "name": "dirt",
+      "tags": "",
       "texture": "assets\\DirtTexture.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 100,

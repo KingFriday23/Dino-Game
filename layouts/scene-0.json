@@ -192,9 +192,14 @@
       "width": 9856,
       "x": -3232,
       "y": 1152,
-      "zOrder": 17
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     },
-    { 
+    {
+      "angle": 0,
+      "customSize": false,
       "height": 128,
       "layer": "",
       "name": "Dead",
@@ -472,6 +477,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Dead",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -532,16 +538,17 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "fence",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "Ladder",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "Ladder",
           "yGrabOffset": 0
         }
       ],
@@ -602,6 +609,7 @@
       "italic": false,
       "name": "Climb2",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -621,6 +629,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "random",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
