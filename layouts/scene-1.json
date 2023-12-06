@@ -74,36 +74,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "NewText",
-      "persistentUuid": "bbeb29b4-ba79-4336-afae-4f24a33b9ae0",
-      "width": 0,
-      "x": 83,
-      "y": 256,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "NewText2",
-      "persistentUuid": "5503520d-ecd8-4431-b477-87bc50b67da4",
-      "width": 0,
-      "x": 1110,
-      "y": 436,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 0,
       "height": 384,
@@ -470,11 +440,21 @@
       "actions": [
         {
           "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Loading_Screen",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
             "value": "Scene"
           },
           "parameters": [
             "",
-            "\"Scene 1-b\"",
+            "\"Loading Screen\"",
             ""
           ]
         }
