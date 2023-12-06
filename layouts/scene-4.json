@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -50,7 +50,7 @@
       "persistentUuid": "0879c7c2-44ef-4eac-a0be-149bf5b962e2",
       "width": 256,
       "x": -32,
-      "y": 1088,
+      "y": 992,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -80,8 +80,8 @@
       "name": "Examine",
       "persistentUuid": "6d815f04-a3ae-4178-9ede-6f0db0e077b4",
       "width": 0,
-      "x": 83,
-      "y": 1101,
+      "x": 69,
+      "y": 928,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -212,37 +212,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 100,
-      "layer": "",
-      "name": "Grass",
-      "persistentUuid": "2e235a0b-c79c-49f4-8b8d-2372e6389c8c",
-      "width": 6656,
-      "x": -864,
-      "y": 1212,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Carno",
-      "persistentUuid": "62bcded7-2cb8-4746-85b2-e7f65c044bf2",
-      "width": 0,
-      "x": 232,
-      "y": 827,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "objects": [
@@ -250,7 +219,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Dino_Corpse",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -314,7 +282,6 @@
       "italic": false,
       "name": "Examine",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -334,7 +301,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Carno",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -379,7 +345,7 @@
       ],
       "animations": [
         {
-          "name": "Idle",
+          "name": "Carno",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -581,130 +547,24 @@
               ]
             }
           ]
-        },
-        {
-          "name": "Attack",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\CarnotaurusAttack.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 27
-                      },
-                      {
-                        "x": 399,
-                        "y": 27
-                      },
-                      {
-                        "x": 399,
-                        "y": 388
-                      },
-                      {
-                        "x": 2,
-                        "y": 388
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\CarnotaurusAttack2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 27
-                      },
-                      {
-                        "x": 399,
-                        "y": 27
-                      },
-                      {
-                        "x": 399,
-                        "y": 388
-                      },
-                      {
-                        "x": 2,
-                        "y": 388
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\CarnotaurusAttack3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 27
-                      },
-                      {
-                        "x": 399,
-                        "y": 27
-                      },
-                      {
-                        "x": 399,
-                        "y": 388
-                      },
-                      {
-                        "x": 2,
-                        "y": 388
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ]
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Dino_Corpse"
+      },
+      {
+        "objectName": "Examine"
+      },
+      {
+        "objectName": "Carno"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -935,24 +795,6 @@
           "conditions": [
             {
               "type": {
-                "value": "Health::Health::Health"
-              },
-              "parameters": [
-                "Human",
-                "Health",
-                "=",
-                "0",
-                ""
-              ]
-            }
-          ],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -1103,34 +945,6 @@
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Bullet",
-                "Grass",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Bullet",
-                ""
-              ]
-            }
-          ]
-        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
@@ -1331,17 +1145,6 @@
                         "300",
                         ""
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "ScalableCapability::ScalableBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "Bullet",
-                        "Scale",
-                        "=",
-                        "0.4"
-                      ]
                     }
                   ]
                 }
@@ -1424,17 +1227,6 @@
                         "500",
                         ""
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "ScalableCapability::ScalableBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "Bullet",
-                        "Scale",
-                        "=",
-                        "0.5"
-                      ]
                     }
                   ]
                 }
@@ -1459,9 +1251,15 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Once"
+                "value": "CollisionNP"
               },
-              "parameters": []
+              "parameters": [
+                "Human",
+                "Carno",
+                "",
+                "",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -1470,7 +1268,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "2"
+                "5"
               ]
             },
             {
@@ -1487,14 +1285,6 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
-            {
-              "type": {
-                "value": "Visible"
-              },
-              "parameters": [
-                "Carno"
-              ]
-            },
             {
               "type": {
                 "value": "RepeatEveryXSeconds::Repeat"
@@ -1516,7 +1306,7 @@
                 "Carno",
                 "Pathfinding",
                 "=",
-                "800"
+                "600"
               ]
             },
             {
@@ -1527,78 +1317,11 @@
                 "Carno",
                 "Pathfinding",
                 "",
-                "Human.X()",
+                "Human.X() - 5",
                 "Human.Y()"
               ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Carno",
-                "Animation",
-                "=",
-                "\"Walking\""
-              ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Visible"
-              },
-              "parameters": [
-                "Carno"
-              ]
-            },
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Carno",
-                "Human",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Carno",
-                "Animation",
-                "=",
-                "\"Attack\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Health::Health::Hit"
-              },
-              "parameters": [
-                "Human",
-                "Health",
-                "10",
-                "no",
-                "no",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "parameters": []
@@ -1943,6 +1666,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "ThreeDFlip",

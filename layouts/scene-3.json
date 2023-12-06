@@ -1,13 +1,13 @@
 {
-  "b": 209,
+  "b": 155,
   "disableInputWhenNotFocused": true,
   "mangledName": "Scene_323",
   "name": "Scene 3",
-  "r": 209,
+  "r": 158,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 155,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.35269049347712395,
+    "zoomFactor": 0.2796226521839385,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -84,22 +84,6 @@
       "x": 1568,
       "y": 896,
       "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "layer": "",
-      "name": "Invis_Block",
-      "persistentUuid": "f50c4bc4-2629-4bc4-ad33-93452d476719",
-      "width": 96,
-      "x": 2368,
-      "y": 1024,
-      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -291,9 +275,108 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 661,
+      "layer": "",
+      "name": "Invis_Block",
+      "persistentUuid": "4815bab0-0207-4c2c-a0fe-9e52ec0a30c3",
+      "width": 64,
+      "x": -455,
+      "y": 482,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "layer": "",
+      "name": "Grass",
+      "persistentUuid": "613396b3-68b4-4079-8f74-4a0255e35090",
+      "width": 5239,
+      "x": -430,
+      "y": 1115,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 50,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "layer": "",
+      "name": "Grass",
+      "persistentUuid": "bd9f8788-7b55-4d2b-bbd4-c4ea4616e22f",
+      "width": 386,
+      "x": 1641,
+      "y": 1025,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -50,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "layer": "",
+      "name": "Grass",
+      "persistentUuid": "7cfacd96-1247-46d5-b08d-47f5f15b75b1",
+      "width": 633,
+      "x": 1236,
+      "y": 1151,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 769,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "f0c791b8-0a69-4608-9940-570d7642a355",
+      "width": 5317,
+      "x": -430,
+      "y": 1190,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 175,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "fcffb7a0-9206-4999-8afd-1b0a25b9d474",
+      "width": 207,
+      "x": 1651,
+      "y": 1040,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -381,6 +464,45 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "invis_slope_Right"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "invis_slope_left"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Invis_Block"
+          ]
+        }
+      ]
     },
     {
       "colorB": 228,
