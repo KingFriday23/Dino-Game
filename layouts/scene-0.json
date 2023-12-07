@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.10001786170017075,
+    "zoomFactor": 0.5995738389111109,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -110,8 +110,8 @@
       "name": "Controls",
       "persistentUuid": "bb713b6b-ee9d-4fef-9150-cadebd5f84c6",
       "width": 0,
-      "x": -2918,
-      "y": 959,
+      "x": -2912,
+      "y": 895,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -426,8 +426,8 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "W - Climb\nA - Move Left\nD - Move Right\nE - Interact\nSPACE - Jump\nLMB - Shoot\n",
-      "font": "",
+      "string": "W - Climb\nA - Move Left\nD - Move Right\nE - Interact\nSPACE - Jump\nLMB - Shoot\nMMB - Weapon Select",
+      "font": "assets\\bm_army\\BMarmy.TTF",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -922,6 +922,61 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "Human",
+            "d"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Human",
+            "Animation",
+            "=",
+            "\"Walking\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "Human",
+            "d"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Human",
+            "Animation",
+            "=",
+            "\"Idle\""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -1017,10 +1072,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "ThreeDFlip",
