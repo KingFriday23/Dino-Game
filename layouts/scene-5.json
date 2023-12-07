@@ -25,9 +25,6 @@
   "variables": [],
   "instances": [],
   "objects": [],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT"
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",

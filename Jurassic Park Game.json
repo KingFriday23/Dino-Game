@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Main Menu",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -2702,6 +2702,240 @@
         "name": "NewSprite44",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexRun.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexRun2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexRun3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexRun4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexRun5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexRun6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexRun7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexRun8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexRun9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexRun10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexRun11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexRun12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexRun13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexRun14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexRun15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexRun16.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexRun17.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexRun18.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexRun19.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexRun20.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexRun21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexRun21.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexAttack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexAttack.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexAttack2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexAttack2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexAttack3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexAttack3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexAttack4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexAttack4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BabyRexAttack5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BabyRexAttack5.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
