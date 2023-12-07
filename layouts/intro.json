@@ -1787,6 +1787,74 @@
       ]
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "NewText"
+      },
+      {
+        "objectName": "Barrel"
+      },
+      {
+        "objectName": "Armored_vehicle"
+      },
+      {
+        "objectName": "Stack_of_tires"
+      },
+      {
+        "objectName": "Trees"
+      },
+      {
+        "objectName": "Shooting_range"
+      },
+      {
+        "objectName": "Tents"
+      },
+      {
+        "objectName": "NewResourceBar"
+      },
+      {
+        "objectName": "player_background"
+      },
+      {
+        "objectName": "star"
+      },
+      {
+        "objectName": "Temp_Sprite"
+      },
+      {
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "Tent"
+      },
+      {
+        "objectName": "Tent_2"
+      },
+      {
+        "objectName": "Car"
+      },
+      {
+        "objectName": "tires"
+      },
+      {
+        "objectName": "Shooting_dummy"
+      },
+      {
+        "objectName": "background"
+      },
+      {
+        "objectName": "bg"
+      },
+      {
+        "objectName": "NewSprite2"
+      },
+      {
+        "objectName": "Fire_Barrel"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2722,6 +2790,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "ThreeDFlip",

@@ -2702,6 +2702,60 @@
         "name": "NewSprite44",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TyrannosaurusAttack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TyrannosaurusAttack.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TyrannosaurusAttack2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TyrannosaurusAttack2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TyrannosaurusAttack3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TyrannosaurusAttack3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TyrannosaurusAttack4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TyrannosaurusAttack4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TyrannosaurusAttack5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TyrannosaurusAttack5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TyrannosaurusAttack6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TyrannosaurusAttack6.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2711,7 +2765,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "invis_slope_Right",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2783,7 +2836,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "invis_slope_left",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2855,7 +2907,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Invis_Block",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2930,7 +2981,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Human",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3763,7 +3813,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Human",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3900,7 +3949,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Human2",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4037,7 +4085,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Finish",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4099,7 +4146,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Rifle",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4197,7 +4243,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Shotgun",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4296,7 +4341,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Bullet",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4357,7 +4401,6 @@
     {
       "assetStoreId": "17a00ca25428306c8db067b2dd8379e9fe1cb562c10443ae2f65f3d561e54f1e",
       "name": "MetalRedBar",
-      "tags": "",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -4423,7 +4466,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "humannnn",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4485,7 +4527,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Medkit",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4547,7 +4588,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Medkit_Display",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4611,7 +4651,6 @@
       "italic": false,
       "name": "Other_pickup",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -4633,7 +4672,6 @@
       "italic": false,
       "name": "pickup",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -4655,7 +4693,6 @@
       "italic": false,
       "name": "Count",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -4675,7 +4712,6 @@
       "assetStoreId": "",
       "height": 100,
       "name": "Grass",
-      "tags": "",
       "texture": "assets\\GrassyDirt.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 100,
@@ -4687,7 +4723,6 @@
       "assetStoreId": "",
       "height": 100,
       "name": "dirt",
-      "tags": "",
       "texture": "assets\\DirtTexture.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 100,
@@ -4696,6 +4731,65 @@
       "behaviors": []
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "invis_slope_Right"
+      },
+      {
+        "objectName": "invis_slope_left"
+      },
+      {
+        "objectName": "Invis_Block"
+      },
+      {
+        "objectName": "Human"
+      },
+      {
+        "objectName": "Human2"
+      },
+      {
+        "objectName": "Finish"
+      },
+      {
+        "objectName": "Rifle"
+      },
+      {
+        "objectName": "Shotgun"
+      },
+      {
+        "objectName": "Bullet"
+      },
+      {
+        "objectName": "MetalRedBar"
+      },
+      {
+        "objectName": "humannnn"
+      },
+      {
+        "objectName": "Medkit"
+      },
+      {
+        "objectName": "Medkit_Display"
+      },
+      {
+        "objectName": "Other_pickup"
+      },
+      {
+        "objectName": "pickup"
+      },
+      {
+        "objectName": "Count"
+      },
+      {
+        "objectName": "Grass"
+      },
+      {
+        "objectName": "dirt"
+      }
+    ]
+  },
   "objectsGroups": [],
   "variables": [
     {
