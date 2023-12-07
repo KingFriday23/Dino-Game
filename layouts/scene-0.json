@@ -332,7 +332,6 @@
       "italic": false,
       "name": "Tutorial",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -354,7 +353,6 @@
       "italic": false,
       "name": "NewText",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -376,7 +374,6 @@
       "italic": false,
       "name": "Trees",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -398,7 +395,6 @@
       "italic": false,
       "name": "Dead_Hunter",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -420,7 +416,6 @@
       "italic": false,
       "name": "Controls",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -442,7 +437,6 @@
       "italic": false,
       "name": "Climb",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -464,7 +458,6 @@
       "italic": false,
       "name": "Burrow",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -484,7 +477,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Dead",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -545,7 +537,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "fence",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -616,7 +607,6 @@
       "italic": false,
       "name": "Climb2",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -636,7 +626,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "random",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -697,7 +686,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "wall",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -718,6 +706,47 @@
       ]
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Tutorial"
+      },
+      {
+        "objectName": "NewText"
+      },
+      {
+        "objectName": "Trees"
+      },
+      {
+        "objectName": "Dead_Hunter"
+      },
+      {
+        "objectName": "Controls"
+      },
+      {
+        "objectName": "Climb"
+      },
+      {
+        "objectName": "Burrow"
+      },
+      {
+        "objectName": "Dead"
+      },
+      {
+        "objectName": "fence"
+      },
+      {
+        "objectName": "Climb2"
+      },
+      {
+        "objectName": "random"
+      },
+      {
+        "objectName": "wall"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1072,6 +1101,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "ThreeDFlip",

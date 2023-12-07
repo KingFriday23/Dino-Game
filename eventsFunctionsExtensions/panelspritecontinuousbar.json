@@ -2417,7 +2417,6 @@
           "italic": false,
           "name": "Label",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -2440,7 +2439,6 @@
           "leftMargin": 0,
           "name": "FillBar",
           "rightMargin": 0,
-          "tags": "",
           "texture": "",
           "tiled": true,
           "topMargin": 0,
@@ -2469,7 +2467,6 @@
           "leftMargin": 0,
           "name": "Buffer",
           "rightMargin": 0,
-          "tags": "",
           "texture": "",
           "tiled": true,
           "topMargin": 0,
@@ -2491,7 +2488,6 @@
           "leftMargin": 0,
           "name": "Background",
           "rightMargin": 0,
-          "tags": "",
           "texture": "",
           "tiled": true,
           "topMargin": 0,
@@ -2501,7 +2497,24 @@
           "effects": [],
           "behaviors": []
         }
-      ]
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Label"
+          },
+          {
+            "objectName": "FillBar"
+          },
+          {
+            "objectName": "Buffer"
+          },
+          {
+            "objectName": "Background"
+          }
+        ]
+      }
     }
   ]
 }
