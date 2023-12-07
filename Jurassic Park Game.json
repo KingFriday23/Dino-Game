@@ -2954,6 +2954,15 @@
         "name": "assets\\BabyRexAttack5.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medkit4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Medkit2",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4803,7 +4812,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Medkit2.png",
+                  "image": "Medkit2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
