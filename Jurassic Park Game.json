@@ -1169,7 +1169,7 @@
         "alwaysLoaded": false,
         "file": "assets/Medkit2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Medkit2.png\",\"extension\":\".png\"}",
         "name": "assets\\Medkit2.png",
         "smoothed": true,
         "userAdded": true
@@ -2781,6 +2781,24 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "assets\\GameMenuBG.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Medkit2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Medkit2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medkit3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Medkit",
         "smoothed": true,
         "userAdded": true
       }
@@ -4571,7 +4589,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Medkit2.png",
+                  "image": "Medkit",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4730,9 +4748,9 @@
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     },
     {

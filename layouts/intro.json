@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.2912258866911159,
+    "zoomFactor": 0.24672586957406661,
     "windowMask": false
   },
   "objectsGroups": [
@@ -165,22 +165,6 @@
       "x": 160,
       "y": 32,
       "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "layer": "info",
-      "name": "Medkit_Display",
-      "persistentUuid": "35357b01-9f8f-468e-b4ed-5b1ef59e6acf",
-      "width": 96,
-      "x": 160,
-      "y": 64,
-      "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -792,6 +776,21 @@
       "x": -62,
       "y": 1186,
       "zOrder": 100003,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "info",
+      "name": "Medkit2",
+      "persistentUuid": "60439036-2c47-4455-a73a-a7f4b8d3340d",
+      "width": 0,
+      "x": 156,
+      "y": 64,
+      "zOrder": 100005,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1785,6 +1784,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Medkit2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\Medkit2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Medkit2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 21,
+                        "y": 17
+                      },
+                      {
+                        "x": 79,
+                        "y": 17
+                      },
+                      {
+                        "x": 79,
+                        "y": 70
+                      },
+                      {
+                        "x": 21,
+                        "y": 70
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1852,6 +1912,9 @@
       },
       {
         "objectName": "Fire_Barrel"
+      },
+      {
+        "objectName": "Medkit2"
       }
     ]
   },
