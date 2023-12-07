@@ -2132,12 +2132,22 @@
       "actions": [
         {
           "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Loading_Screen",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
             "value": "Scene"
           },
           "parameters": [
             "",
-            "\"Scene 2-c\"",
-            "yes"
+            "\"Loading Screen\"",
+            ""
           ]
         }
       ]

@@ -1752,11 +1752,21 @@
       "actions": [
         {
           "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Loading_Screen",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
             "value": "Scene"
           },
           "parameters": [
             "",
-            "\"Scene 3\"",
+            "\"Loading Screen\"",
             ""
           ]
         }
