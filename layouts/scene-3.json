@@ -317,8 +317,8 @@
       "name": "Grass",
       "persistentUuid": "bd9f8788-7b55-4d2b-bbd4-c4ea4616e22f",
       "width": 386,
-      "x": 1641,
-      "y": 1025,
+      "x": 1638,
+      "y": 1023,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -374,6 +374,9 @@
     }
   ],
   "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",

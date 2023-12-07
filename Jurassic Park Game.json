@@ -1,5 +1,5 @@
 {
-  "firstLayout": "Main Menu",
+  "firstLayout": "",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -2705,237 +2705,84 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/BabyRexRun.png",
+        "file": "assets/TyrannosaurusAttack.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\BabyRexRun.png",
+        "name": "assets\\TyrannosaurusAttack.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/BabyRexRun2.png",
+        "file": "assets/TyrannosaurusAttack2.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\BabyRexRun2.png",
+        "name": "assets\\TyrannosaurusAttack2.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/BabyRexRun3.png",
+        "file": "assets/TyrannosaurusAttack3.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\BabyRexRun3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/BabyRexRun4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\BabyRexRun4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/BabyRexRun5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\BabyRexRun5.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/BabyRexRun6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\BabyRexRun6.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/BabyRexRun7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\BabyRexRun7.png",
+        "name": "assets\\TyrannosaurusAttack3.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/BabyRexRun8.png",
+        "file": "assets/TyrannosaurusAttack4.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\BabyRexRun8.png",
+        "name": "assets\\TyrannosaurusAttack4.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/BabyRexRun9.png",
+        "file": "assets/TyrannosaurusAttack5.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\BabyRexRun9.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/BabyRexRun10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\BabyRexRun10.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/BabyRexRun11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\BabyRexRun11.png",
+        "name": "assets\\TyrannosaurusAttack5.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/BabyRexRun12.png",
+        "file": "assets/TyrannosaurusAttack6.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\BabyRexRun12.png",
+        "name": "assets\\TyrannosaurusAttack6.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/BabyRexRun13.png",
+        "file": "assets/NewSprite45.png",
         "kind": "image",
-        "metadata": "",
-        "name": "assets\\BabyRexRun13.png",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite45",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/BabyRexRun14.png",
+        "file": "assets/GameMenuBG.png",
         "kind": "image",
-        "metadata": "",
-        "name": "assets\\BabyRexRun14.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/BabyRexRun15.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\BabyRexRun15.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/BabyRexRun16.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\BabyRexRun16.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/BabyRexRun17.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\BabyRexRun17.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/BabyRexRun18.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\BabyRexRun18.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/BabyRexRun19.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\BabyRexRun19.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/BabyRexRun20.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\BabyRexRun20.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/BabyRexRun21.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\BabyRexRun21.png",
+        "metadata": "{\"localFilePath\":\"assets/GameMenuBG.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\GameMenuBG.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/BabyRexAttack.png",
+        "file": "assets/assets_GameMenuBG.png2.png",
         "kind": "image",
-        "metadata": "",
-        "name": "assets\\BabyRexAttack.png",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\GameMenuBG.png2",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/BabyRexAttack2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\BabyRexAttack2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/BabyRexAttack3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\BabyRexAttack3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/BabyRexAttack4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\BabyRexAttack4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/BabyRexAttack5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\BabyRexAttack5.png",
-        "smoothed": true,
-        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2945,7 +2792,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "invis_slope_Right",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3017,7 +2863,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "invis_slope_left",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3089,7 +2934,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Invis_Block",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3164,7 +3008,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Human",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3997,7 +3840,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Human",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4134,7 +3976,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Human2",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4271,7 +4112,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Finish",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4333,7 +4173,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Rifle",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4431,7 +4270,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Shotgun",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4530,7 +4368,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Bullet",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4591,7 +4428,6 @@
     {
       "assetStoreId": "17a00ca25428306c8db067b2dd8379e9fe1cb562c10443ae2f65f3d561e54f1e",
       "name": "MetalRedBar",
-      "tags": "",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -4657,7 +4493,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "humannnn",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4719,7 +4554,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Medkit",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4781,7 +4615,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Medkit_Display",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4845,7 +4678,6 @@
       "italic": false,
       "name": "Other_pickup",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -4867,7 +4699,6 @@
       "italic": false,
       "name": "pickup",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -4889,7 +4720,6 @@
       "italic": false,
       "name": "Count",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -4909,7 +4739,6 @@
       "assetStoreId": "",
       "height": 100,
       "name": "Grass",
-      "tags": "",
       "texture": "assets\\GrassyDirt.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 100,
@@ -4921,7 +4750,6 @@
       "assetStoreId": "",
       "height": 100,
       "name": "dirt",
-      "tags": "",
       "texture": "assets\\DirtTexture.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 100,
@@ -4930,6 +4758,65 @@
       "behaviors": []
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "invis_slope_Right"
+      },
+      {
+        "objectName": "invis_slope_left"
+      },
+      {
+        "objectName": "Invis_Block"
+      },
+      {
+        "objectName": "Human"
+      },
+      {
+        "objectName": "Human2"
+      },
+      {
+        "objectName": "Finish"
+      },
+      {
+        "objectName": "Rifle"
+      },
+      {
+        "objectName": "Shotgun"
+      },
+      {
+        "objectName": "Bullet"
+      },
+      {
+        "objectName": "MetalRedBar"
+      },
+      {
+        "objectName": "humannnn"
+      },
+      {
+        "objectName": "Medkit"
+      },
+      {
+        "objectName": "Medkit_Display"
+      },
+      {
+        "objectName": "Other_pickup"
+      },
+      {
+        "objectName": "pickup"
+      },
+      {
+        "objectName": "Count"
+      },
+      {
+        "objectName": "Grass"
+      },
+      {
+        "objectName": "dirt"
+      }
+    ]
+  },
   "objectsGroups": [],
   "variables": [
     {
@@ -5023,6 +4910,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/parallax"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/autotyping"
