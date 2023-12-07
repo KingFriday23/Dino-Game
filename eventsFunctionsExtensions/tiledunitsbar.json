@@ -1565,6 +1565,7 @@
           "assetStoreId": "",
           "height": 32,
           "name": "FillBar",
+          "tags": "",
           "texture": "",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -1584,6 +1585,7 @@
           "assetStoreId": "",
           "height": 32,
           "name": "Bar",
+          "tags": "",
           "texture": "",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -1598,6 +1600,7 @@
           "leftMargin": 0,
           "name": "Background",
           "rightMargin": 0,
+          "tags": "",
           "texture": "",
           "tiled": true,
           "topMargin": 0,
@@ -1607,21 +1610,7 @@
           "effects": [],
           "behaviors": []
         }
-      ],
-      "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "FillBar"
-          },
-          {
-            "objectName": "Bar"
-          },
-          {
-            "objectName": "Background"
-          }
-        ]
-      }
+      ]
     }
   ]
 }

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.10001786170017075,
+    "zoomFactor": 0.5995738389111109,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -110,8 +110,8 @@
       "name": "Controls",
       "persistentUuid": "bb713b6b-ee9d-4fef-9150-cadebd5f84c6",
       "width": 0,
-      "x": -2918,
-      "y": 959,
+      "x": -2912,
+      "y": 895,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -332,6 +332,7 @@
       "italic": false,
       "name": "Tutorial",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -353,6 +354,7 @@
       "italic": false,
       "name": "NewText",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -374,6 +376,7 @@
       "italic": false,
       "name": "Trees",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -395,6 +398,7 @@
       "italic": false,
       "name": "Dead_Hunter",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -416,13 +420,14 @@
       "italic": false,
       "name": "Controls",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "W - Climb\nA - Move Left\nD - Move Right\nE - Interact\nSPACE - Jump\nLMB - Shoot\n",
-      "font": "",
+      "string": "W - Climb\nA - Move Left\nD - Move Right\nE - Interact\nSPACE - Jump\nLMB - Shoot\nMMB - Weapon Select",
+      "font": "assets\\bm_army\\BMarmy.TTF",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -437,6 +442,7 @@
       "italic": false,
       "name": "Climb",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -458,6 +464,7 @@
       "italic": false,
       "name": "Burrow",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -477,6 +484,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Dead",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -537,6 +545,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "fence",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -607,6 +616,7 @@
       "italic": false,
       "name": "Climb2",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -626,6 +636,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "random",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -686,6 +697,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "wall",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -706,47 +718,6 @@
       ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "Tutorial"
-      },
-      {
-        "objectName": "NewText"
-      },
-      {
-        "objectName": "Trees"
-      },
-      {
-        "objectName": "Dead_Hunter"
-      },
-      {
-        "objectName": "Controls"
-      },
-      {
-        "objectName": "Climb"
-      },
-      {
-        "objectName": "Burrow"
-      },
-      {
-        "objectName": "Dead"
-      },
-      {
-        "objectName": "fence"
-      },
-      {
-        "objectName": "Climb2"
-      },
-      {
-        "objectName": "random"
-      },
-      {
-        "objectName": "wall"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -951,6 +922,61 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "Human",
+            "d"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Human",
+            "Animation",
+            "=",
+            "\"Walking\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "Human",
+            "d"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Human",
+            "Animation",
+            "=",
+            "\"Idle\""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -1046,10 +1072,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "ThreeDFlip",
