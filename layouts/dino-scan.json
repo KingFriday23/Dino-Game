@@ -69,8 +69,70 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    }
-  ],
+    },
+  {
+    "angle": 0,
+    "customSize": false,
+    "height": 0,
+    "layer": "Background",
+    "name": "T_Rex",
+    "persistentUuid": "d53daca3-5a24-4fa0-8d90-bd47ff92e73d",
+    "width": 0,
+    "x": 399,
+    "y": 295,
+    "zOrder": 4,
+    "numberProperties": [],
+    "stringProperties": [],
+    "initialVariables": []
+  },
+  {
+    "angle": 0,
+    "customSize": true,
+    "depth": 1,
+    "height": 390,
+    "layer": "Background",
+    "name": "Rex_Info",
+    "persistentUuid": "bab24d32-06b6-41ad-83b1-959b94d9817f",
+    "width": 522,
+    "x": 372,
+    "y": 395,
+    "zOrder": 5,
+    "numberProperties": [],
+    "stringProperties": [],
+    "initialVariables": []
+  },
+  {
+    "angle": 0,
+    "customSize": true,
+    "depth": 1,
+    "height": 120,
+    "layer": "Background",
+    "name": "Island_Rex",
+    "persistentUuid": "6b137345-7074-4035-8a31-9a2a7e0f7779",
+    "width": 469,
+    "x": 1015,
+    "y": 606,
+    "zOrder": 6,
+    "numberProperties": [],
+    "stringProperties": [],
+    "initialVariables": []
+  },
+  {
+    "angle": 0,
+    "customSize": false,
+    "height": 0,
+    "layer": "Background",
+    "name": "rex___",
+    "persistentUuid": "390cfefc-45de-429e-b139-0f43a33f8cbf",
+    "width": 0,
+    "x": 1055,
+    "y": 221,
+    "zOrder": 7,
+    "numberProperties": [],
+    "stringProperties": [],
+    "initialVariables": []
+  }
+],
   "objects": [
     {
       "assetStoreId": "",
