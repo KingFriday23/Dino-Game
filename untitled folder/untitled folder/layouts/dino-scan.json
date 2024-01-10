@@ -1,0 +1,440 @@
+{
+  "b": 0,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Dino_32Scan",
+  "name": "Dino Scan",
+  "r": 0,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 0,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.3300560049165927,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Scan",
+      "persistentUuid": "cc0375ff-08c6-4351-ad18-73611d72b744",
+      "width": 0,
+      "x": 837,
+      "y": 462,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Ellipsis",
+      "persistentUuid": "e20ad98a-21c6-4dce-8857-d37ee9265ce2",
+      "width": 0,
+      "x": 901,
+      "y": 519,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1323,
+      "layer": "",
+      "name": "Background",
+      "persistentUuid": "d4359eb4-a499-4de0-8f1e-ba68790f9203",
+      "width": 2513,
+      "x": -309,
+      "y": -102,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+  {
+    "angle": 0,
+    "customSize": false,
+    "height": 0,
+    "layer": "Background",
+    "name": "T_Rex",
+    "persistentUuid": "d53daca3-5a24-4fa0-8d90-bd47ff92e73d",
+    "width": 0,
+    "x": 399,
+    "y": 295,
+    "zOrder": 4,
+    "numberProperties": [],
+    "stringProperties": [],
+    "initialVariables": []
+  },
+  {
+    "angle": 0,
+    "customSize": true,
+    "depth": 1,
+    "height": 390,
+    "layer": "Background",
+    "name": "Rex_Info",
+    "persistentUuid": "bab24d32-06b6-41ad-83b1-959b94d9817f",
+    "width": 522,
+    "x": 372,
+    "y": 395,
+    "zOrder": 5,
+    "numberProperties": [],
+    "stringProperties": [],
+    "initialVariables": []
+  },
+  {
+    "angle": 0,
+    "customSize": true,
+    "depth": 1,
+    "height": 120,
+    "layer": "Background",
+    "name": "Island_Rex",
+    "persistentUuid": "6b137345-7074-4035-8a31-9a2a7e0f7779",
+    "width": 469,
+    "x": 1015,
+    "y": 606,
+    "zOrder": 6,
+    "numberProperties": [],
+    "stringProperties": [],
+    "initialVariables": []
+  },
+  {
+    "angle": 0,
+    "customSize": false,
+    "height": 0,
+    "layer": "Background",
+    "name": "rex___",
+    "persistentUuid": "390cfefc-45de-429e-b139-0f43a33f8cbf",
+    "width": 0,
+    "x": 1055,
+    "y": 221,
+    "zOrder": 7,
+    "numberProperties": [],
+    "stringProperties": [],
+    "initialVariables": []
+  }
+],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Scan",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.1,
+          "CharacterJustAdded": false,
+          "CurrentCharacter": ""
+        }
+      ],
+      "string": "Aquiring Data",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 51,
+      "color": {
+        "b": 252,
+        "g": 183,
+        "r": 123
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Ellipsis",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.2,
+          "CharacterJustAdded": false,
+          "CurrentCharacter": ""
+        }
+      ],
+      "string": ".     .     .",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 51,
+      "color": {
+        "b": 252,
+        "g": 183,
+        "r": 123
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Background",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Background",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\assets_Dino_outline.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 238,
+                        "y": 137
+                      },
+                      {
+                        "x": 841,
+                        "y": 137
+                      },
+                      {
+                        "x": 841,
+                        "y": 471
+                      },
+                      {
+                        "x": 238,
+                        "y": 471
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Scan"
+      },
+      {
+        "objectName": "Ellipsis"
+      },
+      {
+        "objectName": "Background"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+          },
+          "parameters": [
+            "Scan",
+            "Text_AutoTyping",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AutoTyping::Text_AutoTyping::Pause"
+          },
+          "parameters": [
+            "Scan",
+            "Text_AutoTyping",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "AutoTyping::Text_AutoTyping::Resume"
+          },
+          "parameters": [
+            "Scan",
+            "Text_AutoTyping",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "Scan",
+            "=",
+            "\"Analyzing\""
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "FireBullet",
+      "type": "FireBullet::FireBullet"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "PathfindingObstacle",
+      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+    },
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
+    },
+    {
+      "name": "RemapForPlatformer",
+      "type": "BehaviorRemapper::RemapForPlatformer"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "Text_AutoTyping",
+      "type": "AutoTyping::Text_AutoTyping"
+    },
+    {
+      "name": "ThreeDFlip",
+      "type": "ThreeDFlip::ThreeDFlip"
+    }
+  ]
+}
